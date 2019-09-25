@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: Creating queues'
+    module: 'Module 2: Case Management'
+---
+
 Module 2: Case Management
 =========================
 
