@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: Building and using SLAs'
+    module: 'Module 3: Service Level Management'
+---
+
 Module 3: Service Level Management
 ==================================
 
