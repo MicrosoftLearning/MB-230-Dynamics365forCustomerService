@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: Entitlements and templates'
+    module: 'Module 3: Service Level Management'
+---
+
 Module 3: Service Level Management
 ==================================
 
