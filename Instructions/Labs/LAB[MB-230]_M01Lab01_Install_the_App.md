@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Lab 1: Install the app'
+    title: 'Lab: Install the app'
     module: 'Module 1: Customer Service Overview'
 ---
 
