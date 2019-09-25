@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: Install the app'
+    module: 'Module 1: Customer Service Overview'
+---
+
 Module 1: Customer Service Overview
 ===================================
 
