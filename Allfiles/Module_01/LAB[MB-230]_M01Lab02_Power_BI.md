@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: Power BI'
+    module: 'Module 1: Customer Service Overview'
+---
+
 Module 1: Customer Service Overview
 ===================================
 
@@ -59,7 +65,7 @@ Exercise 2 – Power BI with Dynamics 365
 
 3.  Select your instance and click **Open**.
 
-4.  Navigate to **Settings \| Administration**.
+4.  Navigate to **Settings > Administration**.
 
 5.  Select **System Settings**.
 
