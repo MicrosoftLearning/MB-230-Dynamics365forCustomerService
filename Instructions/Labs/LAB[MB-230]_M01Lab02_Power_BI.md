@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Lab: Power BI'
+    title: 'Lab 2: Power BI'
     module: 'Module 1: Customer Service Overview'
 ---
 
