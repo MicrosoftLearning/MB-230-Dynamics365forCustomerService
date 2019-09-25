@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Lab 1: Creating cases'
+    title: 'Lab: Creating cases'
     module: 'Module 2: Case Management'
 ---
 
