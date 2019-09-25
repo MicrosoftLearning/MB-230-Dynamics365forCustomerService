@@ -36,7 +36,7 @@ Exercise 1 - Acquire Tenant Information and Connect
 **Note:** If you have already completed a practice recently, the virtual machine
 might pick up where you left off and you will not need to login again.  In that
 case you can skip ahead to exercise two and resume.
-
+ 
 ### Task 1 – Connect to the Power platform administration portal
 
 1.  On Virtual machine MB200-Dynamics_Lab, sign in as Admin with the password
