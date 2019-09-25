@@ -1,3 +1,10 @@
+---
+lab:
+    title: 'Lab: Create knowledge articles'
+    module: 'Module 4: Knowledge Management'
+---
+
+
 Module 4: Knowledge Management
 ==============================
 
