@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: Routing rules'
+    module: 'Module 2: Case Management'
+---
+
 Module 2: Case Management
 =========================
 
