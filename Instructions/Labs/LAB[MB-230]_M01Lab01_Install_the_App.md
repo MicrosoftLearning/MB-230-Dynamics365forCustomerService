@@ -69,34 +69,17 @@ and then install sample data.
 
 ### Task 1 – Install Customer Service Application
 
-1.  Navigate to <https://admin.powerplatform.microsoft.com>
+1.  Go back to <https://admin.Powerplatform.microsoft.com>
 
-2.  Expand **Admin Center** and click **Dynamics 365**.
+2.  Expand **Admin Centers** and select **Dynamics 365**.
 
-3.  Choose “None. Do not customize” and make sure none of the above apps are
-    checked.
+3.  Select the **Edit** button. You will open the Contoso environment in the **Power Platform Admin center.**
 
-4.  Once the demo has loaded, navigate to **Setting** and click on **Security**.
-    Click on **Users** and find your user name on the list. Check the box next
-    to your user name and select “Promote to Admin” from the ribbon.
+4.  Enter **CustServicePractice** for Name and URL if available (or enter a different URL). We will refer to this environment throughout the labs as the **Practice** environment. 
 
-5.  Navigate to <https://admin.powerplatform.microsoft.com>
+6.  Click **Save**.  
 
-6.  Expand **Admin Center** and click **Dynamics 365**.
-
-7.  Select your instance and click **Edit Solutions**. There are two edit
-    buttons one for editing the instance and another for managing your
-    solutions, click on the smaller one next to the Solutions.
-
-8.  Locate and select **Customer Service Hub**.
-
-9.  Click **Install**.
-
-10. Read the terms of service and click **Install**.
-
-11. Wait for the installation to complete. The status column will change to
-    Installed when completed. You will be able to complete step 2 while the
-    installation is in progress.
+It will take few minutes to save the environment. 
 
 ### Task 2 – Install Sample Data
 
