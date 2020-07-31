@@ -37,21 +37,23 @@ case you can skip ahead to exercise two and resume.
 
 ### Task 1 – Connect to the Power platform administration portal
 
-1.  On Virtual machine MB200-Dynamics_Lab, sign in as Admin with the password
-    Pa55w.rd if you are not already logged in.
+1.  Sign into the Virtual Machine using the lab instructions provided by the lab hoster (if using).
 
 2.  Outside the VM in the online lab interface click Files and choose D365
-    Credentials. This will allocate an Office 365 tenant for you to use in these
-    labs.  It will display the admin email and password for your tenant.  You
-    should copy this information to notepad or similar for your reference.
+    Credentials. This will allocate a Dynamics 365 365 tenant for you to use in these
+    labs.  It will display the user email and password for your tenant. 
 
-3.  In MB200-Dynamics_Lab launch Microsoft Edge from the taskbar. By default,
-    the browser opens Office 365. Use the O365 credentials you just acquired in
-    the previous step to login.
+3.  Launch Microsoft Edge from the taskbar. 
 
-4.  Navigate in the browser to the Power platform admin portal at
-    [https://admin.Powerplatform.microsoft.com](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fadmin.Powerplatform.microsoft.com&data=02%7C01%7Cv-juya%40microsoft.com%7C4be5a28c6f1e41eefee808d687ae2dc7%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636845580068684293&sdata=cLrD%2FhTDb5sRbajtFR9RrztfyTDCo0xGS4k8FSxTaIc%3D&reserved=0)
-    .
+4.  Navigate in the browser to the Power Platform admin portal at https://admin.Powerplatform.microsoft.com.
+
+5. Sign in using the provided credentials. Record the characters before the "@" symbol in your email address - it should be a first name and a last initial. These characters will become your "alias" throughout the course. Write them down somewhere you'll be able to access throughout the course.
+
+**Important:** Please be aware that this tenant and the Dynamics 365 organization will be shared with the other students in your classroom, like employees would share a tenant when using the Dynamics 365 instance belonging to their organization. Do not use any PII (personally identifiable information) when creating records. It is also good practice to use your username prefix (ex., **mollyc**) in front of all records, data, apps, workflows, etc. you create.
+
+6. Click the button to the left of the **Power Platform admin center** in the top menu to view all available apps. Select **Dynamics 365.**
+
+Select the Customer Service app from the list.
 
 Exercise 2 – Create Cases
 -------------------------
@@ -67,16 +69,16 @@ activity and then convert the activity to Case.
 
 3.  Select your instance and click **Open**.
 
-4.  Click **Switch to Another App** and select **Customer Service Hub**
+4.  Click **Dynamics 365 drop-down arrow** and select **Customer Service Hub**
     application.
 
-5.  Click on the **Site Map** button and select **Cases**.
+5.  Click on **Cases** in the **Service** section of the sitemap.
 
 6.  Click **+ New Case** located on the command bar.
 
-7.  Enter **Defective Screen** for **Case Title**, select **Default Subject**
-    for **Subject**, type **Jim** in the **Customer** field, click on the lookup
-    button and select **Jim Glynn**.
+7.  Enter *[your prefix ex. mollyc]+ Defective Screen* for **Case Title**, select **Default Subject**
+    for **Subject**, type *your user name* in the **Customer** field, click on the lookup
+    button and select *your user*.
 
 8.  Click **Save**.
 
@@ -84,32 +86,17 @@ activity and then convert the activity to Case.
 
 1.  Go back to your **Customer Service Hub** application.
 
-2.  Click on the **Site Map** button and select **Activities**.
+2.  Click **Cases** from the **Service** section of the sitemap
 
-3.  Click on the **Phone Call** button located on the command bar.
+3.  Open the case you just created
 
-4.  Enter **Missing Power Supply** for **Subject**.
+4.  Click the **Related** tab and select **Activities**
 
-5.  Click on the **Call From** Lookup, click **Contacts**, and select **Maria
-    Campbell**.
+5.  Click on the **+New Activity drop-down** button and select **Phone Call**.
+
+4.  Enter *[your prefix ex. mollyc]+ Defective Screen* for **Subject**.
+
+5.  Ensure your user record is set for **Call From** and **Call To**
 
 6.  Select **Incoming** for **Direction**, enter **15 Minutes** for **Duration**
-    and click **Save**.
-
-### Task 3 – Convert Phone Call to Case
-
-1.  Go back to your **Customer Service Hub** application.
-
-2.  Click on the **Site Map** button and select **Activities**.
-
-3.  Locate and open the **Phone Call** activity you created (Missing Power
-    Supply).
-
-4.  Click **Convert To button** located on the command bar and select **Case**.
-
-5.  Select **Default Subject** for **Subject** and click **Convert**.
-
-6.  A Case record will be created from the information you provided for the
-    Phone Call activity.
-
-7.  Locate the **Origin** field. **Phone** should be selected for **Origin**.
+    and click **Save & Close**
