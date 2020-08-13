@@ -26,34 +26,7 @@ You are a business analyst working on the Dynamics 365 for Customer Service
 implementation for your company, City Power & Light. You need to install the
 Customer Service application in your environment.
 
-Exercise 1 - Acquire Tenant Information and Connect
----------------------------------------------------
-
-Note: If you have already completed practice recently, the virtual machine might
-pick up where you left off and you will not need to log in again. In that case,
-you can skip ahead to Exercise 2 and resume.
-
-### Task 1 – Connect to the Power platform administration portal
-
-1.  Sign into the Virtual Machine using the lab instructions provided by the lab hoster (if using).
-
-2.  Outside the VM in the online lab interface click Files and choose D365
-    Credentials. This will allocate a Dynamics 365 365 tenant for you to use in these
-    labs.  It will display the user email and password for your tenant. 
-
-3.  Launch Microsoft Edge from the taskbar. 
-
-4.  Navigate in the browser to the Power Platform admin portal at https://admin.Powerplatform.microsoft.com.
-
-5. Sign in using the provided credentials. Record the characters before the "@" symbol in your email address - it should be a first name and a last initial. These characters will become your "alias" throughout the course. Write them down somewhere you'll be able to access throughout the course.
-
-**Important:** Please be aware that this tenant and the Dynamics 365 organization will be shared with the other students in your classroom, like employees would share a tenant when using the Dynamics 365 instance belonging to their organization. Do not use any PII (personally identifiable information) when creating records. It is also good practice to use your username prefix (ex., **mollyc**) in front of all records, data, apps, workflows, etc. you create.
-
-6. Click the button to the left of the **Power Platform admin center** in the top menu to view all available apps. Select **Dynamics 365.**
-
-Select the [MARKETING, SALES HUB, WHATEVER YOU'RE USING] app from the list.
-
-Exercise 2 – Install Dynamics 365 Customer Service Hub
+Exercise 1 – Install Dynamics 365 Customer Service Hub
 ------------------------------------------------------
 
 In this exercise, you will install the Dynamics 365 Customer Service Application
