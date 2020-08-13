@@ -13,8 +13,6 @@ Module 0: Course introduction
 Scenario
 --------
 
-[OVERALL LAB SCENARIO HERE]
-
 
 **Important Note:** This lab will provide you with an actual Dynamics 365 tenant
 and licenses for the Power Platform applications you will be using in this
@@ -60,6 +58,6 @@ In this exercise, you will open the Dynamics 365 model-driven application and ex
 
 3.  Select the **Edit** button. You will open the Contoso environment in the **Power Platform Admin center.**
 
-4. From the list of available Dynamics 365 apps, select **[APPLICATION.]**
+4. From the list of available Dynamics 365 apps, select **[Custome Service Hub]**
 
 5. Spend a few minutes exploring the application.
