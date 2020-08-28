@@ -13,6 +13,7 @@ Module 0: Course introduction
 Scenario
 --------
 
+In this Module 0 lab, you will validate that your classroom tenant is working as expected. You will access your individual credentials, record your “alias”, and open the Dynamics 365 model-driven application that we will be using throughout the course. 
 
 **Important Note:** This lab will provide you with an actual Dynamics 365 tenant
 and licenses for the Power Platform applications you will be using in this
@@ -21,43 +22,26 @@ instructions in this document may be different from what you experience in your
 actual tenant. It is also possible to experience a delay of several
 minutes before the virtual machine has network connectivity to begin the labs.
 
-Exercise 1 - Access the app
+Exercise 1 - Access the Dynamics 365 application
 ---------------------------------------------------
 
-### Task 1 – Create environment
+### Task 1 – Log into the Power Platform admin center
 
 1.  Access <https://admin.Powerplatform.microsoft.com> and log in with your user credentials.
 
+2. Record your user credential up to the **@** symbol on a scratch piece of paper or in Notepad. This will be your lab alias that you will use to differentiate the data you create within the shared Dynamics 365 organization. 
+
 **Important:** Please be aware that this tenant and the Dynamics 365 organization will be shared with the other students in your classroom, like employees would share a tenant when using the Dynamics 365 instance belonging to their organization. Do not use any PII (personally identifiable information) when creating records. It is also good practice to use your username prefix (ex., **mollyc**) in front of all records, data, apps, flows, etc. you create.
 
-2. Select **Environments** and click **+New.**
+3. Feel free to explore the Power Platform admin center but **do not make any changes.**
 
-    - For **Name**, enter **[my prefix] Practice.** (Example: mollyc Practice.)
-    
-    - For **Type**, select **Trial.**
-    
-    - Change the toggle on **Create a database for this environment?** to **Yes.**
-    
-    - Leave all other selections as default and click **Save.**
-    
-    - On the next tab, leave all selections to default and click **Save** again.
-    
+### Task 2 – Access the Dynamics 365 application
 
-3. Your **Practice** environment should now show in the list of Environments. You may also see other students' environments in this list with their individual prefixes; only work within your Practice environment.
+1.  Expand the grid button at the top left of the screen, directly to the left of **Power Platform admin center.** Select **Dynamics 365.**
 
-Exercise 2 – Open the Dynamics 365 model-driven application
----------------------------------------------------
+2.  Select the **Edit** button. You will open the Contoso environment in the **Power Platform admin center.**
 
-In this exercise, you will open the Dynamics 365 model-driven application and explore.
-
-### Task 1 – Access the Dynamics 365 application
-
-1.  Go back to <https://admin.Powerplatform.microsoft.com>.
-
-2.  Expand the grid button at the top left of the screen, directly to the left of **Power Platform admin center.** Select **Dynamics 365.**
-
-3.  Select the **Edit** button. You will open the Contoso environment in the **Power Platform Admin center.**
-
-4. From the list of available Dynamics 365 apps, select **[Custome Service Hub]**
+4. From the list of available Dynamics 365 apps, select **Customer Service Hub.**
 
 5. Spend a few minutes exploring the application.
+
