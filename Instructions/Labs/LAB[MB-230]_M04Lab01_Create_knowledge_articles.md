@@ -4,7 +4,6 @@ lab:
     module: 'Module 4: Knowledge Management'
 ---
 
-
 Module 4: Knowledge Management
 ==============================
 
@@ -20,42 +19,7 @@ within Dynamics 365 for Customer Service. In this lab, you will create a
 knowledge article, walk through the publishing process and then revise that
 article.
 
-**Important Note:** This lab will provide you with an actual Dynamics 365 tenant
-and licenses for the Power Platform applications you will be using in this
-course. You will only be provided with one tenant for the practice labs in this
-course. The settings and actions you take within this tenant do not roll-back or
-reset, whereas the virtual machine you are provided with does reset each time
-you close the lab session. Please be aware that Dynamics 365 is evolving all the time. The
-instructions in this document may be different from what you experience in your
-actual Dynamics 365 tenant. It is also possible to experience a delay of several
-minutes before the virtual machine has network connectivity to begin the labs.
-
-Exercise 1 - Acquire Tenant Information and Connect
----------------------------------------------------
-
-**Note:** If you have already completed a practice recently, the virtual machine
-might pick up where you left off and you will not need to login again.  In that
-case you can skip ahead to exercise two and resume.
-
-### Task 1 – Connect to the Power platform administration portal
-
-1.  On Virtual machine MB200-Dynamics_Lab, sign in as Admin with the password
-    Pa55w.rd if you are not already logged in.
-
-2.  Outside the VM in the online lab interface click Files and choose D365
-    Credentials. This will allocate an Office 365 tenant for you to use in these
-    labs.  It will display the admin email and password for your tenant.  You
-    should copy this information to notepad or similar for your reference.
-
-3.  In MB200-Dynamics_Lab launch Microsoft Edge from the taskbar. By default,
-    the browser opens Office 365. Use the O365 credentials you just acquired in
-    the previous step to login.
-
-4.  Navigate in the browser to the Power platform admin portal at
-    [https://admin.Powerplatform.microsoft.com](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fadmin.Powerplatform.microsoft.com&data=02%7C01%7Cv-juya%40microsoft.com%7C4be5a28c6f1e41eefee808d687ae2dc7%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636845580068684293&sdata=cLrD%2FhTDb5sRbajtFR9RrztfyTDCo0xGS4k8FSxTaIc%3D&reserved=0)
-    .
-
-Exercise 2 – Knowledge Management
+Exercise 1 – Knowledge Management
 ---------------------------------
 
 In this exercise, you will create, approve, publish, and revise an internal
@@ -71,19 +35,19 @@ In this task, you will create an internal Knowledge Article for missing parts.
 
 3.  Select your **Instance** and click **Open**.
 
-4.  Click **Switch to Another App** and select **Customer Service Hub**.
+4.  Click **Dynamics 365** and select **Customer Service Hub**.
 
-5.  Click on the **Site Map** button and select **Knowledge Articles**.
+5.  Click on the **Sitemap** button and select **Service**.  Select **Knowledge Articles** under the **Knowledge** section
 
 6.  Click **+ New**.
 
-7.  Enter **Missing Parts** for **Title**, enter **missing, parts** for
+7.  Enter *[your prefix ex. mollyc]+ Missing Parts* for **Title**, enter **missing, parts** for
     **Keywords** and click **Save**.
 
 8.  Go to the **Content** area and make sure you have the **Designer** tab
     selected.
 
-9.  Type **Purpose & Scope**.
+9.  Type *[your prefix ex. mollyc]+ Purpose & Scope*.
 
 10. Click on the **Paragraph Format** selector and select **H2**. This option
     will only appear if your screen is fully expanded.
@@ -147,7 +111,7 @@ Approve the Knowledge Article you created, and then publish it.
 
 7.  Check the **Set Product Association** checkbox and click **Finish**.
 
-8.  Go to the command bar and click **Publish**.
+8.  Go to the command bar and click **Publish**. YOu may need to click the ellipsis to see it.
 
 9.  Select Now for Publish, Published for Published Status, and click Publish.
     Do NOT navigate away from this page.
@@ -160,7 +124,7 @@ Article.
 
 1.  Make sure you still have the Knowledge Article you created opened.
 
-2.  Click **Create Minor Version**.
+2.  Click **Create Minor Version** from the command bar. You may need to click the ellipsis to see this
 
 3.  Click **OK**.
 
@@ -171,9 +135,7 @@ Article.
 
 6.  Click **Save**.
 
-7.  Click **Approve**.
-
-8.  Click **OK**.
+7.  Click **Approve**. You may need to click the ellipsis to see this
 
 9.  Click **Publish**.
 
