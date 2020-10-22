@@ -166,10 +166,6 @@ that can handle and when items can be assigned to them.
 | Lilly      | Michael   | lillymichael |
 | Penelope   | Mayo      | penelopemayo |
 
->   After each user has been added, your Active users screen should resemble the
->   following image:
-
-![](media/b2d0b5eb384581709bb089194c23678e.png)
 
 ## Task 2: Assign security roles to define Omnichannel Users
 
