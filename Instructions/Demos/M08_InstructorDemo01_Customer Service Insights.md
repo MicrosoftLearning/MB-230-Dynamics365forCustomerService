@@ -1,6 +1,6 @@
-**MB-230: Customer Service Insights**
+# MB-230: Customer Service Insights
 
-**Instructor Demo 1**
+## Instructor Demo 1
 
 In this instructor led demo, you will be walking students through setting up and
 working with Customer Service Insights. Because Customer Service Insights
@@ -14,7 +14,7 @@ room presentation, but it is highly recommended that you still walk through the
 demo to make sure that everything is configured for the environment that you are
 teaching out of at that time.
 
-**Before Class Begins**
+## Before Class Begins
 
 You should verify that Customer Service Insights is installed and attached to
 the Dynamics 365 Customer Service environment that you are working with. You can
@@ -22,7 +22,7 @@ do that by navigating to <https://CSI.ai.dynamics.com> and verifying that the
 sample work space is there. That is all you need to do with the environment at
 this point.
 
-**Task 1: Create a Customer Service Insights workspace.**
+## Task 1: Create a Customer Service Insights workspace
 
 1.  Open an in-private browser and navigate to
     <https://CSI.ai.dynamics.com>**.** *(If prompted for credentials, use the
@@ -54,7 +54,7 @@ this point.
     workspace. While that is taking place, we will have you work with a sample
     environment to walk through navigating through the application.*
 
-**Task 2: Take students on a tour of Customer Service Insights**
+## Task 2: Take students on a tour of Customer Service Insights
 
 In this demo you will be walking students through the navigation user interface
 of the customer service insights application. During the tour, call out specific
