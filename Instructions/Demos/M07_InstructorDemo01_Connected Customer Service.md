@@ -1,6 +1,6 @@
-**MB-230: Connected Customer Service - Instructor Demos**
+# MB-230: Connected Customer Service - Instructor Demo
 
-**Instructor Demo 1**
+## Instructor Demo 1
 =====================
 
 In this instructor led demo, you will be walking student through the process of
@@ -8,7 +8,7 @@ deploying and configuring an IoT Central application that can be potentially be
 used in conjunction with a Connected Customer Service implementation. In this
 exercise, you will create an IoT central application and add two devices.
 
-**Task 1: Create an IoT Central Application**
+## Task 1: Create an IoT Central Application
 ---------------------------------------------
 
 1.  Navigate to [Azure Portal](https://portal.azure.com/) and click **+ Create a
@@ -66,7 +66,7 @@ exercise, you will create an IoT central application and add two devices.
 
 20. Do not navigate away from this page.
 
-**Task 2: Tour IoT Central Application**
+## Task 2: Tour IoT Central Application
 ----------------------------------------
 
 In this task, you will tour the IoT Central application.
@@ -120,7 +120,7 @@ In this task, you will tour the IoT Central application.
 
 20. Do not navigate away from this page.
 
-**Task 3: Set bin full alert threshold**
+## Task 3: Set bin full alert threshold
 ----------------------------------------
 
 In this task, you will set the minimum and maximum bin full threshold.
