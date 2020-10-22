@@ -92,7 +92,7 @@ portal that we can use to deploy the channel to.
 
 4.  In the address field, enter a unique URL address for your portal.
 
-    1.  If you cannot think of something, you can use something like the word
+    -  If you cannot think of something, you can use something like the word
         omni followed by the month and year number as well as your initials.  
         **For example:** omni0120dab.
 
