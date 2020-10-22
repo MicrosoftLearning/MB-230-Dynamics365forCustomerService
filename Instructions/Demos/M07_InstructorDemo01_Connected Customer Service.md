@@ -1,7 +1,6 @@
 # MB-230: Connected Customer Service - Instructor Demo
 
 ## Instructor Demo 1
-=====================
 
 In this instructor led demo, you will be walking student through the process of
 deploying and configuring an IoT Central application that can be potentially be
