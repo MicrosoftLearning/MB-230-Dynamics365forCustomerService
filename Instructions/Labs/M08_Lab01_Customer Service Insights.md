@@ -1,6 +1,6 @@
-**MB-230: Customer Service Insights**
+# MB-230: Customer Service Insights
 
-**Before Students begin HOL**
+## Before Students begin HOL
 
 You should verify that Customer Service Insights is installed and attached to
 the Dynamics 365 Customer Service environment that you are working with. You can
@@ -8,9 +8,9 @@ do that by navigating to <https://CSI.ai.dynamics.com> and verifying that the
 sample work space is there. That is all you need to do with the environment at
 this point.
 
-**Exercise 1: Configure Topic Settings**
+# Exercise 1: Configure Topic Settings
 
-**Task 1: Configure how topics are grouped**
+## Task 1: Configure how topics are grouped
 
 1.  Open an in-private browser and navigate to
     <https://CSI.ai.dynamics.com>**.** *(If prompted for credentials, use the
@@ -99,9 +99,9 @@ this point.
     topic. Use your mouse to hover over **Product Question (Sample)** again and
     select the **thumbs up** icon to note this.
 
-**Exercise 2: Use Customer Service Insights**
+# Exercise 2: Use Customer Service Insights
 
-**Task 1: Configure how topics are grouped**
+## Task 1: Configure how topics are grouped
 
 1.  In you are not already in **Customer Service Insights**, navigate to
     <https://CSI.ai.dynamics.com>
