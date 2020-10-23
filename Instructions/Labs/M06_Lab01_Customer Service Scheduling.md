@@ -1,12 +1,12 @@
-**MB-230: Customer Service Scheduling**
+# MB-230: Customer Service Scheduling
 
-**Exercise 1: Configure Customer Service Scheduling**
+# Exercise 1: Configure Customer Service Scheduling
 =====================================================
 
 In this exercise, you will create business units, define a business closure,
 create facility/equipment records for organization units, and create resources.
 
-**Task 1: Define Organization Units**
+## Task 1: Define Organization Units
 -------------------------------------
 
 1.  Navigate to [Power Apps maker portal](https://make.powerapps.com) and make
@@ -42,7 +42,7 @@ create facility/equipment records for organization units, and create resources.
 
 12. Do not navigate away from this application.
 
-**Task 2: Define Business Closure**
+## Task 2: Define Business Closure
 -----------------------------------
 
 In this task, you will define a new business closure.
@@ -56,7 +56,7 @@ In this task, you will define a new business closure.
 
 4.  Do not navigate away from this application.
 
-**Task 3: Create Facilities/Equipment Records**
+## Task 3: Create Facilities/Equipment Records
 -----------------------------------------------
 
 In this task, you will create facilities/equipment records for the
@@ -108,13 +108,13 @@ organizational units you created and set their working hours.
 
 13. You should now have total of 9 Facilities/Equipment records.
 
-**Exercise 2: Resource Configuration**
+# Exercise 2: Resource Configuration
 ======================================
 
 In this exercise, you will create contact records, create resource categories,
 and create resources.
 
-**Task 1: Create Contacts**
+## Task 1: Create Contacts
 ---------------------------
 
 In this task you will create new contact records.
@@ -147,7 +147,7 @@ In this task you will create new contact records.
 
 8.  Do not navigate away from this application
 
-**Task 2: Create Resource Categories**
+## Task 2: Create Resource Categories
 --------------------------------------
 
 In this task you will create new resource categories.
@@ -169,7 +169,7 @@ In this task you will create new resource categories.
 
 8.  Do not navigate away from this application.
 
-**Task 3: Create Resources**
+## Task 3: Create Resources
 ----------------------------
 
 In this task you will create new contact type resources.
@@ -240,12 +240,12 @@ In this task you will create new contact type resources.
 
 18. You should now have 15 Resources.
 
-**Exercise 3: Define Services** 
+# Exercise 3: Define Services 
 ================================
 
 In this exercise, define oil change and tire rotation services.
 
-**Task 1: Create Oil Change Service**
+## Task 1: Create Oil Change Service
 -------------------------------------
 
 In this task you will create an oil change service.
@@ -303,13 +303,13 @@ In this task you will create an oil change service.
 
 21. The **Tire Rotation** service should now have **4** requirements.
 
-**Exercise 4: Create and Schedule Service Activities** 
+# Exercise 4: Create and Schedule Service Activities 
 =======================================================
 
 In this exercise, you create and schedule service activities for an oil change
 and a tire rotation.
 
-**Task 1: Create Oil Change Service**
+## Task 1: Create Oil Change Service
 -------------------------------------
 
 In this task you will create and schedule an oil change service activity.
