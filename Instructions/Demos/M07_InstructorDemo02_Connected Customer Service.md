@@ -1,7 +1,6 @@
 # MB-230: Connected Customer Service - Instructor Demos
 
 # Instructor Led Demo 2
-=========================
 
 In this instructor led demonstration, you will create a Power Automate flow that
 will get triggered on alert rule fired. The flow will create an IoT alert record
