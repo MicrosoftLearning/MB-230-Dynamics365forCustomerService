@@ -1,13 +1,13 @@
-**MB-230: Connected Customer Service - Instructor Demos**
+# MB-230: Connected Customer Service - Instructor Demos
 
-**Instructor Led Demo 2**
+# Instructor Led Demo 2
 =========================
 
 In this instructor led demonstration, you will create a Power Automate flow that
 will get triggered on alert rule fired. The flow will create an IoT alert record
 in Connected Customer Service.
 
-**Task 1: Modify alert rule**
+## Task 1: Modify alert rule
 -----------------------------
 
 In this task, you modify the bin full alert rule.
@@ -61,7 +61,7 @@ In this task, you modify the bin full alert rule.
 
 19. Name the flow **Create bin full IoT alert** and click **Save**.
 
-**Task 2: Test flow**
+## Task 2: Test flow
 ---------------------
 
 In this task, you will test the IoT alert flow you created.
