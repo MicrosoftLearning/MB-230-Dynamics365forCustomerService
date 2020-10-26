@@ -4,14 +4,13 @@ finial steps, that you are naming everything exactly as described in the lab.
 This will reduce the chance of accidentally selecting an object created by
 another student during the process.
 
-**Exercise 1: Configure an SMS Channel**
-========================================
+# Exercise 1: Configure an SMS Channel
 
 Before you can create an SMS channel in the OCS, you will need to signup with
 and SMS provider. We will be leveraging Twilio because Twilio numbers are
 available to be consumed right away.
 
-**Task 1: Sign up for a Twilio account that that can be leveraged with the system.** 
+## Task 1: Sign up for a Twilio account that that can be leveraged with the system
 -------------------------------------------------------------------------------------
 
 1.  In the same browser session that you are currently logged into the
@@ -45,7 +44,7 @@ available to be consumed right away.
 9.  Once you arrive at your dashboard page, leave the page open so you can
     return to it later.
 
-**Task 2: Configure an SMS Work Stream.** 
+## Task 2: Configure an SMS Work Stream
 ------------------------------------------
 
 Now that you have a Twilio account that you can leverage, the next step in the
@@ -102,7 +101,7 @@ TeleSign account instead of Twilio.*
 
 8.  Select **Save**. The Twilio inbound URL will be generated and displayed.
 
-**Task 3: Obtain an SMS number from Twilio.** 
+## Task 3: Obtain an SMS number from Twilio 
 ----------------------------------------------
 
 Twilio needs to register the Inbound URL for the application with your account.
@@ -129,7 +128,7 @@ with SMS channel.
 
 7.  Leave Twilio open for later
 
-**Task 4: Add your new number to your SMS work stream.** 
+## Task 4: Add your new number to your SMS work stream
 ---------------------------------------------------------
 
 Once you have obtained a phone number, you are ready to create an SMS channel in
@@ -165,7 +164,7 @@ It can take a minute or two for the validation process to proceed. After it is
 complete, your SMS work stream is configured and is ready to accept SMS
 requests.
 
-**Task 5: Establish a connection between Omnichannel for Customer Service and the Twilio account**
+## Task 5: Establish a connection between Omnichannel for Customer Service and the Twilio account
 --------------------------------------------------------------------------------------------------
 
 Perform the following steps to configure the URL in Twilio for the SMS messages
@@ -178,10 +177,9 @@ from Omnichannel for Customer Service to be processed in Twilio:
 
 3.  In the **Messaging** section, paste the Twilio inbound URL.
 
-**Exercise 2: Create a PVA bot to handle conversations**
-========================================================
+# Exercise 2: Create a PVA bot to handle conversations
 
-**Task 1: Sign-up for a PVA trial and create the bot**
+## Task 1: Sign-up for a PVA trial and create the bot
 ------------------------------------------------------
 
 In this task, you will sign up for a trial Microsoft Power Virtual Agents and
@@ -200,7 +198,7 @@ create your first bot.
 
 5.  Click **Explore Bot**, If prompted.
 
-**Task 1: Create support categories entity**
+## Task 2: Create support categories entity
 --------------------------------------------
 
 In this task, you will create a new entity named support categories that has
@@ -223,7 +221,7 @@ three items, order question, delivery and setup, and weather related.
 
 8.  Click **Close**.
 
-**Task 2: Create order entity**
+## Task 3: Create order entity
 -------------------------------
 
 >   In this task, you will create a new entity named order that has two items,
@@ -243,7 +241,7 @@ three items, order question, delivery and setup, and weather related.
 
 6.  Click **Close**.
 
-**Task 3: Create a Cancel Order Topic:**
+## Task 4: Create a Cancel Order Topic:
 ----------------------------------------
 
 1.  Select **Topics** and click **+ New topic**.
@@ -290,7 +288,7 @@ three items, order question, delivery and setup, and weather related.
 
 17. The two branches should now look like the image below. Click **Save**.
 
-**Task 4: Create a New order Topic** 
+## Task 5: Create a New order Topic
 -------------------------------------
 
 1.  Select **Topics** and click **+ New topic**.
@@ -322,7 +320,7 @@ three items, order question, delivery and setup, and weather related.
 
 11. The New order topic should now have three nodes. Click **Save**.
 
-**Task 5: Create a check weather topic**
+## Task 6: Create a check weather topic
 ----------------------------------------
 
 1.  Select **Topics** and click **+ New topic**.
@@ -451,7 +449,7 @@ three items, order question, delivery and setup, and weather related.
 
 57. Click **Save** to save the topic.
 
-**Task 6: Create a Delivery and Setup topic**
+## Task 7: Create a Delivery and Setup topic
 ---------------------------------------------
 
 1.  Select **Topics** and click **+ New topic**.
@@ -490,7 +488,7 @@ three items, order question, delivery and setup, and weather related.
 
 16. Click **Save** to save the topic.
 
-**Task 7: Add an Order Topic:**
+## Task 8: Add an Order Topic:
 -------------------------------
 
 1.  Select **Topics** and click **+ New topic**.
@@ -528,7 +526,7 @@ three items, order question, delivery and setup, and weather related.
 
 8.  Wait for the topic to be saved.
 
-**Task 8: Modify the Greeting system topic:** 
+## Task 9: Modify the Greeting system topic: 
 ----------------------------------------------
 
 1.  Select **Topics**.
@@ -578,7 +576,7 @@ three items, order question, delivery and setup, and weather related.
 21. The three branches should now look like the image below. Click **Save** to
     save the topic.
 
-**Task 9: Test your bot**
+## Task 10: Test your bot
 -------------------------
 
 1.  Click on the **Test your bot** button located on the bottom-left of the
@@ -622,7 +620,7 @@ three items, order question, delivery and setup, and weather related.
 
 17. Click **Hide bot**.
 
-**Task 10: Publish your bot**
+## Task 11: Publish your bot
 -----------------------------
 
 1.  Select **Publish** and click Publish.
@@ -635,8 +633,7 @@ three items, order question, delivery and setup, and weather related.
 
 5.  You may share the demo website with others.
 
-**Exercise 3: Configure Omnichannel to use the PVS Bot**
-========================================================
+# Exercise 3: Configure Omnichannel to use the PVA Bot
 
 **Task 1: Create a queue for yourself and the Botuser.** 
 ---------------------------------------------------------
@@ -661,7 +658,7 @@ three items, order question, delivery and setup, and weather related.
 
 7.  Click **Save and Close**.
 
-**Task 1: Configure a routing rule to send items to the bot.** 
+## Task 1: Configure a routing rule to send items to the bot
 ---------------------------------------------------------------
 
 1.  Under the **Work Distribution Management**, select **Work Streams**, and
