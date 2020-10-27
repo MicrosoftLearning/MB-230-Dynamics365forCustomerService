@@ -10,7 +10,7 @@ For this reason, we will only be working with the SMS channels you created in
 the labs. Because of the routing rules, we can ensure that you will be getting
 the items as they come in.
 
-###### **Learning Objectives**
+### Learning Objectives
 
 After completing the exercises in this lab, you will be able to:
 
@@ -25,10 +25,9 @@ After completing the exercises in this lab, you will be able to:
 
 -   Enable the productivity pane for agents to leverage scripts
 
-**Estimated time to complete this lab: 30 minutes**
+### Estimated time to complete this lab: 30 minutes
 
-**Exercise 1: Use Omnichannel for Customer Service to assist customers.** 
-==========================================================================
+# Exercise 1: Use Omnichannel for Customer Service to assist customers 
 
 To successfully complete this exercise, you are going to need three items:
 --------------------------------------------------------------------------
@@ -39,7 +38,7 @@ To successfully complete this exercise, you are going to need three items:
 
 -   The Omnichannel for Customer Service app, open in a browser tab.
 
-**Task 1: Initiate a conversation with OCS.** 
+## Task 1: Initiate a conversation with OCS
 ----------------------------------------------
 
 1.  If it is not already open in another tab, navigate to the Omnichannel
@@ -65,8 +64,7 @@ To successfully complete this exercise, you are going to need three items:
     in the Work Stream. In the message of the conversation enter something like
     **“Hello, I need help”**.
 
->   **NOTE:** *Your message app will likely look different. The screen shots are
->   for reference.*
+>   **NOTE:** *Your message app will likely look different.
 
 1.  After several seconds you should receive a message back from the virtual
     agent asking what it can help you with.
@@ -81,7 +79,7 @@ To successfully complete this exercise, you are going to need three items:
 5.  The bot will tell you that it can help you with that, and then transfer you
     to a live agent.
 
-**Task 2: Communicate with the customer.**
+## Task 2: Communicate with the customer
 
 Next you will switch to the Omnichannel for Customer Service agent application
 and be working as an agent would with the customer. It is important that you
