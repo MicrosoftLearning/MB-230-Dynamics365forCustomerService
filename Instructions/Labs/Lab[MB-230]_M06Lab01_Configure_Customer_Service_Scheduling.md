@@ -1,7 +1,6 @@
 # MB-230: Customer Service Scheduling
 
 # Exercise 1: Configure Customer Service Scheduling
-=====================================================
 
 In this exercise, you will create business units, define a business closure,
 create facility/equipment records for organization units, and create resources.
@@ -109,7 +108,6 @@ organizational units you created and set their working hours.
 13. You should now have total of 9 Facilities/Equipment records.
 
 # Exercise 2: Resource Configuration
-======================================
 
 In this exercise, you will create contact records, create resource categories,
 and create resources.
