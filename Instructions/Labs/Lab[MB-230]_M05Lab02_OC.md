@@ -28,7 +28,6 @@ After completing the exercises in this lab, you will be able to:
 ### Estimated time to complete this lab: 30 minutes
 
 # Exercise 1: Create a Macro that will be leveraged in an Agent Script
-========================================================================
 
 ## Task 1: Build the Create Case Macro 
 -----------------------------------------
