@@ -13,7 +13,7 @@ These items are:
 
 -   A closing script that will assist the agent in closing issues.
 
-###### **Learning Objectives**
+### **Learning Objectives**
 
 After completing the exercises in this lab, you will be able to:
 
@@ -25,12 +25,12 @@ After completing the exercises in this lab, you will be able to:
 
 -   Enable the productivity pane for agents to leverage scripts
 
-**Estimated time to complete this lab: 30 minutes**
+### Estimated time to complete this lab: 30 minutes
 
-**Exercise 1: Create a Macro that will be leveraged in an Agent Script**
+# Exercise 1: Create a Macro that will be leveraged in an Agent Script
 ========================================================================
 
-**Task 1: Build the Create Case Macro.** 
+## Task 1: Build the Create Case Macro 
 -----------------------------------------
 
 1.  Sign in to the Omnichannel Administration app.
@@ -123,7 +123,7 @@ After completing the exercises in this lab, you will be able to:
 
 35. Scroll to the bottom of the screen and select the **Save and Close** button
 
-**Task 2: Build the Resolve Case Macro.** 
+## Task 2: Build the Resolve Case Macro
 ------------------------------------------
 
 1.  Under **Agent Experience**, select **Macro**.
@@ -157,10 +157,9 @@ After completing the exercises in this lab, you will be able to:
 
     -   **Resolution:** KBArticle
 
-**Exercise 2: Build an Agent Script to assist agents**
-======================================================
+# Exercise 2: Build an Agent Script to assist agents
 
-**Task 1: Build the Closing session Script** 
+## Task 1: Build the Closing session Script 
 ---------------------------------------------
 
 1.  If you are not already logged in from the previous exercise, sign in to the
@@ -217,7 +216,7 @@ After completing the exercises in this lab, you will be able to:
 
 12. Close the Closing Script Record
 
-**Task 2: Build the General Script** 
+## Task 2: Build the General Script 
 -------------------------------------
 
 1.  Under **Agent Experience**, select **Agent Scripts**.
@@ -308,10 +307,9 @@ After completing the exercises in this lab, you will be able to:
 
 17. Close the **Closing Script** record
 
-**Exercise 3: Configure OCS to use the Agent Script**
-=====================================================
+# Exercise 3: Configure OCS to use the Agent Script
 
-**Task 1: Attach the script to SMS-Sessions.** 
+## Task 1: Attach the script to SMS-Sessions 
 -----------------------------------------------
 
 1.  Under **Agent Experience**, select **Sessions**.
@@ -324,7 +322,7 @@ After completing the exercises in this lab, you will be able to:
 
 5.  Select the **Yourlabusername** script, and click **Add**
 
-**Task 2: Enable the productivity pane to allow agents to leverage agent scripts.** 
+## Task 2: Enable the productivity pane to allow agents to leverage agent scripts 
 ------------------------------------------------------------------------------------
 
 1.  Under **Agent Experience**, select **Productivity pane**.
