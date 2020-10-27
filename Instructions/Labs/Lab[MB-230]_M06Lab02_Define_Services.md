@@ -1,5 +1,4 @@
 # Exercise 1: Define Services 
-================================
 
 In this exercise, define oil change and tire rotation services.
 
@@ -62,7 +61,6 @@ In this task you will create an oil change service.
 21. The **Tire Rotation** service should now have **4** requirements.
 
 # Exercise 2: Create and Schedule Service Activities 
-=======================================================
 
 In this exercise, you create and schedule service activities for an oil change
 and a tire rotation.
