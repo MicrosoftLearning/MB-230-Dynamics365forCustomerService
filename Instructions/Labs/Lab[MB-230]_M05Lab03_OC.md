@@ -32,7 +32,7 @@ After completing the exercises in this lab, you will be able to:
 To successfully complete this exercise, you are going to need three items:
 --------------------------------------------------------------------------
 
--   A mobile device that you can text from.
+-   A mobile device that you can text from. *(You do not not have to participate in this lab if you do not want to use your mobile device or you do not have one.)*
 
 -   The Omnichannel Administration application open in a browser tab.
 
