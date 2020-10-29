@@ -15,13 +15,15 @@ available to be consumed right away.
 
 1.  In the same browser session that you are currently logged into the
     Omnichannel Administration application with, navigate to
-    <https://twilio.com>**.** *(If you are not currently logged into Omnichannel
+    <https://twilio.com>**.** *(you will be directed to a 3rd party site (Twilio) to sign up for a free trial. Information that you enter when you sign up may be used by the 3rd party. We recommend that you review their privacy statement before signing up)*
+    
+    *(If you are not currently logged into Omnichannel
     Administration, use the credentials provided to you by your instructor to
     log in.)*
 
 2.  Select the **Sign-up** button.
 
-3.  You will be asked to provide you contact and detail information including:
+3.  You will be asked to provide your contact and detail information including:
     First Name, Last Name, Email, Password. Once you have provided those details
     and accepted the terms of service, select the **Start your Free Trial**
     Button.
