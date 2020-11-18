@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: Omnichannel'
+    module: 'Module 5: Omnichnnel'
+---
+
 In this module, you will be configuring an SMS channel that you will be using
 throughout the rest of the course. It will be important when were get to the
 finial steps, that you are naming everything exactly as described in the lab.
