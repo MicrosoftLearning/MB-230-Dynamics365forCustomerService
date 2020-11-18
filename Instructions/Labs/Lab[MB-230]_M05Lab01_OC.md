@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Lab: Omnichannel'
+    title: 'Lab: Omnichannel Lab 1'
     module: 'Module 5: Omnichnnel'
 ---
 
