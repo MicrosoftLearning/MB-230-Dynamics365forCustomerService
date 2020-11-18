@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: Configure Customer Service Insights'
+    module: 'Module 8: Customer Service Insights'
+---
+
 # MB-230: Customer Service Insights
 
 ## Before Students begin HOL
