@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: Configure Customer Service Scheduling'
+    module: 'Module 6: Customer Service Scheduling'
+---
+
 # MB-230: Customer Service Scheduling
 
 # Exercise 1: Configure Customer Service Scheduling
