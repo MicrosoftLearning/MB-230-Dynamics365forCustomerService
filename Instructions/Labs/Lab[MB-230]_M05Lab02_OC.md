@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: Omnichannel lab 2'
+    module: 'Module 5: Omnichnnel'
+---
+
 In this lab, you will be configuring the Dynamics 365 productivity tools so
 Agents can take advantage of the Agent script feature. You will be creating four
 items that will make up the agent script solution.
