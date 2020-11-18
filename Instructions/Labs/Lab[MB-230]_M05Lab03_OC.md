@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: Omnichannel Lab 3'
+    module: 'Module 5: Omnichnnel'
+---
+
 Now that the Omnichannel for Customer Service environment that you are working
 in has been successfully configured by both you and the instructor; we will
 examine what the interface might look like from an agent standpoint.
