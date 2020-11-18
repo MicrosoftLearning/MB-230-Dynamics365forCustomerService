@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab: Define Services'
+    module: 'Module 6: Customer Service Scheduling'
+---
+
 # Exercise 1: Define Services 
 
 In this exercise, define oil change and tire rotation services.
