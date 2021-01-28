@@ -1,5 +1,5 @@
 ---
-Demo:
+demo:
     title: 'Demo: Deploy Customer Service'
     module: 'Module 5: Omnichannel'
 ---
