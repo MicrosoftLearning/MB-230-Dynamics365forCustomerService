@@ -1,3 +1,9 @@
+---
+Demo:
+    title: 'Demo: Deploy Customer Service'
+    module: 'Module 5: Omnichannel'
+---
+
 # Omnichannel for Customer Service
 
 ## Instructor Demo 1
