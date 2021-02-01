@@ -7,7 +7,7 @@ lab:
 Module 1: Customer Service Overview
 ===================================
 
-## Practice Lab 1 – Install the app
+## Practice Lab 1 – Navigate to the app
 
 Scenario
 --------
@@ -16,25 +16,19 @@ You are a business analyst working on the Dynamics 365 for Customer Service
 implementation for your company, City Power & Light. You need to install the
 Customer Service application in your environment.
 
-Exercise 1 – Install Dynamics 365 Customer Service Hub
+Exercise 1 – Navigate to Dynamics 365 Customer Service Hub
 ------------------------------------------------------
 
 In this exercise, you will install the Dynamics 365 Customer Service Application
 and then install sample data.
 
-### Task 1 – Install Customer Service Application
+### Task 1 – Navigate to Customer Service Hub Application
 
-1.  Go back to <https://admin.Powerplatform.microsoft.com>
+1.  Go back to <wwllab006.crm.dynamics.com>
 
-2.  Select **Environments** from the menu bar on the left.
+2.  Select **Customer Service Hub** from the list of published apps.
 
-3.  Select **+New** to create a new environment.
-
-4.  Enter **[your prefix ex. mollyc]+ CustServicePractice** for Name and URL if available (or enter a different URL). We will refer to this environment throughout the labs as the **Practice** environment. 
-
-5.  Click **Save**.  
-
-It will take few minutes to save the environment. 
+3.  You are now directed to the **Dashboard** view. 
 
 ### Task 2 – Install Sample Data
 
