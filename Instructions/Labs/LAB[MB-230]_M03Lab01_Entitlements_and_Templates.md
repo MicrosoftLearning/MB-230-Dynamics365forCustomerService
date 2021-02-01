@@ -31,29 +31,25 @@ channels.
 In this task, you will create an entitlement with 100 total terms for Adventure
 Works customer.
 
-1.  Navigate to <https://admin.powerplatform.microsoft.com/>
+1.  Navigate to <wwllab006.crm.dynamics.
 
-2.  Expand **Admin Center** and select **Dynamics 365**.
+2.  Open **Customer Service Hub**.
 
-3.  Select your **Instance** and click **Open**.
+3.  Click on the **Sitemap** button in the bottom left corner and click **Service Management.**
 
-4.  Click **Dynamics 365** and select **Customer Service Hub**.
+4.  Click on **Entitlements** in the **Service Terms** section.
 
-5.  Click on the **Sitemap** button in the bottom left corner and click **Service Management.**
+5.  Click **New**.
 
-6.  Click on **Entitlements** in the **Service Terms** section.
-
-7.  Click **New**.
-
-8.  Enter **[your prefix ex. mollyc]+ Entitlement 1** for **Name**, select *your user* for **Primary Customer**, select today’s date for **Start Date**,
+6.  Enter **[your prefix ex. mollyc]+ Entitlement 1** for **Name**, select *your user* for **Primary Customer**, select today’s date for **Start Date**,
     and select a year from today for **End Date**.
 
-9.  Select **Yes** for **Restrict Based on Entitlement Terms**.
+7.  Select **Yes** for **Restrict Based on Entitlement Terms**.
 
-10. Select **Number of Cases** for **Allocation Type**, select **Case Creation**
+8. Select **Number of Cases** for **Allocation Type**, select **Case Creation**
     for **Decrease Remaining On**, and enter **100** for **Total Terms**.
 
-11. Click **Save**. DO NOT navigate away from the Entitlement form.
+9. Click **Save**. DO NOT navigate away from the Entitlement form.
 
 ### Task 2 – Add Channels to the Default Entitlement
 
