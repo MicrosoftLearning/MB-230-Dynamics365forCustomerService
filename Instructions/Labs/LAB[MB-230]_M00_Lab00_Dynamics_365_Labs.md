@@ -37,11 +37,13 @@ Exercise 1 - Access the Dynamics 365 application
 
 ### Task 2 – Access the Dynamics 365 application
 
-1.  Expand the grid button at the top left of the screen, directly to the left of **Power Platform admin center.** Select **Dynamics 365.**
+1.  Expand the grid button at the top left of the screen, directly to the left of **Power Platform admin center.** Select **Environments.**
 
-2.  Select the **Edit** button. You will open the Contoso environment in the **Power Platform admin center.**
+2.  Select the **Contoso (Production)** environment.
 
-4. From the list of available Dynamics 365 apps, select **Customer Service Hub.**
+3.  Go to the environment URL.
 
-5. Spend a few minutes exploring the application.
+4.  From the list of available Dynamics 365 apps, select **Customer Service Hub.**
+
+5.  Spend a few minutes exploring the application.
 
