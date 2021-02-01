@@ -24,24 +24,20 @@ activity and then convert the activity to Case.
 
 ### Task 1 – Create Case
 
-1.  Navigate to <https://admin.powerplatform.microsoft.com>
+1.  Navigate to <wwllab006.crm.dynamics.com>
 
-2.  Expand **Admin Center** and select **Dynamics 365**.
-
-3.  Select your instance and click **Open**.
-
-4.  Click **Dynamics 365 drop-down arrow** and select **Customer Service Hub**
+2.  Click **Dynamics 365 drop-down arrow** and select **Customer Service Hub**
     application.
 
-5.  Click on **Cases** in the **Service** section of the sitemap.
+3.  Click on **Cases** in the **Service** section of the sitemap.
 
-6.  Click **+ New Case** located on the command bar.
+4.  Click **+ New Case** located on the command bar.
 
-7.  Enter *[your prefix ex. mollyc]+ Defective Screen* for **Case Title**, select **Default Subject**
+5.  Enter *[your prefix ex. mollyc]+ Defective Screen* for **Case Title**, select **Default Subject**
     for **Subject**, type *your user name* in the **Customer** field, click on the lookup
     button and select *your user*.
 
-8.  Click **Save**.
+6.  Click **Save**.
 
 ### Task 2 – Create Phone Call Activity
 
