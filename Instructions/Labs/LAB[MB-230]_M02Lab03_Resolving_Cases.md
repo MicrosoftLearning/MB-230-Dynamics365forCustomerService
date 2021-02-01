@@ -26,7 +26,7 @@ Exercise 1 – Resolve Cases
 
 2.  Click on the **Sitemap** Button and select **Service**.  Then select **Cases** under the **Service** section.
 
-3.  Locate and open the **[your prefix ex. mollyc]+ Missing Power Supply** record you created.
+3.  Locate and open the **[your prefix ex. mollyc]+ Defective Screen** record you created.
 
 4.  Click on the **Identify** stage of the **Business Process Flow**.
 
@@ -40,7 +40,7 @@ Exercise 1 – Resolve Cases
     
 8.  Click on the **Related** tab and select **Activities**
 
-9.  Click the **[your prefix ex. mollyc]+ Missing Power Supply** Activity you created.
+9.  Click the **[your prefix ex. mollyc]+ Defective Screen** Activity you created.
 
 10. Click the **Mark Complete** button located in the command bar.  You need to complete any open Activities associated with a Case before you resolve the Case.  Otherwise, the Activities will be cancelled.
 
@@ -49,8 +49,7 @@ Exercise 1 – Resolve Cases
 12.  Select **Problem Solved** for **Resolution Type** and enter **Sent
     Replacement** for **Resolution**.
 
-13. Enter **30 minutes** for **Billable Time**, enter **Sent replacement Power
-    Supply** for **Remarks**, and click **Resolve**.
+13. Enter **30 minutes** for **Billable Time**, enter **Sent replacement Screen** for **Remarks**, and click **Resolve**.
 
 ### Task 2 – Reactivate Resolved Case
 
@@ -64,7 +63,7 @@ Exercise 1 – Resolve Cases
 
 5.  Click **Reactivate**. The case will be reactivated.
 
-6.  Change the **Case Title** to ****[your prefix ex. mollyc]+ Power Supply Not Received** in the details
+6.  Change the **Case Title** to ****[your prefix ex. mollyc]+ Screen Not Received** in the details
     tab.
 
 7.  Click **Save & Close**.
