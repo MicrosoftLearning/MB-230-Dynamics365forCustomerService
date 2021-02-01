@@ -26,13 +26,13 @@ and then install sample data.
 
 1.  Go back to <https://admin.Powerplatform.microsoft.com>
 
-2.  Expand **Admin Centers** and select **Dynamics 365**.
+2.  Select **Environments** from the menu bar on the left.
 
-3.  Select the **Edit** button. You will open the Contoso environment in the **Power Platform Admin center.**
+3.  Select **+New** to create a new environment.
 
 4.  Enter **[your prefix ex. mollyc]+ CustServicePractice** for Name and URL if available (or enter a different URL). We will refer to this environment throughout the labs as the **Practice** environment. 
 
-6.  Click **Save**.  
+5.  Click **Save**.  
 
 It will take few minutes to save the environment. 
 
