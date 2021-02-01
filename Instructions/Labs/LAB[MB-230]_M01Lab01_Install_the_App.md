@@ -41,26 +41,22 @@ It will take few minutes to save the environment.
 The Dynamics 365 Customer Service Application installation must complete before
 starting this task.
 
-1.  Navigate to <https://admin.powerplatform.microsoft.com>
+1.  Navigate to <instanceurl.crm.dynamics.com/apps>
 
-2.  Expand **Admin Center** and click **Dynamics 365**.
+2. Click the gear icon in the top right and select **Advanced Settings** (this will open a new window or tab)
 
-3.  Select your instance and click **Open**.
+3.  Navigate to **Settings** and select **Data Management**.
 
-4. Click the gear icon in the top right and select **Advanced Settings** (this will open a new window or tab)
+4.  Click **Sample Data**.
 
-4.  Navigate to **Settings** and select **Data Management**.
+5.  Verify sample data is installed.  If not, Click **Install Sample Data**.
 
-5.  Click **Sample Data**.
-
-6.  Verify sample data is installed.  If not, Click **Install Sample Data**.
-
-7.  Wait for the sample data installation to start and click **Close**. The
+6.  Wait for the sample data installation to start and click **Close**. The
     sample data installation process will run in the background for a few
     minutes before you will see results.
 
-8.  Click on the **Site Map** button and select the **Customer Service Hub**
+7.  Click on the **Site Map** button and select the **Customer Service Hub**
     app.
 
-9.  Your dashboard should now show some data. You may have to refresh the page
+8.  Your dashboard should now show some data. You may have to refresh the page
     before you can see the data.  Search between different dashboards and get familiar with the app.
