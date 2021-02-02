@@ -166,7 +166,11 @@ the application to use the phone number.
 
 1.  Select **Save**.
 
-2.  Click the **Validate API Key** button.
+2.  Click the **SMS Settings** tab.
+
+2.  Click the **Validate SMS Settings** button.
+
+4.  After validation is complete, the validation fields will be autopopulated.
 
 It can take a minute or two for the validation process to proceed. After it is
 complete, your SMS work stream is configured and is ready to accept SMS
