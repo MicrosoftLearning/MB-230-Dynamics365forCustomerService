@@ -348,7 +348,7 @@ available capacity.
     -   **Public key URL:**
         [https://”your_power_app_portal_url.com/_services/auth/publickey]().
         Example:
-        [https://”yourname.powerappsportals.com/services/auth/publickey]().
+        [https://”yourname.powerappsportals.com/_services/auth/publickey]().
 
     -   **JavaScript client Function:** auth.getAuthenticationToken
 
