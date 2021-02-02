@@ -187,7 +187,7 @@ from Omnichannel for Customer Service to be processed in Twilio:
 2.  Go to your Twilio account \> **Phone Numbers** \> **Active Numbers**, and
     then select the SMS phone number.
 
-3.  In the **Messaging** section, paste the Twilio inbound URL.
+3.  In the **Messaging** section, paste the Twilio inbound URL.  The configuration should be set to **Webhook**
 
 # Exercise 2: Create a PVA bot to handle conversations
 
