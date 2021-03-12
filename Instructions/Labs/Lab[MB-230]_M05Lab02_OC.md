@@ -161,6 +161,8 @@ After completing the exercises in this lab, you will be able to:
     -   **Incident ID:** {caseId}
 
     -   **Resolution:** KBArticle
+   
+10. Select **Save and Close**.
 
 # Exercise 2: Build an Agent Script to assist agents
 
@@ -176,7 +178,7 @@ After completing the exercises in this lab, you will be able to:
 
 4.  On the **New Agent script** page, specify the following:
 
-    -   **Name:** Yourlabusername Closing Script (ex. Alan Script)
+    -   **Name:** Yourlabusername Closing Script (ex. Alans Script)
 
     -   **Description:** Created by yourlabusername to be used by agents when
         closing a case.
@@ -187,9 +189,9 @@ After completing the exercises in this lab, you will be able to:
 
 7.  Complete the Agent script step as follows:
 
-    -   **Name:** Resolve Case
+    -   **Name:** Yourlabusername Resolve Case
 
-    -   **Agent Script:** Yourlabusername script
+    -   **Unique Name:** Yourlabusername script
 
     -   **Order:** 1
 
@@ -198,7 +200,7 @@ After completing the exercises in this lab, you will be able to:
     -   **Description:** Greet the customer with the welcome message from the
         quick reply repository.
 
-    -   Target macro: Yourlabusername – Resolve Case
+    -   **Target macro:** Yourlabusername – Resolve Case
 
 8.  Select **Save and Close**.
 
@@ -206,9 +208,9 @@ After completing the exercises in this lab, you will be able to:
 
 10. Complete the Agent script step as follows:
 
-    -   **Name:** Have a Nice Day!
+    -   **Name:** Yourlabusername Have a Nice Day!
 
-    -   **Agent Script:** Yourlabusername Closing script
+    -   **Unique Name:** Yourlabusername Closing script
 
     -   **Order:** 2
 
@@ -241,9 +243,9 @@ After completing the exercises in this lab, you will be able to:
 
 6.  Complete the Agent script step as follows:
 
-    -   **Name:** Greet the Customer
+    -   **Name:** Yourlabusername Greet the Customer
 
-    -   **Agent Script:** Yourlabusername script
+    -   **Unique Name:** Yourlabusername script
 
     -   **Order:** 1
 
@@ -259,9 +261,9 @@ After completing the exercises in this lab, you will be able to:
 
 9.  Complete the Agent script step as follows:
 
-    -   **Name:** Open a New Case
+    -   **Name:** Yourlabusername Open a New Case
 
-    -   **Agent Script:** Yourlabusername script
+    -   **Unique Name:** Yourlabusername script
 
     -   **Order:** 2
 
@@ -278,9 +280,9 @@ After completing the exercises in this lab, you will be able to:
 
 12. Complete the Agent script step as follows:
 
-    -   **Name:** Search for relevant KB article.
+    -   **Name:** Yourlabusername Search for relevant KB article.
 
-    -   **Agent Script:** Yourlabusername script
+    -   **Unique Name:** Yourlabusername script
 
     -   **Order:** 3
 
@@ -295,9 +297,9 @@ After completing the exercises in this lab, you will be able to:
 
 15. Complete the Agent script step as follows:
 
-    -   **Name:** Proceed to Closing
+    -   **Name:** Yourlabusername Proceed to Closing
 
-    -   **Agent Script:** Yourlabusername script
+    -   **Unique Name:** Yourlabusername script
 
     -   **Order:** 4
 
@@ -326,12 +328,3 @@ After completing the exercises in this lab, you will be able to:
 4.  In the Agent Scripts Sub Grid, Select the add Existing Agent Script Button.
 
 5.  Select the **Yourlabusername** script, and click **Add**
-
-## Task 2: Enable the productivity pane to allow agents to leverage agent scripts 
-------------------------------------------------------------------------------------
-
-1.  Under **Agent Experience**, select **Productivity pane**.
-
-2.  Set **Enable productivity pane** to **Enabled**.
-
-3.  Leave the **Default mode** set to **Collapsed**.
