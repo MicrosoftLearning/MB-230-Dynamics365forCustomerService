@@ -10,6 +10,8 @@ finial steps, that you are naming everything exactly as described in the lab.
 This will reduce the chance of accidentally selecting an object created by
 another student during the process.
 
+**Note:**  Please add your lab user prefix before any data you create in Dynamics 365.  Ex: **[MollyC] + case**
+
 # Exercise 1: Configure an SMS Channel
 
 Before you can create an SMS channel in the OCS, you will need to signup with
@@ -79,10 +81,6 @@ TeleSign account instead of Twilio.*
 
     -   **Auto-Close after Inactivity:** 2 Days
 
-    -   **Assign Work Stream after Decline or Timeout:** 2 Minutes
-
-    -   **Allow Automated Messages:** No
-
 >   *Because there can often be a delay in communication with customers engage
 >   through SMS channels, you want to ensure that you are allowing enough time
 >   for the customer to communicate back with you. For this reason, you should
@@ -145,7 +143,7 @@ the application to use the phone number.
 1.  Navigate to, or if necessary, open the **Omnichannel Administration**
     application in another tab.
 
-2.  Under **Work Distribution Management**, open the **Yourlabuser Twilio SMS**
+2.  Under **Work Distribution Management**, open the **[Yourlabuser] Twilio SMS**
     work stream with your name or initials that you created in the previous
     exercise, and click the **SMS Numbers** tab.
 
@@ -298,7 +296,7 @@ three items, order question, delivery and setup, and weather related.
 
 16. Enter **Can I help you with anything else?** for **Message**.
 
-17. The two branches should now look like the image below. Click **Save**.
+17. Click **Save**.
 
 ## Task 5: Create a New order Topic
 -------------------------------------
@@ -386,7 +384,7 @@ three items, order question, delivery and setup, and weather related.
 
 23. Select Text.
 
-24. Enter **City**, enter Provide city, and click **+ Add an input** again.
+24. Enter **City**, enter **Provide city**, and click **+ Add an input** again.
 
 25. Select **Text** again.
 
@@ -457,7 +455,7 @@ three items, order question, delivery and setup, and weather related.
 
 55. Type **percent of rain in** and insert **Location** variable.
 
-56. The **Message** should now look like the image below.
+56. The **Message**
 
 57. Click **Save** to save the topic.
 
@@ -496,7 +494,7 @@ three items, order question, delivery and setup, and weather related.
 
 14. Select **Show a message**.
 
-15. Entre **What else can I assist with?** for **Message**.
+15. Enter **What else can I assist with?** for **Message**.
 
 16. Click **Save** to save the topic.
 
@@ -533,8 +531,7 @@ three items, order question, delivery and setup, and weather related.
 
 6.  Select the **Cancel order** topic you created.
 
-7.  Your condition branches should now look like the image below. Click **Save**
-    to save the topic.
+7.  Click **Save** to save the topic.
 
 8.  Wait for the topic to be saved.
 
@@ -585,8 +582,7 @@ three items, order question, delivery and setup, and weather related.
 
 20. Select the **Check Weather** topic you created.
 
-21. The three branches should now look like the image below. Click **Save** to
-    save the topic.
+21. Click **Save** to save the topic.
 
 ## Task 10: Test your bot
 -------------------------
@@ -691,7 +687,7 @@ three items, order question, delivery and setup, and weather related.
 4.  In the Condition section, select Add Condition and configure the Condition
     as follows.
 
-    1.  **Entity:** SMS Engagement Context (Conversation
+    1.  **Entity:** SMS Engagement Context (Conversation)
 
     2.  **Attribute:** Customer Phone Number
 
