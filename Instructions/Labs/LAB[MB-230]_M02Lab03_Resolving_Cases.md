@@ -61,9 +61,7 @@ Exercise 1 – Resolve Cases
 
 4.  Click on the **Reactivate Case** button located in the command bar.
 
-5.  Click **Reactivate**. The case will be reactivated.
-
-6.  Change the **Case Title** to ****[your prefix ex. mollyc]+ Screen Not Received** in the details
+5.  Change the **Case Title** to ****[your prefix ex. mollyc]+ Screen Not Received** in the details
     tab.
 
-7.  Click **Save & Close**.
+6.  Click **Save & Close**.
