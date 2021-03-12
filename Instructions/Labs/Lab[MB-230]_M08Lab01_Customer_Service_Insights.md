@@ -54,18 +54,18 @@ this point.
     to ensure case data is mapped correctly. Using the navigation at the top of
     the application, select the **Settings** icon again.
 
-11. Select **Data Mapping**. On the **case** entity, click the **pencil** icon
+11. Select **Data Mapping**. On the **case** table, click the **pencil** icon
     to change the mapping fields.
 
-12. Notice you can select a different entity if needed. *(Since we are working
-    in a shared environment with other students, please do not change the entity
+12. Notice you can select a different table if needed. *(Since we are working
+    in a shared environment with other students, please do not change the table
     currently.)*
 
 13. Click **Next**
 
-14. Here you could modify how fields from the source entity are mapped to
+14. Here you could modify how fields from the source table are mapped to
     destination fields. *(Again, since we are working in shared an environment,
-    please do not change the entity at this time.)*
+    please do not change the table at this time.)*
 
 15. Since we are not going to be making any changes currently, select the **X**
     in the upper right corner to leave cancel and leave the mapping settings.
