@@ -58,7 +58,7 @@ In this task, you will create an internal Knowledge Article for missing parts.
 
 13. Hit the **\<Return\>** key to start a new line.
 
-14. Click on the **Paragraph Format** selector and select **H2**.
+14. Click on the **Paragraph Format** selector and select **Heading 2**.
 
 15. Type **Procedure**.
 
@@ -81,12 +81,11 @@ In this task, you will create an internal Knowledge Article for missing parts.
 
     6.  If no, escalate Case.
 
-19. Click Save.
+19. Minimize the window. Click Save.
 
 20. Go to the **Business Process Flow** and click on the **Author** stage.
 
-21. Select **Default Subject** for **Article Subject**, check the **Mark
-    Complete** checkbox, and click **Next Stage**.
+21. Select **Default Subject** for **Article Subject**, check the **Mark for Review** checkbox, and click **Next Stage**.
 
 ### Task 2 – Approve and Publish Knowledge Article
 
