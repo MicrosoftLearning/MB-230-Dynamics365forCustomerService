@@ -46,7 +46,7 @@ In this task, you modify the bin full alert rule.
 
 14. Click **Show advanced options.**
 
-15. Select **IoT Alerts** for **Entity name**, click on the **Description**
+15. Select **IoT Alerts** for **Table name**, click on the **Description**
     field and select **Device name** from the Dynamic content pane.
 
 16. Type **: Surpassed the maximum fill level threshold, current fill level is**
