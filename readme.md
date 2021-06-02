@@ -1,5 +1,8 @@
 # MB-230 - Dynamics 365 for Customer Service
 
+## Notice: 6/2/2021
+Due to a tenant error, the Module 5 (Omnichannel for Customer Service) labs are temporarily unavailable and have been removed from the live Github pages. We are looking to remediate this issue and will republish the labs as soon as it has been resolved. If MCTs would still like access to the Module 5 Omnichannel labs to demo in their own environment, they can be found in the branch of this GitHub repository titled **MasterBackupOC.**
+
 - **[Download Latest Student Handbook and AllFiles Content](../../releases/latest)**
 - **Are you a MCT?** - Have a look at our [GitHub User Guide for MCTs](https://microsoftlearning.github.io/MCT-User-Guide/)
 - **Need to manually build the lab instructions?** - Instructions are available in the [MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build) repository
