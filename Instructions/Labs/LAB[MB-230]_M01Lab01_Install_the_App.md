@@ -24,7 +24,8 @@ and then install sample data.
 
 ### Task 1 – Navigate to Customer Service Hub Application
 
-1.  Go back to <wwllab006.crm.dynamics.com>
+1.  Go back to the new environment you created in the previous lab.
+2.  Click the link under **Environment URL**. This will take you to your list of published apps.
 
 2.  Select **Customer Service Hub** from the list of published apps.
 
