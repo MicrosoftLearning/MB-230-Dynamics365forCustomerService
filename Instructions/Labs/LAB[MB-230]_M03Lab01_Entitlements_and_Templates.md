@@ -31,7 +31,7 @@ channels.
 In this task, you will create an entitlement with 100 total terms for Adventure
 Works customer.
 
-1.  Navigate to <wwllab006.crm.dynamics.
+1.  Navigate to you environment.
 
 2.  Open **Customer Service Hub**.
 
@@ -96,7 +96,7 @@ In this task, you will test the default entitlement for Adventure Works.
 4.  Enter *[your prefix ex. mollyc]+ Audio System Setup Issues* for **Case Title**, select *your user* for **Customer**, select **Email** for **Origin**, select
     *[your prefix ex. mollyc]+ Entitlement 1* for **Entitlement** and click **Save**.
 
-5.  Click + New.
+5.  Click **+ New**.
 
 6.  Enter *[your prefix ex. mollyc]+ Defective Speaker* for **Case Title**, select *your user* for **Customer**, select **Facebook** for **Origin**, select **[your prefix ex. mollyc]+ Entitlement 1** for **Entitlement** and click **Save**.
 
