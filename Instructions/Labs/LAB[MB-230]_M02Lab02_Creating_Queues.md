@@ -28,7 +28,7 @@ In this exercise, you will create four Queues.
 2.  Click on the … button located below the **Site Map** button and select
     **Service Management**.
 
-3.  Click on the **Sitemap** button in the bottom left and select **Queues**.
+3.  Click on the **Sitemap** button on the left left and select **Queues**.
 
 4.  Click **+ New** located on the command bar.
 
