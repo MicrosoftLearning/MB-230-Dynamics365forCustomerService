@@ -18,7 +18,7 @@ In this Module 0 lab, you will validate that your classroom tenant is working as
 
 ### Task 1 – Log into the Power Platform admin center
 
-1. Access <https://admin.powerplatform.microsoft.com> and log in with your user credentials.
+1. Access <https://admin.powerplatform.microsoft.com> and log in with your Dynamics 365 tenant credentials.
 
 2. Record your user credential up to the **@** symbol on a scratch piece of paper or in Notepad. This will be your lab alias that you will use to differentiate the data you create within the shared Dynamics 365 organization.
 
@@ -30,7 +30,7 @@ In this Module 0 lab, you will validate that your classroom tenant is working as
 
 1. Access <https://admin.powerplatform.microsoft.com/environments>.
 
-2. Select the **Contoso (Production)** environment.
+2. Select the **WWLLABnnn** environment, where nnn is a number. This is the shared Dynamics 365 environment where you will be performing all labs.
 
 3. Click **Open environment**.
 
