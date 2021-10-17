@@ -3,6 +3,7 @@ lab:
     title: 'Lab: Define Services'
     module: 'Module 5: Customer Service Scheduling'
 ---
+
 # Practice Lab 9 – Customer Service Scheduling Services
 
 ## Scenario
