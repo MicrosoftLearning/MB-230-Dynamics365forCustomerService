@@ -1,7 +1,7 @@
 ---
 lab:
-    title: 'Lab: App profile manager
-    module: 'Module 6: Customer Service workspace
+    title: 'Lab: App profile manager'
+    module: 'Module 6: Customer Service workspace'
 ---
 
 # Practice Lab 11 – App profiles
