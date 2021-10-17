@@ -1,7 +1,7 @@
 # MB-230 - Dynamics 365 for Customer Service
 
-## Omnichannel Lab Notice: 6/2/2021
-Due to a tenant error, the Module 5 (Omnichannel for Customer Service) labs are temporarily unavailable and have been removed from the live Github pages. We are looking to remediate this issue and will republish the labs as soon as it has been resolved. If MCTs would still like access to the Module 5 Omnichannel labs to demo in their own environment, they can be found in the branch of this GitHub repository titled **MasterBackup_OC.**
+## Omnichannel Lab Notice: 10/15/2021
+Due to an issue with the tenant, it is not possible to perform labs Omnichannel for Customer Service in the lab environment. However, there are new labs for Unified routing, Customer Service workspace, and App profile manager. If MCTs would still like access to the Omnichannel labs to demo in their own environment, they can be found in the branch of this GitHub repository titled **MasterBackup_OC.**
 
 - **[Download Latest Student Handbook and AllFiles Content](../../releases/latest)**
 - **Are you a MCT?** - Have a look at our [GitHub User Guide for MCTs](https://microsoftlearning.github.io/MCT-User-Guide/)
@@ -16,9 +16,7 @@ Due to a tenant error, the Module 5 (Omnichannel for Customer Service) labs are 
 ## How should I use these files relative to the released MOC files?
 
 - The instructor handbook and PowerPoints are still going to be your primary source for teaching the course content.
-
 - These files on GitHub are designed to be used in conjunction with the student handbook, but are in GitHub as a central repository so MCTs and course authors can have a shared source for the latest lab files.
-
 - It will be recommended that for every delivery, trainers check GitHub for any changes that may have been made to support the latest Azure services, and get the latest files for their delivery.
 
 ## What about changes to the student handbook?
@@ -28,11 +26,10 @@ Due to a tenant error, the Module 5 (Omnichannel for Customer Service) labs are 
 ## How do I contribute?
 
 - Any MCT can submit a pull request to the code or content in the GitHub repro, Microsoft and the course author will triage and include content and lab code changes as needed.
-
-- You can submit bugs, changes, improvement and ideas.  Find a new Azure feature before we have?  Submit a new demo!
+- You can submit bugs, changes, improvement and ideas.
 
 ## Notes
 
 ### Classroom Materials
 
-It is strongly recommended that MCTs and Partners access these materials and in turn, provide them separately to students.  Pointing students directly to GitHub to access Lab steps as part of an ongoing class will require them to access yet another UI as part of the course, contributing to a confusing experience for the student. An explanation to the student regarding why they are receiving separate Lab instructions can highlight the nature of an always-changing cloud-based interface and platform. Microsoft Learning support for accessing files on GitHub and support for navigation of the GitHub site is limited to MCTs teaching this course only.
+It is strongly recommended that MCTs and Partners access these materials and in turn, provide them separately to students. Pointing students directly to GitHub to access Lab steps as part of an ongoing class will require them to access yet another UI as part of the course, contributing to a confusing experience for the student. An explanation to the student regarding why they are receiving separate Lab instructions can highlight the nature of an always-changing cloud-based interface and platform. Microsoft Learning support for accessing files on GitHub and support for navigation of the GitHub site is limited to MCTs teaching this course only.
