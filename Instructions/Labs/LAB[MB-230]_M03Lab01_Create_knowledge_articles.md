@@ -69,13 +69,13 @@ In this task, you will create an internal Knowledge Article for missing parts.
 
 In this task, you will assume the role of the Knowledge Article Approver and Approve the Knowledge Article you created, and then publish it.
 
-1.  Go to the **Business Process Flow** and click on the **Review** stage.
+1.  Go to the **Business process flow** and click on the **Review** stage.
 
 2.  Select **Approved** for **Review**.
 
 3.  Click **OK**.
 
-4.  Go to the **Business Process Flow** and click on the **Review** stage.
+4.  Go to the **Business process flow** and click on the **Review** stage.
 
 5.  Click **Next Stage**.
 
