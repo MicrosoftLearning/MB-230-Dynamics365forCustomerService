@@ -94,7 +94,7 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 
 14. Click on the **Identify** stage in the business process flow, and select **Next Stage**.
 
-15. In the Timeline, click on **+**, and select **Phone Call**.
+15. Select the **Summary Tab**. In the Timeline, click on **+**, and select **Phone Call**.
 
 16. Enter **[your prefix ex. mollyc]** + **further details** for **Subject**.
 
