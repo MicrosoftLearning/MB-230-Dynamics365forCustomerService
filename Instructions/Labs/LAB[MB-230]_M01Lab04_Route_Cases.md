@@ -52,7 +52,7 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 19. Click **Close** in the *Record Creation and Update Rule Item* dialog.
 
-20. In **Step two: conditions to evaluate and actions to take**, set *Automatically reply to email*  to **Yes**.
+20. In **Step three: additional actions to take after matching with a condition**, set *Automatically reply to email*  to **Yes**.
 
 21. In *Select email template*, search for and select **Case Auto Response**.
 
