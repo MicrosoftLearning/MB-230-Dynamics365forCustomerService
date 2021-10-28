@@ -50,7 +50,7 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 
 4.  Enter **Doe** for **Last Name**.
 
-5.  Enter *your prefix ex. mollyc* in the **Account** field, click on the lookup icon and select the account you created in Task 1.
+5.  Enter *your prefix ex. mollyc* in the **Account Name** field, click on the lookup icon and select the account you created in Task 1.
 
 6.  Click **Save & Close**.
 
@@ -60,7 +60,7 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 
 9.  Enter **Doe** for **Last Name**.
 
-10.  Enter *your prefix ex. mollyc* in the **Account** field, click on the lookup icon and select the account you created in Task 1.
+10.  Enter *your prefix ex. mollyc* in the **Account Name** field, click on the lookup icon and select the account you created in Task 1.
 
 11.  Click **Save & Close**.
 
@@ -98,7 +98,7 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 
 16. Enter **[your prefix ex. mollyc]** + **further details** for **Subject**.
 
-17. Select **Outgoing** from the **Type** drop-down field.
+17. Select **Outgoing** from the **Direction** drop-down field.
 
 18. Ensure that your user record is set for **Call From**.
 
@@ -132,7 +132,7 @@ In this exercise, you will create a Phone Call activity and then convert the act
 
 7.  Ensure that your user record is set for **Call To**.
 
-8.  Enter **Annual service needs to be scheduled for Jon**
+8.  In the Maintenance field, enter **Annual service needs to be scheduled for Jon**
 
 9.  Click into the **Duration field** and type **10 minutes**.
 
