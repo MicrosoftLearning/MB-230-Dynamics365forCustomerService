@@ -86,7 +86,7 @@ In this task you will create and schedule an oil change service activity.
 
 3.  Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Scheduling**.
 
-4.  Click on **Services** in the **Scheduling** section.
+4.  Click on **Service Activities** in the **Scheduling** section.
 
 5.  Click **Service Activity**.
 
@@ -107,16 +107,18 @@ In this task you will create and schedule an oil change service activity.
 
 13. Refresh the service activity record.
 
-14. The status should now change form **Requested** to **Reserved**.
+14. The status should now change form **Requested** to **Scheduled**.
 
 15. Select the **Bookings** tab. You should see the booked resources for this service activity.
 
-16. Select **Scheduling**, select **Main Ave Location** for **Organizational Units** and click **Search**.
+16. Click **Scheduling** in the **Tools** section.
 
-17. Select **Horizontal View** and click on the date picker.
+17. Select **Main Ave Location** for **Organizational Units** and click **Search**.
 
-18. Select the date you booked the **Oil Change** service activity.
+18. Select **Horizontal View** and click on the date picker.
 
-19. **Jennifer Leary** and **Service Bay 1** should show as booked for **30** minutes. Click on the **Jennifer Leary'’s** booking.
+19. Select the date you booked the **Oil Change** service activity.
 
-20. Go to the Details pane. You should see more information about the booking.
+20. **Jennifer Leary** and **Service Bay 1** should show as booked for **30** minutes. Click on the **Jennifer Leary’s** booking.
+
+21. Go to the Details pane. You should see more information about the booking.
