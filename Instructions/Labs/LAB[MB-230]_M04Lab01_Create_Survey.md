@@ -70,7 +70,7 @@ In this exercise, you will create a project and use a template to create a surve
 
 16. Click into the section header and clear the text *Input your title here*, click on the **variables** drop down and select **casereference**.
 
-17. Add the text **with has been resolved**.
+17. Add the text **has been resolved**.
 
 18. Click **Preview**.
 
@@ -82,7 +82,7 @@ In this exercise, you will create a project and use a template to create a surve
 
 2.  Expand **Customization** and select **Satisfaction metrics**
 
-3.  Click **+ Add metrics**
+3.  Click **+ Add metric**
 
 4.  Select **CSAT** and select the first question.
 
