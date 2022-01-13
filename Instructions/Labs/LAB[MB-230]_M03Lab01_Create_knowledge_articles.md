@@ -81,7 +81,7 @@ In this task, you will assume the role of the Knowledge Article Approver and App
 
 6.  Click on the **Publish** stage.
 
-7.  Check the **Set Product Association** checkbox and click **Finish**.
+7.  Check the **Set Product Associations** checkbox and click **Finish**.
 
 8.  Go to the command bar and click **Publish**. You may need to click the ellipsis to see it.
 
@@ -94,7 +94,7 @@ Article.
 
 1.  Make sure you still have the Knowledge Article you created opened.
 
-2.  Click **Create Minor Version** from the command bar. You may need to click the ellipsis to see this
+2.  Click **Create minor version** from the command bar. You may need to click the ellipsis to see this
 
 3.  Click **OK**.
 
