@@ -124,27 +124,27 @@ In this task, you will create an entitlement template with 20 terms.
 
 7.  Click **Save**. DO NOT navigate away from this page.
 
-8.  Go to the **Entitlement Channel** sub-grid, click on the ellipsis and select **+ New Entitlement Channel**.
+8.  Go to the **Entitlement Channel** sub-grid, click on the ellipsis and select **+ New Entitlement Template Channel**.
 
 9.  Select **Phone** for **Name**, enter **20** for **Total Terms** and click **Save & Close**.
 
-10. Click on the ellipsis and select **+ New Entitlement Channel**.
+10. Click on the ellipsis and select **+ New Entitlement Template Channel**.
 
 11. Select **Email** for **Name**, enter **0** for **Total Terms** and click **Save & Close**.
 
-12. Click on the ellipsis and select **+ New Entitlement Channel**.
+12. Click on the ellipsis and select **+ New Entitlement Template Channel**.
 
 13. Select **Web** for **Name**, enter **0** for **Total Terms** and click **Save & Close**.
 
-14. Click on the ellipsis and select **+ New Entitlement Channel**.
+14. Click on the ellipsis and select **+ New Entitlement Template Channel**.
 
 15. Select **Facebook** for **Name**, enter **0** for **Total Terms** and click **Save & Close**.
 
-16. Click on the ellipsis and select **+ New Entitlement Channel**.
+16. Click on the ellipsis and select **+ New Entitlement Template Channel**.
 
 17. Select **Twitter** for **Name**, enter **0** for **Total Terms** and click **Save & Close**.
 
-18. Click on the ellipsis button and select **+ New Entitlement Channel**.
+18. Click on the ellipsis and select **+ New Entitlement Template Channel**.
 
 19. Select **IoT** for **Name**, enter **0** for **Total Terms** and click **Save and Close**.
 
@@ -182,7 +182,7 @@ In this task, you will test the entitlement you created from the entitlement tem
 
 6.  Click **+ New**.
 
-7.  Enter **[your prefix ex. mollyc]* + ** Wrong cables** for **Case Title** and select the **Relecloud** account for **Customer**.
+7.  Enter **[your prefix ex. mollyc]** + **Wrong cables** for **Case Title** and select the **Relecloud** account for **Customer**.
 
 8.  Select **Web** for **Origin**.
 
@@ -228,7 +228,7 @@ In this task, you will create A holiday schedule to be used with Customer Servic
 
 6.  Enter **[your prefix ex. mollyc]** + **Holidays** for **Name**.
 
-7.  Click **Save**.
+7.  Click **Create**.
 
 8.  In the Holidays section, click **+ New**.
 
@@ -264,7 +264,7 @@ In this task, you will create a Customer Service Schedule to use with SLAs.
 
 11. Click **OK**.
 
-12. Select **Holiday Schedule** to **Observe** and select the Holiday Schedule you created.
+12. Set **Holiday Schedule** to **Observe** and select the Holiday Schedule you created.
 
 13. Select your local **Time Zone**
 
@@ -406,7 +406,7 @@ In this task, you will test that the SLA is applied to cases.
 
 6.  Select the **SLA** tab. You should see the Case Response By SLA KPI in progress with failure time set to 1 hour's time.
 
-7.  Select the **SLA** tab and set **First Response Sent** to **Yes** and click **Save**.
+7.  Select the **Details** tab and set **First Response Sent** to **Yes** and click **Save**.
 
 8.  Select the **SLA** tab. You should see the Case Response By SLA KPI with status on **Succeeded**.
 
