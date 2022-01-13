@@ -70,7 +70,7 @@ In this exercise, you will create four queues.
 
 27. Change the view from **Items I am working on** to **All items**
 
-28. Review at the options in the list for **Queues I'm a member of**. You should be able to see the four queues you created.
+28. Review the options in the list for **Queues I'm a member of**. You should be able to see the four queues you created.
 
 ### Task 2 – Add cases to queues
 
@@ -112,7 +112,7 @@ In this exercise, you will create four queues.
 
 1.  Click **Queues** under the **Service** section.
 
-2.  Change the view from to **Items available to work on**
+2.  Change the view from **Items I am working on** to **Items available to work on**.
 
 3.  Change the queue selector to **Queues I'm a member of**.
 
@@ -132,7 +132,7 @@ In this exercise, you will create four queues.
 
 11. Leave the *Also remove the item(s) from the Queue* option set to **No**, and click **Pick**.
 
-12. Change the view from to **Items I am working on**
+12. Change the view from **Items available to work on** to **Items I am working on**.
 
 13. Click to the left of the case in the queue to select it.
 
