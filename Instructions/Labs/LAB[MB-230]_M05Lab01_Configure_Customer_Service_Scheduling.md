@@ -20,7 +20,7 @@ In this task, you will define three organizational units to act as service locat
 
 1.  Open the **Customer Service Hub** app.
 
-2.  Click **Settings** and select **Personalize Settings**.
+2.  Click **Settings** and select **Personalization Settings**.
 
 3.  Select your **Time Zone** and click **OK**.
 
@@ -63,7 +63,7 @@ In this task, you will define a new business closure.
 
 In this task, you will create facilities/equipment records for the organizational units you created and set their working hours.
 
-1.  Click on **Facilities/equipment** in the **Scheduling** section.
+1.  Click on **Facilities/Equipment** in the **Scheduling** section.
 
 2.  Click **+ New**.
 
@@ -89,7 +89,7 @@ In this task, you will create facilities/equipment records for the organizationa
 
 13. Toggle **Observe Business Closure** to **On**
 
-14. Click **Save and Close**.
+14. Click **Save** to save the working hours, and then click **Save and Close**.
 
 15. Repeat the previous 5 steps and create the **Facilities/Equipment** listed in the table below.
 
@@ -145,17 +145,19 @@ In this task you will create new resource categories.
 
 2.  Click on **Resource Categories** in the **Scheduling** section.
 
-3.  Enter **[your prefix ex. mollyc]** + **Senior Technician** for **Name** and click **Save and Close**.
+3.  Click **+ New**.
 
-4.  Click **+ New**.
+4.  Enter **[your prefix ex. mollyc]** + **Senior Technician** for **Name** and click **Save and Close**.
 
-5.  Enter **[your prefix ex. mollyc]** + **Technician** for **Name** and click **Save and Close**.
+5.  Click **+ New**.
 
-6.  Create two more **Resource Categories** and name them **[your prefix ex. mollyc]** + **Service Bay Facility** and **[your prefix ex. mollyc]** + **Tire Jack Equipment**.
+6.  Enter **[your prefix ex. mollyc]** + **Technician** for **Name** and click **Save and Close**.
 
-7.  You should now have 4 **Resource Categories**.
+7.  Create two more **Resource Categories** and name them **[your prefix ex. mollyc]** + **Service Bay Facility** and **[your prefix ex. mollyc]** + **Tire Jack Equipment**.
 
-8.  Do NOT navigate away from this application.
+8.  You should now have 4 **Resource Categories**.
+
+9.  Do NOT navigate away from this application.
 
 ## Task 3: Create Resources
 
