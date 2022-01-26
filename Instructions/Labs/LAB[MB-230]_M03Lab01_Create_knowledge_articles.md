@@ -63,7 +63,7 @@ In this task, you will create an internal Knowledge Article for missing parts.
 
 20. Go to the **Business Process Flow** and click on the **Author** stage.
 
-21. Select **Maintenance** for **Article Subject**, check the **Mark for Review** checkbox, and click **Next Stage**.
+21. Select **Service** for **Article Subject**, check the **Mark for Review** checkbox, and click **Next Stage**.
 
 ### Task 2 – Approve and Publish Knowledge Article
 
