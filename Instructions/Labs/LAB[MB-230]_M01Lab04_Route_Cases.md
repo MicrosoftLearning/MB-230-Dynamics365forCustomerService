@@ -110,7 +110,7 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 21. Select **Equals** for the operator.
 
-22. In the right-hand side of the condition, select **Maintenance**.
+22. In the right-hand side of the condition, select **Service**.
 
 23. Select **Queue** for **Route To**.
 
