@@ -132,7 +132,7 @@ In this exercise, you will create a Phone Call activity and then convert the act
 
 7.  Ensure that your user record is set for **Call To**.
 
-8.  In the Maintenance field, enter **Annual service needs to be scheduled for Jon**
+8.  In the Description field, enter **Annual service needs to be scheduled for Jon**
 
 9.  Click into the **Duration field** and type **10 minutes**.
 
