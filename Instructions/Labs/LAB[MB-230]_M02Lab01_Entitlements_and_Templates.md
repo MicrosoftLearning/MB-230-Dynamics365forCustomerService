@@ -402,7 +402,7 @@ In this task, you will test that the SLA is applied to cases.
 
 4.  Enter **[your prefix ex. mollyc]** + **SLA Test #1** for **Case Title** and select the **Relecloud** account for **Customer**.
 
-5.  Select **Web** for **Origin**, select **Problem** for **Type** and click **Save**.
+5.  Select **Web** for **Origin** and click **Save**.
 
 6.  Select the **SLA** tab. You should see the Case Response By SLA KPI in progress with failure time set to 1 hour's time.
 
