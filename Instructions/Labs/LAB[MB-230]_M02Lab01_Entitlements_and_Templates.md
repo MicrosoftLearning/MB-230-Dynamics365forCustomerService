@@ -84,7 +84,7 @@ In this task, you will test the default entitlement for Relecloud.
 
 4.  Enter **[your prefix ex. mollyc]** + **Audio System Setup Issues** for **Case Title**, select the **Relecloud** account you created in the earlier lab for **Customer**, select **Email** for **Origin**, select **Problem** for **Type** and click **Save**. The entitlement should be applied automatically.
 
-5.  Click **+ New**.
+5.  Click **+ New Case**.
 
 6.  Enter **[your prefix ex. mollyc]** + **Defective Speaker** for **Case Title**, select the **Relecloud** account you created in the earlier lab for **Customer**, select **Facebook** for **Origin**, select **Request** for **Type**, select the **Entitlement 1** record you created for **Entitlement** and click **Save**.
 
