@@ -34,43 +34,31 @@ In this exercise, you will create four queues.
 
 9.  Click **Save**.
 
-10. Click **Add Existing User**
+10. Click **+ New**.
 
-11. Search for an select your user and click **Add**.
+11. Enter **[your prefix ex. mollyc]** + **Silver** for **Name** and select **Private** for **Type**.
 
-12. Click **+ New**.
+12. Click **Save**.
 
-13. Enter **[your prefix ex. mollyc]** + **Silver** for **Name** and select **Private** for **Type**.
+13. Click **+ New**.
 
-14. Click **Save**.
+14. Enter **[your prefix ex. mollyc]** + **Gold** for **Name** and select **Private** for **Type**.
 
-15. Click **Add Existing User**
+15. Click **Save**.
 
-16. Search for an select your user and click **Add**.
+16. Click **Queues** under the **Case Settings** section.
 
-17. Click **+ New**.
+17. Select the **My Active Queues** view
 
-18. Enter **[your prefix ex. mollyc]** + **Gold** for **Name** and select **Private** for **Type**.
+18. You should now see a private queue that was created for your user automatically, the public queue, and three private queues that you created in this lab.
 
-19. Click **Save**.
+19. Click on **Service Management** at the bottom of the **Site Map** in the left-hand navigation and select **Service**.
 
-20. Click **Add Existing User**
+20. Click **Queues** under the **Service** section.
 
-21. Search for an select your user and click **Add**.
+21. Change the view from **Items I am working on** to **All items**
 
-22. Click **Queues** under the **Case Settings** section.
-
-23. Select the **My Active Queues** view
-
-24. You should now see a private queue that was created for your user automatically, the public queue, and three private queues that you created in this lab.
-
-25. Click on **Service Management** at the bottom of the **Site Map** in the left-hand navigation and select **Service**.
-
-26. Click **Queues** under the **Service** section.
-
-27. Change the view from **Items I am working on** to **All items**
-
-28. Review the options in the list for **Queues I'm a member of**. You should be able to see the four queues you created.
+22. Review the options in the list for **Queues I'm a member of**. You should be able to see the four queues you created.
 
 ### Task 2 – Add cases to queues
 
