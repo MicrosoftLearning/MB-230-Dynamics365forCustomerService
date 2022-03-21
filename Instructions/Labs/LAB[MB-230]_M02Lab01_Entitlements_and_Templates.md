@@ -410,7 +410,7 @@ In this task, you will test that the SLA is applied to cases.
 
 8.  Select the **SLA** tab. You should see the Case Response By SLA KPI with status on **Succeeded**.
 
-9.  Click **+ New**.
+9.  Click **Go back**, click **+ New Case**.
 
 10. Enter **[your prefix ex. mollyc]** + **SLA Test #2** for **Case Title** and select the **Relecloud** account for **Customer**.
 
