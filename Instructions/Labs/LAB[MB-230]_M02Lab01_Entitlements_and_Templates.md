@@ -180,7 +180,7 @@ In this task, you will test the entitlement you created from the entitlement tem
 
 5.  Select **Phone** for **Origin**, select **Phone Call Only Terms** for **Entitlement** and click **Save**.
 
-6.  Click **+ New**.
+6.  Click **Go back**, click **+ New Case**.
 
 7.  Enter **[your prefix ex. mollyc]** + **Wrong cables** for **Case Title** and select the **Relecloud** account for **Customer**.
 
