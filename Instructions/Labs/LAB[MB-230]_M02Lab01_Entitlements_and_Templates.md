@@ -88,7 +88,7 @@ In this task, you will test the default entitlement for Relecloud.
 
 6. Enter **[your prefix ex. mollyc]** + **Defective Speaker** for **Case Title**, select the **Relecloud** account you created in the earlier lab for **Customer**, select **Facebook** for **Origin**, select the **Entitlement 1** record you created for **Entitlement** and click **Save**.
 
-7.  Click **+ New**.
+7.  Click **+ New Case**.
 
 8.  Enter **[your prefix ex. mollyc]** + **Product Query** for **Case Title**, select the **Relecloud** account you created in the earlier lab for **Customer**, select **Phone** for **Origin**, select **Question** for **Type**, select the **Entitlement 1** record you created for **Entitlement** and click **Save**.
 
