@@ -118,7 +118,7 @@ In this exercise you will learn how to navigate the App profile manager, create 
 
 6.  Click on the profile you created earlier in this lab.
 
-7.  Click **Assign** users**.
+7.  Click **Assign users**.
 
 8.  Click **OK**.
 
