@@ -146,8 +146,12 @@ In this exercise, you will create a Phone Call activity and then convert the act
 
 2.  Click **Convert To** located on the command bar [Note:you may need to click on the ellipsis (...)] and select **To Case**.
 
-3.  Click on the **Subject** field and expand **Service** and select **Maintenance**.
+3.  Click on **Customer** field in the **Convert to Case** window.
 
-4.  Click **Convert**.
+4.  Enter *your prefix ex. mollyc* and select the **Jon Doe** contact you created in Task 2.
 
-5.  Review the case that was created. Note that the customer is linked to the contact and the origin is set to Phone.
+5.  Click on the **Subject** field and expand **Service** and select **Maintenance**.
+
+6.  Click **Convert**.
+
+7.  Review the case that was created. Note that the customer is linked to the contact and the origin is set to Phone.
