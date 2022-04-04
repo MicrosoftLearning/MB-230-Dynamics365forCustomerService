@@ -414,6 +414,6 @@ In this task, you will test that the SLA is applied to cases.
 
 10. Enter **[your prefix ex. mollyc]** + **SLA Test #2** for **Case Title** and select the **Relecloud** account for **Customer**.
 
-11. Select **Email** for **Origin**, select **Question** for **Type** and click **Save**.
+11. Select **Email** for **Origin** and click **Save**.
 
 12. Select the **SLA** tab. There should be no SLA KPI items.
