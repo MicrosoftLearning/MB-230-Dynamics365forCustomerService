@@ -24,7 +24,7 @@ In this exercise, you will create four queues.
 
 4.  Click **+ New** located on the command bar.
 
-5.  Enter **[your prefix ex. mollyc]** + **Support** for **Name** and select **Public** for **Type**, and enter **[your prefix ex. mollyc]** + **.support@test.invalid**.
+5.  Enter **[your prefix ex. mollyc]** + **Support** for **Name** and select **Public** for **Type**, and enter **[your prefix ex. mollyc]** + **.support@test.invalid** for **Incomming Email**.
 
 6.  Click **Save**.
 
