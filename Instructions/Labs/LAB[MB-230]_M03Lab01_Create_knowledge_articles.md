@@ -104,7 +104,7 @@ Article.
 
 6.  Click **Save**.
 
-7.  Click **Approve**. You may need to click the ellipsis to see this
+7.  Click **Approve**. You may need to click the ellipsis to see this. Click **OK**.
 
 8.  Click **Publish**.
 
