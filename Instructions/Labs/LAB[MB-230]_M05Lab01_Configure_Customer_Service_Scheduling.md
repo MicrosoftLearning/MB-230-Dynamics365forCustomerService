@@ -36,12 +36,10 @@ In this task, you will define three organizational units to act as service locat
 
 9.  Enter **47.63993** for Latitude, **-122.12557** for Longitude and click **Save and Close**. You may use different GPS locations but make sure they are valid locations.
 
-10. Create two more **Organizational Units** with the values listed in the table below.
+10. Create two more **Sites** with the values listed in the table below.
 
-| **Name**          | **Latitude** | **Longitude** |
-|-------------------|--------------|---------------|
-| 19th Ave Location | 47.63962     | \-122.12853   |
-| 35th St Location  | 47.64284     | \-122.13009   |
+ -19th Ave Location 
+ -35th St Location 
 
 11. You should now have three Organizational Units.
 
