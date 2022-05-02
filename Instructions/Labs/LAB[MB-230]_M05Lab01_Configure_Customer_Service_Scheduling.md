@@ -43,7 +43,7 @@ In this task, you will define three organizational units to act as service locat
 | 19th Ave Location | 47.63962     | \-122.12853   |
 | 35th St Location  | 47.64284     | \-122.13009   |
 
-11. You should now have three Organizational Units.
+11. You should now have three Sites.
 
 12. Do not navigate away from this application.
 
