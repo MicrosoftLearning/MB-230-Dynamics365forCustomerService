@@ -28,7 +28,7 @@ In this task, you will define three organizational units to act as service locat
 
 5.  Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Scheduling**.
 
-6.  Click on **Organizational Units** in the **Settings** section.
+6. Click on **Sites** in the **Settings** section.
 
 7.  Click **+ New**.
 
