@@ -36,12 +36,10 @@ In this task, you will define three organizational units to act as service locat
 
 9. Click **Save and Close**.
 
-10. Create two more **Organizational Units** with the values listed in the table below.
+10. Create two more **Sites** with the values listed in the table below.
 
-| **Name**          | **Latitude** | **Longitude** |
-|-------------------|--------------|---------------|
-| 19th Ave Location | 47.63962     | \-122.12853   |
-| 35th St Location  | 47.64284     | \-122.13009   |
+ -19th Ave Location 
+ -35th St Location 
 
 11. You should now have three Organizational Units.
 
