@@ -41,7 +41,7 @@ In this task, you will define three organizational units to act as service locat
  -19th Ave Location 
  -35th St Location 
 
-11. You should now have three Organizational Units.
+11. You should now have three Sites.
 
 12. Do not navigate away from this application.
 
