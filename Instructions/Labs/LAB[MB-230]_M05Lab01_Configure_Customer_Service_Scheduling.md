@@ -34,7 +34,7 @@ In this task, you will define three organizational units to act as service locat
 
 8. Enter **[your prefix ex. mollyc]** + **Main Ave Location** for **Name**.
 
-9.  Enter **47.63993** for Latitude, **-122.12557** for Longitude and click **Save and Close**. You may use different GPS locations but make sure they are valid locations.
+9. Click **Save and Close**.
 
 10. Create two more **Organizational Units** with the values listed in the table below.
 
