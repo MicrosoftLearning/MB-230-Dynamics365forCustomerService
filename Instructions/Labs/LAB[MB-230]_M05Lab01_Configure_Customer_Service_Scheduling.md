@@ -32,7 +32,7 @@ In this task, you will define three organizational units to act as service locat
 
 7.  Click **+ New**.
 
-8. Enter **[your prefix ex. mollyc]** + **Main Ave Location** for **Name**.
+8. Enter **[your prefix ex. mollyc]** + **Main Ave Location** for **Name**. Click on the **Scheduling** tab and enter a valid number for both Latitude and Longitude. 
 
 9. Click **Save and Close**.
 
