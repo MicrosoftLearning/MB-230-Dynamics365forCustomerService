@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Lab: Agent collaboration'
+    title: 'Lab 3: Agent collaboration'
     module: 'Module 6: Customer Service workspace'
 ---
 
