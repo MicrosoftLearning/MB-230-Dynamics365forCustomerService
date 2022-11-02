@@ -32,7 +32,7 @@ In this Module 0 lab, you will validate that your classroom tenant is working as
 
 2. Select the **WWLLABnnn** environment, where nnn is a number. This is the shared Dynamics 365 environment where you will be performing all labs.
 
-3. Click **Open environment**.
+3. Click **Open**.
 
 4. From the list of available Dynamics 365 apps, select the **Customer Service Hub** app.
 
