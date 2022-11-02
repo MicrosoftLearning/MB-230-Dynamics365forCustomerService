@@ -250,25 +250,25 @@ In this task, you will create a Customer Service Schedule to use with SLAs.
 
 4.  Click on **Customer Service Schedule** in the **Service Terms** section.
 
-5.  Click **+ New**.
+2.  Click **+ New**.
 
-6.  Enter **[your prefix ex. mollyc]** + **Customer Service Schedule** for **Name**.
+3.  Enter **[your prefix ex. mollyc]** + **Customer Service Schedule** for **Name**.
 
-7.  Click **Create**.
+4.  Click **Create**.
 
-8.  Uncheck **Saturday** and **Sunday**.
+5.  Uncheck **Saturday** and **Sunday**.
 
-9.  Click **Set Work Hours**.
+6.  Click **Set Work Hours**.
 
-10. Set Start to **9:00AM** and End to **5:00PM**.
+7. Set Start to **9:00AM** and End to **5:00PM**.
 
-11. Click **OK**.
+8. Click **OK**.
 
-12. Set **Holiday Schedule** to **Observe** and select the Holiday Schedule you created.
+9. Set **Holiday Schedule** to **Observe** and select the Holiday Schedule you created.
 
-13. Select your local **Time Zone**
+10. Select your local **Time Zone**
 
-14. Click **Save & Close**.
+11. Click **Save & Close**.
 
 ### Task 3 – Create Service Level Agreement
 
