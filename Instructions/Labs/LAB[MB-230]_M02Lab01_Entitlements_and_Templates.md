@@ -242,13 +242,7 @@ In this task, you will create A holiday schedule to be used with Customer Servic
 
 In this task, you will create a Customer Service Schedule to use with SLAs.
 
-1.  Open the **Customer Service Hub** app.
-
-2.  Click on **Home** at the top of the left-hand side navigation.
-
-3.  Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Service Management**.
-
-4.  Click on **Customer Service Schedule** in the **Service Terms** section.
+1.  In the **Customer Service Hub** app. Click on **Customer Service Schedule** in the **Service Terms** section.
 
 5.  Click **+ New**.
 
