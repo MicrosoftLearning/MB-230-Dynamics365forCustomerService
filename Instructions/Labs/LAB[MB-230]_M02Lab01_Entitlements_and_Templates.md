@@ -282,93 +282,93 @@ In this task, you will create a SLA that sets a 1 hour response time on a proble
 
 4.  Click on **SLA KPIs** in the **Service Terms** section.
 
-5.  Click **+ New**.
+2.  Click **+ New**.
 
-6.  Enter **[your prefix ex. mollyc]** + **Case Response By** for **Name**.
+3.  Enter **[your prefix ex. mollyc]** + **Case Response By** for **Name**.
 
-7.  Select **Case** for **Entity Name**.
+4.  Select **Case** for **Entity Name**.
 
-8.  Select **First Response By KPI** for **KPI FIeld**
+5.  Select **First Response By KPI** for **KPI FIeld**
 
-9.  Select **Created On** for **Applicable From**
+6.  Select **Created On** for **Applicable From**
 
-10. Click **Save**. DO NOT navigate away from this form.
+7. Click **Save**. DO NOT navigate away from this form.
 
-11. Click **Activate** in the command bar.
+8. Click **Activate** in the command bar.
 
-12. Click **Activate**.
+9. Click **Activate**.
 
-13. Click on **Service Level Agreements** in the **Service Terms** section.
+10. Click on **Service Level Agreements** in the **Service Terms** section.
 
-14. Click **+ New**.
+11. Click **+ New**.
 
-15. Enter **[your prefix ex. mollyc]** + **SLA** for **Name**.
+12. Enter **[your prefix ex. mollyc]** + **SLA** for **Name**.
 
-16. Select **Case** for **Primary Entity**.
+13. Select **Case** for **Primary Entity**.
 
-17. Click **Save**.
+14. Click **Save**.
 
-18. Click **+ New SLA Item**
+15. Click **+ New SLA Item**
 
-19. Enter **Problems** for **Name**.
+16. Enter **Problems** for **Name**.
 
-20. Select the **SLA KPI** you created for **KPI**.
+17. Select the **SLA KPI** you created for **KPI**.
 
-21. Select the **Customer Service Schedule** you created for **Business Hours**.
+18. Select the **Customer Service Schedule** you created for **Business Hours**.
 
-22. Under **Applicable When**, click on **Add** and **Add row**.
+19. Under **Applicable When**, click on **Add** and **Add row**.
 
-23. In the left-hand side of the condition, select **Case Type (Case)**.
+20. In the left-hand side of the condition, select **Case Type (Case)**.
 
-24. Select **Equals** for the operator.
+21. Select **Equals** for the operator.
 
-25. In the right-hand side of the condition, select **Problem**.
+22. In the right-hand side of the condition, select **Problem**.
 
-26. Under **Success Conditions**, click on **Add** and **Add row**.
+23. Under **Success Conditions**, click on **Add** and **Add row**.
 
-27. In the left-hand side of the condition, select **First Response Sent (Case)**.
+24. In the left-hand side of the condition, select **First Response Sent (Case)**.
 
-28. Select **Equals** for the operator.
+25. Select **Equals** for the operator.
 
-29. In the right-hand side of the condition, select **Yes**.
+26. In the right-hand side of the condition, select **Yes**.
 
-30. Set **Warn After** to **45 minutes**.
+27. Set **Warn After** to **45 minutes**.
 
-31. Set **Failure After** to **1 hour**.
+28. Set **Failure After** to **1 hour**.
 
-32. Click **Save**.
+29. Click **Save**.
 
-33. Click **Configure Actions**
+30. Click **Configure Actions**
 
-34. If prompted to connect to Dataverse, click **Continue**.
+31. If prompted to connect to Dataverse, click **Continue**.
 
-35. Expand the **Switch** step.
+32. Expand the **Switch** step.
 
-36. In the **Non-compliant** path, click on **Add an action**.
+33. In the **Non-compliant** path, click on **Add an action**.
 
-37. Search for an select **Microsoft Dataverse**.
+34. Search for an select **Microsoft Dataverse**.
 
-38. Select the **Update a row** action.
+35. Select the **Update a row** action.
 
-39. Select **Cases** for **Table name**.
+36. Select **Cases** for **Table name**.
 
-40. Select **Regarding ID** for **Row ID**.
+37. Select **Regarding ID** for **Row ID**.
 
-41. Click **Show Advanced options**.
+38. Click **Show Advanced options**.
 
-42. Set **Is Escalated** to **Yes**.
+39. Set **Is Escalated** to **Yes**.
 
-43. Click **Save** and close the Power Automate browser tab..
+40. Click **Save** and close the Power Automate browser tab..
 
-44. Click **Close** in the *SLA Item* dialog.
+41. Click **Close** in the *SLA Item* dialog.
 
-45. Click **Save**.
+42. Click **Save**.
 
-46. Click **Activate**.
+43. Click **Activate**.
 
-47. Click **Activate**.
+44. Click **Activate**.
 
-48. Click **Set As Default**.
+45. Click **Set As Default**.
 
 ### Task 4 – Service Level Agreement settings
 
