@@ -22,7 +22,7 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 4.  Click **+ New** located on the command bar.
 
-5.  Enter **[your prefix ex. mollyc]** + **Create case for suppport email** for **Rule name**, select the **Support** queue you created, and select **Email** for **Activity type to monitor**.
+5.  Enter **[your prefix ex. mollyc]** + **Create case for support email** for **Rule name**, select the **Support** queue you created for **Queue to monitor**, and select **Email** for **Activity type to monitor**.
 
 6.  Click **Save**.
 
