@@ -228,7 +228,7 @@ In this task, you will create A holiday schedule to be used with Customer Servic
 
 6.  Enter **[your prefix ex. mollyc]** + **Holidays** for **Name**.
 
-7.  Click **Create**.
+7.  Click **Create**. If a pop-up appears stating "service-level agreements (SLAs) are deprecated in the web client" Click **I acknowledge**.
 
 8.  In the Holidays section, click **+ New**.
 
