@@ -384,7 +384,7 @@ In this task, you will configure the settings for service level agreements.
 
 5.  Verify that the **Disable SLAs** option is set to **No**.
 
-6.  Set the the **Apply SLA after manual override** option is set to **Yes**.
+6.  Verify that the **Apply SLA after manual override** option is set to **Yes**.
 
 7.  In **Select SLA Pause Status**, move **On Hold** and **Waiting for Details** from **Available** to **Selected**.
 
