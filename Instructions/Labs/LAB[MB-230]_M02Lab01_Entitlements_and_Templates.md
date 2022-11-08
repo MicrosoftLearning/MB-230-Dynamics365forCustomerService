@@ -96,7 +96,7 @@ In this task, you will test the default entitlement for Relecloud.
 
 10. Click **OK**.
 
-11  Scroll to the **Entitlement** field and click on the **[your prefix ex. mollyc]+ Entitlement 1**. Click **Discard changes**.
+11. Scroll to the **Entitlement** field and click on the **[your prefix ex. mollyc]+ Entitlement 1**. Click **Discard changes**.
 
 12. Go to the **Entitlement Terms** section and make sure you have **98 Remaining Terms**.
 
