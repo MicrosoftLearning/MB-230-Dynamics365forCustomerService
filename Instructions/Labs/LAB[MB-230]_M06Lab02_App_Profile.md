@@ -122,7 +122,7 @@ In this exercise you will learn how to navigate the App profile manager, create 
 
 8.  Click **OK**.
 
-9.  Click **Add Existing User**
+9.  Click **+ Add users**
 
 10. Search for and select your user and click on **Add**
 
