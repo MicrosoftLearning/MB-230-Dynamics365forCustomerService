@@ -362,21 +362,15 @@ In this task, you will create a SLA that sets a 1 hour response time on a proble
 
 In this task, you will configure the settings for service level agreements.
 
-1.  Open the **Customer Service Hub** app.
+1.  In the **Customer Service Hub** app, click on **Service Configuration Settings** in the **Service Terms** section.
 
-2.  Click on **Home** at the top of the left-hand side navigation.
+2.  Verify that the **Disable SLAs** option is set to **No**.
 
-3.  Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Service Management**.
+3.  Set the **Apply SLA after manual override** to **Yes**.
 
-4.  Click on **Service Configuration Settings** in the **Service Terms** section.
+4.  In **Select SLA Pause Status**, move **On Hold** and **Waiting for Details** from **Available** to **Selected**.
 
-5.  Verify that the **Disable SLAs** option is set to **No**.
-
-6.  Verify that the **Apply SLA after manual override** option is set to **Yes**.
-
-7.  In **Select SLA Pause Status**, move **On Hold** and **Waiting for Details** from **Available** to **Selected**.
-
-8.  Click **Save**.
+5.  Click **Save**.
 
 ### Task 5 – Test Service Level Agreements
 
