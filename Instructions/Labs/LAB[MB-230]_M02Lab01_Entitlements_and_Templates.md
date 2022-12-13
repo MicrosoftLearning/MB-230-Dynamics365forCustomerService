@@ -86,7 +86,7 @@ In this task, you will test the default entitlement for Relecloud.
 
 5.  Click **+ New Case**.
 
-6. Enter **[your prefix ex. mollyc]** + **Defective Speaker** for **Case Title**, select the **Relecloud** account you created in the earlier lab for **Customer**, select **Facebook** for **Origin**, select the **Entitlement 1** record you created for **Entitlement** and click **Save**.
+6. Enter **[your prefix ex. mollyc]** + **Defective Speaker** for **Case Title**, select the **Relecloud** account you created in the earlier lab for **Customer**, select **Facebook** for **Origin**, select the **Entitlement 1** record you created for **Entitlement** and click **Save & Close**.
 
 7.  Click **+ New Case**.
 
@@ -96,7 +96,7 @@ In this task, you will test the default entitlement for Relecloud.
 
 10. Click **OK**.
 
-11  Scroll to the **Entitlement** field and click on the **[your prefix ex. mollyc]+ Entitlement 1**. Click **Discard changes**.
+11. Scroll to the **Entitlement** field and click on the **[your prefix ex. mollyc]+ Entitlement 1**. Click **Discard changes**.
 
 12. Go to the **Entitlement Terms** section and make sure you have **98 Remaining Terms**.
 
@@ -228,7 +228,7 @@ In this task, you will create A holiday schedule to be used with Customer Servic
 
 6.  Enter **[your prefix ex. mollyc]** + **Holidays** for **Name**.
 
-7.  Click **Create**.
+7.  Click **Create**. If a pop-up appears stating "service-level agreements (SLAs) are deprecated in the web client" Click **I acknowledge**.
 
 8.  In the Holidays section, click **+ New**.
 
@@ -242,133 +242,121 @@ In this task, you will create A holiday schedule to be used with Customer Servic
 
 In this task, you will create a Customer Service Schedule to use with SLAs.
 
-1.  Open the **Customer Service Hub** app.
+1.  In the **Customer Service Hub** app. Click on **Customer Service Schedule** in the **Service Terms** section.
 
-2.  Click on **Home** at the top of the left-hand side navigation.
+2.  Click **+ New**.
 
-3.  Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Service Management**.
+3.  Enter **[your prefix ex. mollyc]** + **Customer Service Schedule** for **Name**.
 
-4.  Click on **Customer Service Schedule** in the **Service Terms** section.
+4.  Click **Create**.
 
-5.  Click **+ New**.
+5.  Uncheck **Saturday** and **Sunday**.
 
-6.  Enter **[your prefix ex. mollyc]** + **Customer Service Schedule** for **Name**.
+6.  Click **Set Work Hours**.
 
-7.  Click **Create**.
+7. Set Start to **9:00AM** and End to **5:00PM**.
 
-8.  Uncheck **Saturday** and **Sunday**.
+8. Click **OK**.
 
-9.  Click **Set Work Hours**.
+9. Set **Holiday Schedule** to **Observe** and select the Holiday Schedule you created.
 
-10. Set Start to **9:00AM** and End to **5:00PM**.
+10. Select your local **Time Zone**
 
-11. Click **OK**.
-
-12. Set **Holiday Schedule** to **Observe** and select the Holiday Schedule you created.
-
-13. Select your local **Time Zone**
-
-14. Click **Save & Close**.
+11. Click **Save & Close**.
 
 ### Task 3 – Create Service Level Agreement
 
 In this task, you will create a SLA that sets a 1 hour response time on a problem case.
 
-1.  Open the **Customer Service Hub** app.
+1.  In the **Customer Service Hub** app, click on **SLA KPIs** in the **Service Terms** section.
 
-2.  Click on **Home** at the top of the left-hand side navigation.
+2.  Click **+ New**.
 
-3.  Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Service Management**.
+3.  Enter **[your prefix ex. mollyc]** + **Case Response By** for **Name**.
 
-4.  Click on **SLA KPIs** in the **Service Terms** section.
+4.  Select **Case** for **Entity Name**.
 
-5.  Click **+ New**.
+5.  Select **First Response By KPI** for **KPI FIeld**
 
-6.  Enter **[your prefix ex. mollyc]** + **Case Response By** for **Name**.
+6.  Select **Created On** for **Applicable From**
 
-7.  Select **Case** for **Entity Name**.
+7. Click **Save**. DO NOT navigate away from this form.
 
-8.  Select **First Response By KPI** for **KPI FIeld**
+8. Click **Activate** in the command bar.
 
-9.  Select **Created On** for **Applicable From**
+9. Click **Activate**.
 
-10. Click **Save**. DO NOT navigate away from this form.
+10. Click on **Service Level Agreements** in the **Service Terms** section.
 
-11. Click **Activate** in the command bar.
+11. Click **+ New**.
 
-12. Click **Activate**.
+12. Enter **[your prefix ex. mollyc]** + **SLA** for **Name**.
 
-13. Click on **Service Level Agreements** in the **Service Terms** section.
+13. Select **Case** for **Primary Entity**.
 
-14. Click **+ New**.
+14. Click **Save**.
 
-15. Enter **[your prefix ex. mollyc]** + **SLA** for **Name**.
+15. Click **+ New SLA Item**
 
-16. Select **Case** for **Primary Entity**.
+16. Enter **Problems** for **Name**.
 
-17. Click **Save**.
+17. Select the **SLA KPI** you created for **KPI**.
 
-18. Click **+ New SLA Item**
+18. Select the **Customer Service Schedule** you created for **Business Hours**.
 
-19. Enter **Problems** for **Name**.
+19. Under **Applicable When**, click on **Add** and **Add row**.
 
-20. Select the **SLA KPI** you created for **KPI**.
+20. In the left-hand side of the condition, select **Case Type (Case)**.
 
-21. Select the **Customer Service Schedule** you created for **Business Hours**.
+21. Select **Equals** for the operator.
 
-22. Under **Applicable When**, click on **Add** and **Add row**.
+22. In the right-hand side of the condition, select **Problem**.
 
-23. In the left-hand side of the condition, select **Case Type (Case)**.
+23. Under **Success Conditions**, click on **Add** and **Add row**.
 
-24. Select **Equals** for the operator.
+24. In the left-hand side of the condition, select **First Response Sent (Case)**.
 
-25. In the right-hand side of the condition, select **Problem**.
+25. Select **Equals** for the operator.
 
-26. Under **Success Conditions**, click on **Add** and **Add row**.
+26. In the right-hand side of the condition, select **Yes**.
 
-27. In the left-hand side of the condition, select **First Response Sent (Case)**.
+27. Set **Warn After** to **45 minutes**.
 
-28. Select **Equals** for the operator.
+28. Set **Failure After** to **1 hour**.
 
-29. In the right-hand side of the condition, select **Yes**.
+29. Click **Save**.
 
-30. Set **Warn After** to **45 minutes**.
+30. Click **Configure Actions**
 
-31. Set **Failure After** to **1 hour**.
+31. If prompted to connect to Dataverse, click **Continue**.
 
-32. Click **Save**.
+32. Expand the **Switch** step.
 
-33. Click **Configure Actions**
+33. In the **Non-compliant** path, click on **Add an action**.
 
-34. If prompted to connect to Dataverse, click **Continue**.
+34. Search for an select **Microsoft Dataverse**.
 
-35. Expand the **Switch** step.
+35. Select the **Update a row** action.
 
-36. In the **Non-compliant** path, click on **Add an action**.
+36. Select **Cases** for **Table name**.
 
-37. Search for an select **Microsoft Dataverse**.
+37. Select **Regarding ID** for **Row ID**.
 
-38. Select the **Update a row** action.
+38. Click **Show Advanced options**.
 
-39. Select **Cases** for **Table name**.
+39. Set **Is Escalated** to **Yes**.
 
-40. Select **Regarding ID** for **Row ID**.
+40. Click **Save** and close the Power Automate browser tab..
 
-41. Click **Show Advanced options**.
+41. Click **Close** in the *SLA Item* dialog.
 
-42. Set **Is Escalated** to **Yes**.
+42. Click **Save**.
 
-43. Click **Save** and close the Power Automate browser tab..
+43. Click **Activate**.
 
-44. Click **Close** in the *SLA Item* dialog.
+44. Click **Activate**.
 
-45. Click **Save**.
-
-46. Click **Activate**.
-
-47. Click **Activate**.
-
-48. Click **Set As Default**. Click **OK** in the **Change default SLA** pop-up. 
+45. Click **Set As Default**. Click **OK** in the **Change default SLA** pop-up.
 
 ### Task 4 – Service Level Agreement settings
 
@@ -384,7 +372,7 @@ In this task, you will configure the settings for service level agreements.
 
 5.  Verify that the **Disable SLAs** option is set to **No**.
 
-6.  Set the the **Apply SLA after manual override** option is set to **Yes**.
+6.  Verify that the **Apply SLA after manual override** option is set to **Yes**.
 
 7.  In **Select SLA Pause Status**, move **On Hold** and **Waiting for Details** from **Available** to **Selected**.
 
