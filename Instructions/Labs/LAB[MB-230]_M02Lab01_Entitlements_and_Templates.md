@@ -356,7 +356,7 @@ In this task, you will create a SLA that sets a 1 hour response time on a proble
 
 44. Click **Activate**.
 
-45. Click **Set As Default**.
+45. Click **Set As Default**. Click **OK** in the **Change default SLA** pop-up.
 
 ### Task 4 – Service Level Agreement settings
 
