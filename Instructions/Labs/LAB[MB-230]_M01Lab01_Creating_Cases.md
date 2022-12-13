@@ -20,7 +20,7 @@ In this exercise, you will navigate to the Dynamics 365 Customer Service Applica
 
 2.  Select the Dynamics 365 environment.
 
-3.  Click **Open environment**.
+3.  Click **Open**.
 
 4.  You should be in the **Customer Service Hub** app. If you are in a different app, click on the name of the app in the top left of the application next to Dynamics 365 and from the list of published apps, select the **Customer Service Hub** app
 
