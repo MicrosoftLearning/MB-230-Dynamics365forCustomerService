@@ -78,7 +78,7 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 
 6.  Select **Phone** from the **Origin** drop-down field.
 
-7.  Enter *Armband* in the **Product** field, click on the lookup icon and select the **Armband 100** product.
+7.  Enter *JBO* in the **Product** field, click on the lookup icon and select the **JBO Top D. Hifi** product.
 
 8.  Enter **Laptop display is too bright** in the **Description** field.
 
