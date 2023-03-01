@@ -48,7 +48,7 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 3.  Open the case you resolved in task 1.
 
-4.  Click on the **Reactivate Case** button located in the command bar.
+4.  Click on the **Reactivate Case** button located in the command bar. A dialog will be displayed with the message to confirm, Select **Reactivate**. 
 
 5.  Change the **Case Title** to **[your prefix ex. mollyc]** + **Defective Screen Not Received** in the **Details** tab.
 
