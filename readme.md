@@ -1,4 +1,4 @@
-# MB-230 - Dynamics 365 for Customer Service
+# MB-230 - Microsoft Dynamics 365 for Customer Service
 
 ## Omnichannel Lab Notice: 10/15/2021
 Due to an issue with the tenant, it is not possible to perform labs Omnichannel for Customer Service in the lab environment. However, there are new labs for Unified routing, Customer Service workspace, and App profile manager. If MCTs would still like access to the Omnichannel labs to demo in their own environment, they can be found in the branch of this GitHub repository titled **MasterBackup_OC.**
