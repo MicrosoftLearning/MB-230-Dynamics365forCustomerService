@@ -24,7 +24,7 @@ In this exercise, you will create four queues.
 
 4.  Click **+ New** located on the command bar.
 
-5.  Enter **[your prefix ex. mollyc]** + **Support** for **Name** and select **Public** for **Type**, and enter **[your prefix ex. mollyc]** + **.support@test.invalid** for **Incomming Email**.
+5.  Enter **[your prefix ex. mollyc]** + **Support** for **Name** and select **Public** for **Type**, and enter **[your prefix ex. mollyc]** + **.support@test.invalid** for **Incoming Email**.
 
 6.  Click **Save**.
 
@@ -48,7 +48,7 @@ In this exercise, you will create four queues.
 
 16. Click **Queues** under the **Case Settings** section.
 
-17. Select the **My Active Queues** view
+17. Select the **My Active Queues** view.
 
 18. You should now see a private queue that was created for your user automatically, the public queue, and three private queues that you created in this lab.
 
@@ -56,9 +56,7 @@ In this exercise, you will create four queues.
 
 20. Click **Queues** under the **Service** section.
 
-21. Change the view from **Items I am working on** to **All items**
-
-22. Review the options in the list for **Queues I'm a member of**. You should be able to see the four queues you created.
+21. Change the view from **Items I am working on** to **All items**.
 
 ### Task 2 – Add cases to queues
 
@@ -66,13 +64,13 @@ In this exercise, you will create four queues.
 
 2.  Click on **Cases** in the **Service** section of the sitemap.
 
-3.  Enter *your prefix ex. mollyc* in the **Search this view** field, click on the lookup icon and select the **Service Required** case you created in the earlier lab.
+3.  Enter *your prefix ex. mollyc* in the **Filter by keyword** field, click the arrow, and select the **Service Required** case you created in the earlier lab.
 
 4.  Click **Add to Queue** located on the command bar.
 
-5.  Enter *your prefix ex. mollyc* in the **Queue** field, click on the lookup icon and select the **Bronze** queue you created in the task
+5.  Enter *your prefix ex. mollyc* in the **Queue** field, click on the lookup icon and select the **Bronze** queue you created.
 
-6.  Click **Add**
+6.  Click **Add**.
 
 7.  Click on **Cases** in the **Service** section of the sitemap.
 
@@ -80,13 +78,13 @@ In this exercise, you will create four queues.
 
 9.  Click **Add to Queue** located on the command bar.
 
-10. Enter *your prefix ex. mollyc* in the **Queue** field, click on the lookup icon and select the **Support** queue you created in the task
+10. Enter *your prefix ex. mollyc* in the **Queue** field, click on the lookup icon and select the **Support** queue you created.
 
-11. Click **Add**
+11. Click **Add**.
 
 12. Click **Queues** under the **Service** section.
 
-13. Change the view from **Items I am working on** to **All items**
+13. Change the view from **Items I am working on** to **All items**.
 
 14. You should see the Service Required case listed for the Bronze queue.
 
@@ -128,7 +126,7 @@ In this exercise, you will create four queues.
 
 15. Note that **Worked By** is set to your user.
 
-16. Click **Close**
+16. Click **Close**.
 
 17. Click to the left of the case in the queue to select it.
 
