@@ -110,7 +110,7 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 21. Select **Equals** for the operator.
 
-22. In the right-hand side of the condition, select **Service**.
+22. In the right-hand side of the condition, select **Maintenance**.
 
 23. Select **Queue** for **Route To**.
 
@@ -150,9 +150,9 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 3.  Click on **Cases** in the **Service** section of the sitemap.
 
-4.  Enter *your prefix ex. mollyc* in the **Search this view** field, click on the lookup icon.
+4.  Enter *your prefix ex. mollyc* in the **Filter** field.
 
-5.  Open the **Defective Screen** case you created.
+5.  Open the **Defective Screen Not Resolved** case you created.
 
 6.  Click **Queue Item Details** located on the command bar.
 
@@ -166,7 +166,7 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 11. Click **Queue Item Details** located on the command bar.
 
-12. The case will be have been routed to the *Gold* queue.
+12. The case will be have been routed to the *Gold* queue because its **Case Type** is set to Problem.
 
 13. In the case view, click to the left of the **Service Required** case to select it.
 
@@ -174,5 +174,5 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 15. Open the **Service Required** case.
 
-16. The case will be have been routed to the *Silver* queue.
+16. The case will be have been routed to the *Silver* queue because its **Case Subject** is set to Maintenance.
 
