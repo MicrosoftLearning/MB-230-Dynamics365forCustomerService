@@ -4,7 +4,7 @@ lab:
     module: 'Module 2: Entitlements and Service Level Agreements'
 ---
 
-# Practice Lab 5 – Entitlements and SLAs
+# Practice Lab 5 – Entitlements and templates
 
 ## Scenario
 
@@ -214,7 +214,7 @@ In this exercise, you will create a Service Level Agreement and make it the defa
 
 ### Task 1 – Holiday Schedule
 
-In this task, you will create A holiday schedule to be used with Customer Service calendars.
+In this task, you will create a holiday schedule to be used with Customer Service calendars.
 
 1.  Open the **Customer Service Hub** app.
 
@@ -232,7 +232,7 @@ In this task, you will create A holiday schedule to be used with Customer Servic
 
 8.  In the Holidays section, click **+ New**.
 
-9.  Enter **Local festival** for **Name**, set the **Start Date** and **End Date** to be in two days time.
+9.  Enter **Local festival** for **Name** and set the **Start Date** and **End Date** to be in two days time.
 
 10. Click **OK**.
 
@@ -242,7 +242,7 @@ In this task, you will create A holiday schedule to be used with Customer Servic
 
 In this task, you will create a Customer Service Schedule to use with SLAs.
 
-1.  In the **Customer Service Hub** app. Click on **Customer Service Schedule** in the **Service Terms** section.
+1.  Click on **Customer Service Schedule** in the **Service Terms** section.
 
 2.  Click **+ New**.
 
@@ -260,7 +260,7 @@ In this task, you will create a Customer Service Schedule to use with SLAs.
 
 9. Set **Holiday Schedule** to **Observe** and select the Holiday Schedule you created.
 
-10. Select your local **Time Zone**
+10. Select your local **Time Zone**.
 
 11. Click **Save & Close**.
 
@@ -276,9 +276,9 @@ In this task, you will create a SLA that sets a 1 hour response time on a proble
 
 4.  Select **Case** for **Entity Name**.
 
-5.  Select **First Response By KPI** for **KPI FIeld**
+5.  Select **First Response By KPI** for **KPI FIeld**.
 
-6.  Select **Created On** for **Applicable From**
+6.  Select **Created On** for **Applicable From**.
 
 7. Click **Save**. DO NOT navigate away from this form.
 
@@ -296,7 +296,7 @@ In this task, you will create a SLA that sets a 1 hour response time on a proble
 
 14. Click **Save**.
 
-15. Click **+ New SLA Item**
+15. Click **+ New SLA Item**.
 
 16. Enter **Problems** for **Name**.
 
@@ -326,7 +326,7 @@ In this task, you will create a SLA that sets a 1 hour response time on a proble
 
 29. Click **Save**.
 
-30. Click **Configure Actions**
+30. Click **Configure Actions**.
 
 31. If prompted to connect to Dataverse, click **Continue**.
 
@@ -346,7 +346,7 @@ In this task, you will create a SLA that sets a 1 hour response time on a proble
 
 39. Set **Is Escalated** to **Yes**.
 
-40. Click **Save** and close the Power Automate browser tab..
+40. Click **Save** and close the Power Automate browser tab.
 
 41. Click **Close** in the *SLA Item* dialog.
 
@@ -384,13 +384,13 @@ In this task, you will test that the SLA is applied to cases.
 
 4.  Enter **[your prefix ex. mollyc]** + **SLA Test #1** for **Case Title** and select the **Relecloud** account for **Customer**.
 
-5.  Select **Web** for **Origin** and click **Save**.
+5.  Select **Web** for **Origin**. In the Details tab, select **Problem** for Case Type. Click **Save**.
 
 6.  Select the **SLA** tab. You should see the Case Response By SLA KPI in progress with failure time set to 1 hour's time.
 
 7.  Select the **Details** tab and set **First Response Sent** to **Yes** and click **Save**.
 
-8.  Select the **SLA** tab. You should see the Case Response By SLA KPI with status on **Succeeded**.
+8.  Select the **SLA** tab. You should see the Case Response By SLA KPI.
 
 9.  Click **Go back**, click **+ New Case**.
 
