@@ -34,7 +34,7 @@ In this exercise you will learn how to enable Customer Service Insights. These s
 
 9.  Toggle **Status** to **Enabled** if it is not already enabled.
 
-10. Click **Save & Close**
+10. Click **Save & Close**.
 
 ## Exercise 2: Configure Topic clustering for case settings
 
