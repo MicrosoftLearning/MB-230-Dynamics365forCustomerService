@@ -16,33 +16,18 @@ In this exercise you will learn how to navigate the App profile manager, create 
 
 ### Task 1 – Open the App profile manager
 
-1.  Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1.  Open the **Customer Service admin center** app. If you are in the Customer Service Workspace or Customer Service hub applications, click on the name of the app in the top left of the application next to Dynamics 365 and from the list of published apps, select the **Customer Service admin center** app.
 
-2.  Select the **WWLLABnnn** Dynamics 365 environment.
+2. In the Agent Experience section, click on **Workspaces.**
 
-3.  Click on **Apps**
+3.  On the **Workspaces** page, navigate to the **Agent experience profiles** area.
 
-4.  Click on the ellipsis (...) in the **Customer Service workspace** app and select **App profile manager**.
-
-5.  Click App profiles. You will see profiles for Customer Service workspace and Omnichannel for Customer Service.
-
-6.  Select the **Customer Service workspace - default profile**.
-
-7.  Review the **General**, **Session templates**, **Productivity Pane**, and **Channels** tabs.
-
-### Task 2 – Templates
-
-1.  Open the **Customer Service Hub** app. If you are in the Customer Service Workspace, click on the name of the app in the top left of the application next to Dynamics 365 and from the list of published apps, select the **Customer Service hub** app.
-
-2.  Click on **Home** at the top of the left-hand side navigation.
-
-3.  Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Service Management**.
-
-4.  Click on **Sessions** in the **Agent Experience** section.
+4.  Click **Manage** in the Agent experience profiles area.
 
 5.  Click on **+ New**
 
-6.  Enter **[your prefix ex. mollyc]** + **Case Session Template** for **Name**, **[your prefix ex. mollyc]** +**_case** for **Unique Name**, select **Entity** for **Type**, select **Case** for **Entity**, enter **{casetitle}** for **Title**, select **Docked** for **Communication panel mode**.
+6.  Enter **[your prefix ex. mollyc]** + **CS Temp** for **Name**, **[your prefix ex. mollyc]** + **_ c** (without the space) for **Unique Name**. Select **Entity** for **Type**, select **Case** for **Entity**, enter **{casetitle}** for **Title**, select **Docked** for **Communication panel mode**.
+    - Please be aware that your unique name must follow the specificatons outlined under the text box. If your Unique Name is longer than 8 characters or contains anything other than alphanumeric characters, change it to comply with the requirements. Otherwise you will recieve an error. 
 
 7.  Click **Save**.
 
