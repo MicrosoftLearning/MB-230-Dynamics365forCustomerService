@@ -32,9 +32,9 @@ In this exercise you will learn how to enable Customer Service Insights. These s
 
 8.  Click on **Manage** for **Knowledge search analytics**.
 
-9.  Toggle **Status** to **Enabled**.
+9.  Toggle **Status** to **Enabled** if it is not already enabled.
 
-10. Click **Save & CLose**
+10. Click **Save & Close**
 
 ## Exercise 2: Configure Topic clustering for case settings
 
