@@ -31,7 +31,7 @@ In this demo, you will use the Power Apps maker portal to publish the tables nec
 
 1. Select **Publish.**
 
-### Task 3: Create Case Subjects 
+### Task 2: Create Case Subjects 
 
 1. Select **Field Service** at the top of the screen to open the list of available applications.
 
