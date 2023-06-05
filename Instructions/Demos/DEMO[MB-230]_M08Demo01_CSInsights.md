@@ -8,11 +8,11 @@ demo:
 
 ## Scenario
 
-You are a customer service manager at City Power & Light who has been tasked with improving performance with the CUstomer Service Insights functionality.
+You are a customer service manager at City Power & Light who has been tasked with improving performance with the Customer Service Insights functionality.
 
 ## Exercise 1: Configure Topic Settings
 
-In this exercise you will learn how to enable Customer Service Insights. These steps should be performed by the instructor at least 24 hours before this lab.
+In this exercise you will learn how to enable Customer Service Insights. 
 
 ### Task 1: Enable Customer Service Insights
 
