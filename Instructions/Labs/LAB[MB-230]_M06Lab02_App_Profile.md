@@ -73,7 +73,7 @@ In this exercise you will learn how to create an agent experience profile in the
 
 23. Select **Add**. Select **Save and close.**
 
-### Task 3 – Configure the produdctivity pane 
+### Task 3 – Configure the productivity pane 
 
 1. On your agent experience profile, select **Turn on** in the Productivity pane section.
 
