@@ -1,10 +1,10 @@
 ---
 demo:
-    title: 'Demo: Configure Customer Service Insights'
-    module: 'Module 8: Customer Service Insights'
+    title: 'Demo: Configure  insights in Customer Service'
+    module: 'Module 8: Configure insights in Customer Service'
 ---
 
-# Practice Lab 12 – Customer Service Insights
+# Practice Lab 12 – Configure insights in Customer Service 
 
 ## Scenario
 
