@@ -1,4 +1,4 @@
-# MB-230 - Microsoft Dynamics 365 for Customer Service
+# MB-230 - Microsoft Dynamics 365 Customer Service
 
 - **[Download Latest Student Handbook and AllFiles Content](https://learningdownloadcenter.microsoft.com/)**
 - **Are you a MCT?** - Have a look at our [GitHub User Guide for MCTs](https://microsoftlearning.github.io/MCT-User-Guide/)
