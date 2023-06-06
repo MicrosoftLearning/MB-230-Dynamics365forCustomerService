@@ -1,20 +1,20 @@
 ---
 lab:
-    title: 'Lab: App profile manager'
+    title: 'Lab: Agent experience profiles'
     module: 'Module 6: Customer Service workspace'
 ---
 
-# Practice Lab 11 – App profiles
+# Practice Lab 11 – Agent experience profiles
 
 ## Scenario
 
-You are a customer service manager at City Power & Light who has been tasked with configuring the app profile for Customer Service workspace . In this lab, you will configure a new profile.
+You are a customer service manager at City Power & Light who has been tasked with configuring the agent experience profiles for Customer Service workspace. In this lab, you will configure a new profile.
 
-## Exercise 1 – Create an app profile
+## Exercise 1 – Create an agent experience profile
 
-In this exercise you will learn how to navigate the App profile manager, create a profile and templates.
+In this exercise you will learn how to create an agent experience profile in the Customer Service admin center.
 
-### Task 1 – Open the App profile manager
+### Task 1 – Manage agent experience profiles
 
 1.  Open the **Customer Service admin center** app. If you are in the Customer Service Workspace or Customer Service hub applications, click on the name of the app in the top left of the application next to Dynamics 365 and from the list of published apps, select the **Customer Service admin center** app.
 
@@ -26,105 +26,87 @@ In this exercise you will learn how to navigate the App profile manager, create 
 
 5.  Click on **+ New**
 
-6.  Enter **[your prefix ex. mollyc]** + **CS Temp** for **Name**, **[your prefix ex. mollyc]** + **_ c** (without the space) for **Unique Name**. Select **Entity** for **Type**, select **Case** for **Entity**, enter **{casetitle}** for **Title**, select **Docked** for **Communication panel mode**.
+6.  Enter **[your prefix ex. mollyc]** + **CS Temp** for **Name**, **[your prefix ex. mollyc]** + **_ CS** (without the space) for **Unique Name**. 
     - Please be aware that your unique name must follow the specificatons outlined under the text box. If your Unique Name is longer than 8 characters or contains anything other than alphanumeric characters, change it to comply with the requirements. Otherwise you will recieve an error. 
+
+7. Select **Save and close.**
+
+8. Click **+Add an entity session template** and click **+Create entity session template.**
+    - For **Name**, enter **[your prefix ex. mollyc] Entity Temp**.
+    - For **Unique Name**, enter **[your prefix ex. mollyc] _ ET** (without the space).
+    - Select **Entity** for **Type**.
+    - Select **Case** for **Entity**.
+    - Enter **{casetitle}** for **Title**.
+    - Select **Docked** for **Communication panel mode**.
 
 7.  Click **Save**.
 
 8.  In **Additional Tabs**, click **Add Existing Application Tab Template**.
 
-9.  Select **Customer Summary** and **Search** and click **Add**.
+9.  Select the **Search** button to expand the dropdown list and select **Customer Summary.** Select **Add.**
 
 10. Select the **Agent scripts** tab and click **Add Existing Agent script**.
 
-11. Click **+ New Record**, select **Agent scripts** and click *OK**
+11. Click **+ New Record**, select **Agent scripts** and click **OK**.
 
-12. Enter **[your prefix ex. mollyc]** + **Script 1** for **Name**, **[your prefix ex. mollyc]** +**_script1** for **Unique Name**,
+12. Enter **[your prefix ex. mollyc] Script 1** for **Name** and **[your prefix ex. mollyc] _ script1** (without the spaces) for **Unique Name**.
 
 13. Click **Save**.
 
 14. In **Agent script steps**, click **+New Agent script step**.
 
-15. Enter **[your prefix ex. mollyc]** + **Step 1** for **Name**, **[your prefix ex. mollyc]** +**_step1** for **Unique Name**, enter **1** for **Order**, select **Text** for **Action Type**, and enter **Hi, how can I help you today?**
+15. Enter **[your prefix ex. mollyc]** + **Step 1** for **Name**, **[your prefix ex. mollyc] _ step1** for **Unique Name** (without the spaces), enter **1** for **Order**, select **Text** for **Action Type**, and enter **Hi, how can I help you today?**
 
 16. Click **Save & Close**.
 
-17. Click **Save & Close**. You should return to the session template you created.
+17. Click **Save & Close**. You should return to the session template titled **[my prefix] Entity Temp.**
 
-18. Select the **Agent scripts** tab and click **Add Existing Agent script**.
+18. Select the **Agent scripts** tab (if it is not already open) and click **Add Existing Agent script**.
 
-19. Select the agent script you just created and click **Add**
+19. Select the agent script you just created and click **Add**.
 
-### Task 3 – Create an app profile
+20. Select **Save and close.**
 
-1.  Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+21. You should return to the **Entity session templates** screen on your **Agent experience profile.** Select **+Add.**
 
-2.  Select the **WWLLABnnn** Dynamics 365 environment.
+22. Select **Case** for Entity and select your **[my prefix] Entity Temp** template for Session template.
 
-3.  Click on **Apps**.
+23. Select **Add**. Select **Save and close.**
 
-4.  Click on the ellipsis (...) in the **Customer Service workspace** app and select **App profile manager**.
+### Task 3 – Configure the produdctivity pane 
 
-5.  Click App profiles.
+1. On your agent experience profile, select **Turn on** in the Productivity pane section.
 
-6.  Click **+New profile**.
+2. Toggle **Productivity pane** to **On.**
 
-7.  Enter **[your prefix ex. mollyc]** + **app profile** for **Name**, **[your prefix ex. mollyc]** +**_profile** for **Unique Name**
+3. Toggle **Default mode** to **Expanded.**
 
-8.  Click **Save**.
+4. Toggle **Smart assist** to **On**.
 
-9.  Open the profile you just created.
+5. Toggle **Agent scripts** to **On**.
 
-10. Select the **Session templates** tab.
+6. Select **Save and close.**
 
-11. Search for and select the **Case Session** template you created earlier in this lab.
+### Task 4 – Assign users to the agent experience profile
 
-12. Select the **Productivity pane** tab.
+1. On your agent experience profile, select **+Add user** in the Users section.
 
-13. Toggle **Turn on Productivity pane** to **On**.
+2.  Search for your user (by name, not prefix).
 
-14. Toggle **Default mode** to **Expanded**.
+3.  Select your user by clicking to the left of their name.
 
-15. Toggle **Smart assist** to **On**.
+4.  Select **Add.**
 
-16. Toggle **Agent scripts** to **On**.
+## Exercise 2 – Test the agent experience profile
 
-### Task 4 – Assign users to the app profile
-
-1.  Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
-
-2.  Select the **WWLLABnnn** Dynamics 365 environment.
-
-3.  Click on **Apps**.
-
-4.  Click on the ellipsis (...) in the **Customer Service workspace** app and select **App profile manager**.
-
-5.  Click App profiles.
-
-6.  Click on the profile you created earlier in this lab.
-
-7.  Click **Assign users**.
-
-8.  Click **OK**.
-
-9.  Click **+ Add users**
-
-10. Search for and select your user and click on **Add**
-
-## Exercise 2 – Test the app profile
-
-In this exercise you will test the app profile you created.
+In this exercise you will test the agent experience profile you created.
 
 ### Task 1 – Open the Customer Service workspace
 
-1.  Open the **Customer Service workspace** app. If you are in the Customer Service hub, click on the name of the app in the top left of the application next to Dynamics 365 and from the list of published apps, select the **Customer Service workspace**.
+1.  Open the **Customer Service workspace** app. If you are in the Customer Service admin center, click on the name of the app in the top left of the application next to Dynamics 365 and from the list of published apps, select the **Customer Service workspace**.
 
 2.  In the Customer Service Agent Dashboard, find the **Defective Screen** case, and click on the case to open it.
 
-3.  A new session starts in the left-hand pane for the case and **Smart assist** opens in the **Productivity pane**. The Agent script is available but the knowledge search is missing. There are three tabs, one for the case, another for **Search**, and another for the **Customer summary**.
-
-4.  Click on the **Search** tab.
+3.  A new session starts in the left-hand pane for the case and **Smart assist** opens in the **Productivity pane** and a **Customer Summary** tab is available. Explore the Smart assist.
 
 5.  Click on the **Agent script** icon. You should see the script to created earlier in this lab.
-
-6.  Expand the script and **Mark as done**
