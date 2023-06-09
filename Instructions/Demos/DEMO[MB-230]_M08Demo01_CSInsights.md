@@ -4,7 +4,7 @@ demo:
     module: 'Module 8: Configure insights in Customer Service'
 ---
 
-# Practice Lab 12 – Configure insights in Customer Service 
+# Demo – Configure insights in Customer Service 
 
 ## Scenario
 
