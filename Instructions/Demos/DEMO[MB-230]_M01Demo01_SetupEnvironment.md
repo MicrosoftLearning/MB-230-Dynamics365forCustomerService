@@ -10,7 +10,7 @@ demo:
 
 ## Scenario 
 
-In this demo, you will use the Power Apps maker portal to publish the tables necessary for your students to complete your lab. 
+In this demo, you will create one product and two case subjects. Students will use these records as their demo data for Module 1, Lab 1.
 
 ## Exercise 1: Create demo data
 
