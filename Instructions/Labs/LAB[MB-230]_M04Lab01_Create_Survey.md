@@ -158,15 +158,7 @@ In this exercise, you will use Power Automate to send a survey when a case is re
 
 7.  Click **Continue**.
 
-8.  Select the **WWLLABnnn** Dynamics 365 environment.
-
-9.  Click **Create**.
-
-10. Navigate to <https://flow.microsoft.com>
-
-11. Sign in with your Dynamics 365 tenant credentials.
-
-12. Switch to the **WWLLABnnn** Dynamics 365 environment for your environments.
+12. Select the **WWLLABnnn** Dynamics 365 environment for your environments.
 
 13. Select the survey project starting with your prefix for **Dynamics 365 Customer Voice Project.**
 
