@@ -4,7 +4,7 @@ lab:
     module: 'Module 3: Knowledge Management'
 ---
 
-# Practice Lab 6 – Knowledge management
+# Practice Lab – Knowledge management
 
 ## Scenario
 
