@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab: Create survey'
-    module: 'Module 4: Customer Voice'
+    module: 'Module 7: Customer Voice'
 ---
 
 # Practice Lab 7 – Customer Voice
