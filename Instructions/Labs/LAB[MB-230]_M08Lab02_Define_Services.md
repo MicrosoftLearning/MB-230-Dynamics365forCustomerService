@@ -1,10 +1,10 @@
 ---
 lab:
     title: 'Lab: Define Services'
-    module: 'Module 5: Customer Service Scheduling'
+    module: 'Module 8: Service scheduling'
 ---
 
-# Practice Lab 9 – Customer Service Scheduling Services
+# Practice Lab - Define services
 
 ## Scenario
 

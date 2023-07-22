@@ -4,7 +4,7 @@ lab:
     module: 'Module 1: Case Management'
 ---
 
-# Practice Lab 1 – Creating cases
+# Practice Lab – Creating cases
 
 ## Scenario
 

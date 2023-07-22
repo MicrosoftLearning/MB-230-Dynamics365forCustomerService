@@ -4,7 +4,7 @@ lab:
     module: 'Module 1: Case Management'
 ---
 
-# Practice Lab 2 – Queues
+# Practice Lab – Queues
 
 ## Scenario
 

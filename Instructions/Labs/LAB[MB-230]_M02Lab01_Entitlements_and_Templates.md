@@ -4,7 +4,7 @@ lab:
     module: 'Module 2: Entitlements and Service Level Agreements'
 ---
 
-# Practice Lab 5 – Entitlements and templates
+# Practice Lab – Entitlements and templates
 
 ## Scenario
 

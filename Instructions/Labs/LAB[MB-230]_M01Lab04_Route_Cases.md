@@ -4,7 +4,7 @@ lab:
     module: 'Module 1: Case Management'
 ---
 
-# Practice Lab 4 – Routing cases
+# Practice Lab – Routing cases
 
 ## Scenario
 

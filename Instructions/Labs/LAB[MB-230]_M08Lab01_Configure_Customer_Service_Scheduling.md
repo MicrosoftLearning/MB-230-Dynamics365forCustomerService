@@ -1,10 +1,10 @@
 ---
 lab:
     title: 'Lab: Configure Customer Service Scheduling'
-    module: 'Module 5: Customer Service Scheduling'
+    module: 'Module 8: Service scheduling'
 ---
 
-# Practice Lab 8 – Customer Service Scheduling Configuration
+# Practice Lab - Configure Customer Service Scheduling
 
 ## Scenario
 

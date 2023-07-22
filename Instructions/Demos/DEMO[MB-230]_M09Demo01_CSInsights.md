@@ -1,7 +1,7 @@
 ---
 demo:
     title: 'Demo: Configure  insights in Customer Service'
-    module: 'Module 8: Configure insights in Customer Service'
+    module: 'Module 9: Analytics and insights'
 ---
 
 # Demo – Configure insights in Customer Service 

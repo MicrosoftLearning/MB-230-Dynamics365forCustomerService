@@ -1,10 +1,10 @@
 ---
 lab:
     title: 'Lab: Agent experience profiles'
-    module: 'Module 6: Customer Service workspace'
+    module: 'Module 4: Multi-session experiences'
 ---
 
-# Practice Lab 11 – Agent experience profiles
+# Practice Lab – Agent experience profiles
 
 ## Scenario
 

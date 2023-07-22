@@ -1,10 +1,10 @@
 ---
 lab:
     title: 'Lab: Customer Service workspace'
-    module: 'Module 6: Customer Service workspace'
+    module: 'Module 4: Multi-session experiences'
 ---
 
-# Practice Lab 10 – Customer Service workspace
+# Practice Lab – Customer Service workspace
 
 ## Scenario
 
