@@ -22,10 +22,10 @@ ABC security provides support to customer across multiple channels such as phone
 After some initial discovery, you have determined the following: 
 - Customer can purchase specific support contracts that not only provide them priority support over 
 other customers, but also entitle them to specific response times. There are three levels of support:
-    +  Diamond: Allows them to open up to 100 incidents over 1 year and guarantees a 30 minute response when new cases are opened. 
-    + Platinum: Allows them to open up to 50 incidents over 1 year and guarantees a 1 hour
+    +  **Diamond**: Allows them to open up to 100 incidents over 1 year and guarantees a 30 minute response when new cases are opened. 
+    + **Platinum**: Allows them to open up to 50 incidents over 1 year and guarantees a 1 hour
 response when new cases are opened.
-    + Gold: Allows them to open up to 25 incidents over 1 year and guarantees a 2 hour response 
+    + **Gold**: Allows them to open up to 25 incidents over 1 year and guarantees a 2 hour response 
 when new cases are opened.
 - When customers purchase specific products, they are entitled to 1 year of warranty support on that 
 product. 
@@ -54,12 +54,12 @@ After some initial discovery, you have determined the following:
 
 - Customers are entitled to specific response times when submitting claims. There are three levels of 
 support:
-    + Platinum: Allows them to file up to 10 claims a year and guarantees a 1-hour response when new claims are opened. 
-    + Gold: Allows them to file up to 5 claims a year and guarantees a 4-hour response when new 
+    + **Platinum**: Allows them to file up to 10 claims a year and guarantees a 1-hour response when new claims are opened. 
+    + **Gold**: Allows them to file up to 5 claims a year and guarantees a 4-hour response when new 
 claims are opened.
-    + Silver: Allows them to file up to 2 claims a year and guarantees an 8-hour response when 
+    + **Silver**: Allows them to file up to 2 claims a year and guarantees an 8-hour response when 
 new claims are opened. 
-    + Bronze: Allows them to file up to 1 claim a year and guarantees a 12-hour response when 
+    + **Bronze**: Allows them to file up to 1 claim a year and guarantees a 12-hour response when 
 new claims are opened. 
 - Support agents need to be able to easily work with multiple customers at the same time regardless of the channel they are engaging on.
     + Support cases and incoming conversations should be routed to agents based on the type of customer they are (Platinum, gold, silver etc.)
@@ -84,10 +84,10 @@ After some initial discovery, you have determined the following:
 
 - Customer can purchase specific support contracts that not only provide them priority support over 
 other customers, but also entitle them to specific response times. There are three levels of support:
-    + Platinum: Allows them to open up to 100 incidents over 1 year and guarantees a 30-minute response when new cases are opened. 
-    + Premier: Allows them to open up to 50 incidents over 1 year and guarantees a 1-hour
+    + **Platinum**: Allows them to open up to 100 incidents over 1 year and guarantees a 30-minute response when new cases are opened. 
+    + **Premier**: Allows them to open up to 50 incidents over 1 year and guarantees a 1-hour
 response when new cases are opened.
-    + Deluxe: Allows them to open up to 25 incidents over 1 year and guarantees a 4 hour 
+    + **Deluxe**: Allows them to open up to 25 incidents over 1 year and guarantees a 4 hour 
 response when new cases are opened.
 - When customer purchase specific products they are entitled to 1 year of warranty support on that 
 product. 
