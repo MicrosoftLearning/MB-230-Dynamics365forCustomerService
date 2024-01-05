@@ -4,7 +4,7 @@ lab:
     module: 'Module 0: Course introduction'
 ---
 
-# Practice Lab - Validate lab environment
+# TW-7004: Implement the Modern Customer Service Experience
 
 ## Scenario
 
