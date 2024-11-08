@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab: Validate lab environment'
-    module: 'Module 0: Course introduction'
+    module: 'Module 0: Configure Dynamics 365 Customer Service'
 ---
 
 # Practice Lab - Validate lab environment
@@ -14,26 +14,16 @@ In this Module 0 lab, you will validate that your classroom tenant is working as
 
 **Important notice for instructors and students:** This lab will provide you with an actual Dynamics 365 tenant and licenses for the Power Platform applications you will be using in this course. Please be aware that the Power Platform is evolving all the time. The instructions in this document may be different from what you experience in your actual tenant. It is also possible to experience a delay of several minutes before the virtual machine has network connectivity to begin the labs.
 
-## Exercise 1 - Access the Dynamics 365 application
+## Exercise 1 - Access a trial environment
 
 ### Task 1 – Log into the Power Platform admin center
 
-1. Access <https://admin.powerplatform.microsoft.com> and log in with your Dynamics 365 tenant credentials.
-
-2. Record your user credential up to the **@** symbol on a scratch piece of paper or in Notepad. This will be your lab alias that you will use to differentiate the data you create within the shared Dynamics 365 organization.
-
-**Important:** Please be aware that this tenant and the Dynamics 365 organization will be shared with the other students in your classroom, like employees would share a tenant when using the Dynamics 365 instance belonging to their organization. Do not use any PII (personally identifiable information) when creating records. It is also good practice to use your user's prefix (ex., **mollyc**) in front of all records, data, apps, flows, etc. that you create.
-
-3. Feel free to explore the Power Platform admin center but **do not make any changes.**
-
-### Task 2 – Access the Dynamics 365 application
-
-1. Access <https://admin.powerplatform.microsoft.com/environments>.
-
-2. Select the **WWLLABnnn** environment, where nnn is a number. This is the shared Dynamics 365 environment where you will be performing all labs.
-
-3. Click **Open**.
-
-4. From the list of available Dynamics 365 apps, select the **Customer Service Hub** app.
-
-5. Spend a few minutes exploring the application.
+1. In a new browser tab, navigate to https://dynamics.microsoft.com/dynamics-365-free-trial. In the middle of the screen, you will see two buttons: one to see plans and pricing, the other to try for free. Select **Try for free.**
+3. Locate Dynamic 365 Customer Service.
+4. Select the **Try for free** button.
+5. In the *Let's get started* screen, enter the credentials that were provided to you as part of your lab environment. Accept the license agreement. (If you are prompted to enter a phone number, you can enter 0123456789.)
+6. Select **Start your free trial**.
+7. (If prompted, select **Launch Trial** in the pop-up.
+8. Your trial will launch. It may take a few minutes for your environment to open.
+9. In the header, select **Service trial.** This will open your list of available apps. In this course, we will be working mostly in the **Customer Service Hub.** Select **Customer Service Hub** to open the application.
+10. Feel free to take a few minutes to explore the application.

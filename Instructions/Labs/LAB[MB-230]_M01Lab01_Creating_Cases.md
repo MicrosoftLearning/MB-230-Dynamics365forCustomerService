@@ -56,7 +56,7 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 
 7.  Click **+ New** located on the command bar.
 
-8.  Enter **[your prefix ex. mollyc]** + **Jon** for **First Name**.
+8.  Enter **[your prefix ex. mollyc]** + **Jane** for **First Name**.
 
 9.  Enter **Doe** for **Last Name**.
 
@@ -106,7 +106,7 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 
 20. Select **15 minutes** from the **Duration** drop-down field.
 
-21. Select tomorrow's date and 9:00AM for **Due**.
+21. Select **tomorrow's date** and **9:00AM** for **Due**.
 
 22. Select **High** from the **Priority** drop-down field.
 
@@ -120,7 +120,7 @@ In this exercise, you will create a Phone Call activity and then convert the act
 
 1.  Click on **Contacts** in the **Customers** section of the sitemap.
 
-2.  Enter *your prefix ex. mollyc* in the **Search this view** field, click on the lookup icon and select the **Jon Doe** contact you created in Task 2.
+2.  Enter *your prefix ex. mollyc* in the **Search this view** field, click on the lookup icon and select the **Jane Doe** contact you created in Task 2.
 
 3.  In the Timeline, click on **+**, and select **Phone Call**.
 
@@ -128,11 +128,11 @@ In this exercise, you will create a Phone Call activity and then convert the act
 
 5.  Select **Incoming** from the **Type** drop-down field.
 
-6.  Ensure that the Jon Doe contact is set for **Call From**.
+6.  Ensure that the Jane Doe contact is set for **Call From**.
 
 7.  Ensure that your user record is set for **Call To**.
 
-8.  In the Description field, enter **Annual service needs to be scheduled for Jon**
+8.  In the Description field, enter **Annual service needs to be scheduled for Jane**
 
 9.  Click into the **Duration field** and type **10 minutes**.
 
@@ -148,7 +148,7 @@ In this exercise, you will create a Phone Call activity and then convert the act
 
 3.  Click on **Customer** field in the **Convert to Case** window.
 
-4.  Enter *your prefix ex. mollyc* and select the **Jon Doe** contact you created in Task 2.
+4.  Enter *your prefix ex. mollyc* and select the **Jane Doe** contact you created in Task 2.
 
 5.  Click on the **Subject** field and expand **Service** and select **Maintenance**.
 
