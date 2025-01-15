@@ -16,24 +16,24 @@ In this Module 0 lab, you will validate that your classroom tenant is working as
 
 ## Exercise 1 - Access the Dynamics 365 application
 
-### Task 1 – Log into the Power Platform admin center
+### Task 1 – Sign in to the Power Platform admin center
 
-1. Access <https://admin.powerplatform.microsoft.com> and log in with your Dynamics 365 tenant credentials.
+1. In a browser, go to <https://admin.powerplatform.microsoft.com> and sign in with your Dynamics 365 tenant credentials.
 
-2. Record your user credential up to the **@** symbol on a scratch piece of paper or in Notepad. This will be your lab alias that you will use to differentiate the data you create within the shared Dynamics 365 organization.
+1. Record your user credential up to the **@** symbol on a scratch piece of paper or in Notepad. This will be your lab alias that you will use to differentiate the data you create within the shared Dynamics 365 organization.
 
-**Important:** Please be aware that this tenant and the Dynamics 365 organization will be shared with the other students in your classroom, like employees would share a tenant when using the Dynamics 365 instance belonging to their organization. Do not use any PII (personally identifiable information) when creating records. It is also good practice to use your user's prefix (ex., **mollyc**) in front of all records, data, apps, flows, etc. that you create.
+    **Important:** Please be aware that this tenant and the Dynamics 365 organization will be shared with the other students in your classroom, like employees would share a tenant when using the Dynamics 365 instance belonging to their organization. Do not use any PII (personally identifiable information) when creating records. It is also good practice to use your user's prefix (ex., **mollyc**) in front of all records, data, apps, flows, etc. that you create.
 
-3. Feel free to explore the Power Platform admin center but **do not make any changes.**
+1. Feel free to explore the Power Platform admin center but **do not make any changes.**
 
 ### Task 2 – Access the Dynamics 365 application
 
-1. Access <https://admin.powerplatform.microsoft.com/environments>.
+1. In a new tab, go to <https://admin.powerplatform.microsoft.com/environments>.
 
-2. Select the **WWLLABnnn** environment, where nnn is a number. This is the shared Dynamics 365 environment where you will be performing all labs.
+1. Select the **WWLLABnnn** environment, where nnn is a number. This is the shared Dynamics 365 environment where you will be performing all labs.
 
-3. Click **Open**.
+1. Select **Open**.
 
-4. From the list of available Dynamics 365 apps, select the **Customer Service Hub** app.
+1. From the list of available Dynamics 365 apps, select the **Customer Service Hub** app.
 
-5. Spend a few minutes exploring the application.
+1. Spend a few minutes exploring the application.
