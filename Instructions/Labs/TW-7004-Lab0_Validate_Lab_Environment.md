@@ -28,7 +28,7 @@ In this Module 0 lab, you will validate that your classroom tenant is working as
 
 ### Task 2 – Access the Dynamics 365 application
 
-1. In a new tab, go to <https://admin.powerplatform.microsoft.com/environments>.
+1. Go to <https://admin.powerplatform.microsoft.com/environments>.
 
 1. Select the **WWLLABnnn** environment, where nnn is a number. This is the shared Dynamics 365 environment where you will be performing all labs.
 
