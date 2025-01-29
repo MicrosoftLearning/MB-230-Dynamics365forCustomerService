@@ -30,7 +30,7 @@ In this Module 0 lab, you will validate that your classroom tenant is working as
 
 1. Access <https://admin.powerplatform.microsoft.com/environments>.
 
-2. Select the **WWLLABnnn** environment, where nnn is a number. This is the shared Dynamics 365 environment where you will be performing all labs.
+2. Select the **Contoso (default)** environment.
 
 3. Click **Open**.
 
