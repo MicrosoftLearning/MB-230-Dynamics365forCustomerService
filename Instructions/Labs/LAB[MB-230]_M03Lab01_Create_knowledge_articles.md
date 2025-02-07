@@ -26,7 +26,7 @@ In this task, you will create an internal Knowledge Article for missing parts.
 
 4.  Click **+ New**.
 
-7.  Enter **[your prefix ex. mollyc]** + **Missing Parts** for **Title**, enter **missing, parts** for **Keywords** and click **Save**.
+7.  Enter **Missing Parts** for **Title**, enter **missing, parts** for **Keywords** and click **Save**.
 
 8.  Go to the **Content** area and make sure you have the **Designer** tab selected.
 
@@ -85,7 +85,7 @@ In this task, you will assume the role of the Knowledge Article Approver and App
 
 8.  Go to the command bar and click **Publish**. You may need to click the ellipsis to see it.
 
-9.  Select **Now** for **Publish**, **Published** for **Published Status**, and click **Publish**. Do NOT navigate away from this page.
+9.  Select **Now** for **Publish**, **Published** for **Published status**, and click **Publish**. Do NOT navigate away from this page.
 
 ### Task 3 – Revise Knowledge Article
 

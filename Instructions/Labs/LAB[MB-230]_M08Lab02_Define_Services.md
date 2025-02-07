@@ -28,7 +28,7 @@ In this task you will create an oil change service.
 
 5.  Click **+ New**.
 
-6.  Enter **[your prefix ex. mollyc]** + **Oil Change** for **Name** and click **Save**.
+6.  Enter **Oil Change** for **Name** and click **Save**.
 
 7.  Select the **Resource Requirements** tab, change the **Name** to **Oil Change**, select **All** for **Select**, and select **Organizational Unit** for **Part of Same**.
 
@@ -48,7 +48,7 @@ In this task you will create an oil change service.
 
 1.  Click + **New** in the command bar.
 
-2.  Enter **[your prefix ex. mollyc]** + **Tire Rotation** for **Name** and click **Save**.
+2.  Enter **Tire Rotation** for **Name** and click **Save**.
 
 3.  Select the **Resource Requirements** tab, change the **Name** to **Tire Rotation**, select **All** for **Select**, and select **Organizational Unit** for **Part of Same**.
 

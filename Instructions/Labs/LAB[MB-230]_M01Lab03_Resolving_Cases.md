@@ -20,7 +20,7 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 3.  Click on **Cases** in the **Service** section of the sitemap.
 
-4.  Enter *your prefix ex. mollyc* in the **Filter by keyword** field, click on the arrow icon.
+4.  Enter *Defective Screen* in the **Filter by keyword** field, click on the arrow icon.
 
 5.  Open the **Defective Screen** case you created.
 
@@ -38,7 +38,7 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 12. Select **Problem Solved** for **Resolution Type** and enter **Sent Replacement** for **Resolution**.
 
-13. Enter **30 minutes** for **Billable Time**, enter **Sent replacement screen** for **Remarks**, and click **Resolve**.
+13. Click **Resolve**.
 
 ### Task 2 – Reactivate Resolved Case
 
@@ -50,6 +50,6 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 4.  Click on the **Reactivate Case** button located in the command bar. A dialog will be displayed with the message to confirm, Select **Reactivate**. 
 
-5.  Change the **Case Title** to **[your prefix ex. mollyc]** + **Defective Screen Not Received** in the **Details** tab.
+5.  Change the **Case Title** to **Defective Screen Not Resolved** in the **Details** tab.
 
 6.  Click **Save & Close**.

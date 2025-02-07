@@ -16,47 +16,41 @@ In this exercise, you will create four queues.
 
 ### Task 1 – Create Queues
 
-1.  Open the **Customer Service Hub** app.
+1.  Open the **Customer Service admin centre** app.
 
-2.  Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Service Management**.
+2.  Click on **Queues** in the **Customer support** section.
 
-2.  Click on **Queues** in the **Case Settings** section.
+3.  Click **Manage** in Basic queues area.
 
 4.  Click **+ New** located on the command bar.
 
-5.  Enter **[your prefix ex. mollyc]** + **Support** for **Name** and select **Public** for **Type**, and enter **[your prefix ex. mollyc]** + **.support@test.invalid** for **Incoming Email**.
+5.  Enter  **Support** for **Name** and select **Public** for **Type**, and enter **[your prefix ex. mollyc]** + **.support@test.invalid** for **Incoming Email**.
 
 6.  Click **Save**.
 
 7.  Click **+ New**.
 
-8.  Enter **[your prefix ex. mollyc]** + **Bronze** for **Name** and select **Private** for **Type**.
+8.  Enter **Bronze** for **Name** and select **Private** for **Type**.
 
 9.  Click **Save**.
 
 10. Click **+ New**.
 
-11. Enter **[your prefix ex. mollyc]** + **Silver** for **Name** and select **Private** for **Type**.
+11. Enter **Silver** for **Name** and select **Private** for **Type**.
 
 12. Click **Save**.
 
 13. Click **+ New**.
 
-14. Enter **[your prefix ex. mollyc]** + **Gold** for **Name** and select **Private** for **Type**.
+14. Enter **Gold** for **Name** and select **Private** for **Type**.
 
 15. Click **Save**.
 
-16. Click **Queues** under the **Case Settings** section.
+16. Click **Queues** under the **Customer support** section.
 
 17. Select the **My Active Queues** view.
 
 18. You should now see a private queue that was created for your user automatically, the public queue, and three private queues that you created in this lab.
-
-19. Click on **Service Management** at the bottom of the **Site Map** in the left-hand navigation and select **Service**.
-
-20. Click **Queues** under the **Service** section.
-
-21. Change the view from **Items I am working on** to **All items**.
 
 ### Task 2 – Add cases to queues
 
@@ -64,21 +58,21 @@ In this exercise, you will create four queues.
 
 2.  Click on **Cases** in the **Service** section of the sitemap.
 
-3.  Enter *your prefix ex. mollyc* in the **Filter by keyword** field, click the arrow, and select the **Service Required** case you created in the earlier lab.
+3.  Select the **Service Required** case you created in the earlier lab.
 
 4.  Click **Add to Queue** located on the command bar.
 
-5.  Enter *your prefix ex. mollyc* in the **Queue** field, click on the lookup icon and select the **Bronze** queue you created.
+5.  Enter *Bronze* in the **Queue** field, click on the lookup icon and select the **Bronze** queue you created.
 
 6.  Click **Add**.
 
 7.  Click on **Cases** in the **Service** section of the sitemap.
 
-8.  Enter *your prefix ex. mollyc* in the **Search this view** field, click on the lookup icon and select the **Defective Screen** case you created in the earlier lab.
+8.  Select the **Defective Screen** case you created in the earlier lab.
 
 9.  Click **Add to Queue** located on the command bar.
 
-10. Enter *your prefix ex. mollyc* in the **Queue** field, click on the lookup icon and select the **Support** queue you created.
+10. Enter *Support* in the **Queue** field, click on the lookup icon and select the **Support** queue you created.
 
 11. Click **Add**.
 

@@ -18,7 +18,7 @@ In this exercise, you will navigate to the Dynamics 365 Customer Service Applica
 
 1.  Navigate to Access <https://admin.powerplatform.microsoft.com/environments>.
 
-2.  Select the Dynamics 365 environment.
+2.  Select the CustomerService Trail environment.
 
 3.  Click **Open**.
 
@@ -28,7 +28,7 @@ In this exercise, you will navigate to the Dynamics 365 Customer Service Applica
 
 ## Exercise 2 – Create case
 
-In this exercise, you will create an Account, a Contact, and a Case record. You will also add a Phone Call activity to the case.
+In this exercise, you will create an Account, a Contact, a Subject, a Product, and a Case record. You will also add a Phone Call activity to the case.
 
 ### Task 1 – Create Account
 
@@ -36,7 +36,7 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 
 2.  Click **+ New** located on the command bar.
 
-3.  Enter **[your prefix ex. mollyc]** + **Relecloud** for **Account Name**.
+3.  Enter **Relecloud** for **Account Name**.
 
 4.  Click **Save & Close**.
 
@@ -46,35 +46,60 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 
 2.  Click **+ New** located on the command bar.
 
-3.  Enter **[your prefix ex. mollyc]** + **Jane** for **First Name**.
+3.  Enter **Jane** for **First Name**.
 
 4.  Enter **Doe** for **Last Name**.
 
-5.  Enter *your prefix ex. mollyc* in the **Account Name** field, click on the lookup icon and select the account you created in Task 1.
+5.  Enter **Relecloud** in the **Account Name** field, click on the lookup icon and select the account you created in Task 1.
 
 6.  Click **Save & Close**.
 
-7.  Click **+ New** located on the command bar.
+### Task 3 – Create Subject
 
-8.  Enter **[your prefix ex. mollyc]** + **Jane** for **First Name**.
+1. Open **Customer Service admin centre** app. If you are in a different app, click on the name of the app in the top left of the application next to Dynamics 365 and from the list of published apps, select the **Customer Service admin centre** app
 
-9.  Enter **Doe** for **Last Name**.
+2. Click on **Case settings** in the **Customer support** section of the sitemap.
 
-10.  Enter *your prefix ex. mollyc* in the **Account Name** field, click on the lookup icon and select the account you created in Task 1.
+3. Click **Manage** in the Subjects area.
 
-11.  Click **Save & Close**.
+4. Click **+Add** for Subject tree management.
 
-### Task 3 – Create Case
+5. Enter **Maintenance** for **Title**.
+
+6. Click **Save & Close**.
+
+### Task 4 – Create Product
+
+1. You should be in the **Power Platform Environment Settings** app. If you are in a different app, click on the name of the app in the top left of the application next to Dynamics 365 and from the list of published apps, select the **Power platform Environment Settings** app.
+
+2. Click on **Product Catalog** in the **Business** section of the sitemap.
+
+3. Click on **Families and products**.
+
+4. Click **Add Product** from Command bar.
+
+5. Enter **JBO Top D. Hifi** for **Name** and Enter **HBO** for **Product ID**.
+
+6. Enter **Quantity** for **Unit Group** and **Default Unit**.
+
+7. Click **Save**.
+
+8. Click **Publish** from Command bar and confirm.
+
+
+### Task 5 – Create Case
+
+Make sure you are in the **Customer Service Hub** app.
 
 1.  Click on **Cases** in the **Service** section of the sitemap.
 
 2.  Click **+ New Case** located on the command bar.
 
-3.  Enter **[your prefix ex. mollyc]** + **Defective Screen** for **Case Title**.
+3.  Enter **Defective Screen** for **Case Title**.
 
-4.  Click on the **Subject** field and expand **Service** and select **Maintenance**.
+4.  Click on the **Subject** field and select **Maintenance**.
 
-5.  Enter *your prefix ex. mollyc* in the **Customer** field, click on the lookup icon and select the account you created in Task 1.
+5.  Enter **Relecloud** in the **Customer** field, click on the lookup icon and select the account you created in Task 1.
 
 6.  Select **Phone** from the **Origin** drop-down field.
 
@@ -84,7 +109,7 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 
 9.  Click on the **Identify** stage in the business process flow.
 
-10. Enter *your prefix ex. mollyc* in the **Find Contact** field, click on the lookup icon and select the **Jane Doe** contact you created in Task 2.
+10. Enter **Jane Doe** in the **Find Contact** field, click on the lookup icon and select the **Jane Doe** contact you created in Task 2.
 
 11. Select the **Details** tab.
 
@@ -96,7 +121,7 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 
 15. Select the **Summary Tab**. In the Timeline, click on **+**, and select **Phone Call**.
 
-16. Enter **[your prefix ex. mollyc]** + **further details** for **Subject**.
+16. Enter **Further details** for **Subject**.
 
 17. Select **Outgoing** from the **Direction** drop-down field.
 
@@ -120,13 +145,13 @@ In this exercise, you will create a Phone Call activity and then convert the act
 
 1.  Click on **Contacts** in the **Customers** section of the sitemap.
 
-2.  Enter *your prefix ex. mollyc* in the **Search this view** field, click on the lookup icon and select the **Jane Doe** contact you created in Task 2.
+2.  Select the **Jane Doe** contact you created in Task 2.
 
 3.  In the Timeline, click on **+**, and select **Phone Call**.
 
-4.  Enter **[your prefix ex. mollyc]** + **Service required** for **Subject**.
+4.  Enter **Service required** for **Subject**.
 
-5.  Select **Incoming** from the **Type** drop-down field.
+5.  Select **Incoming** from the **Direction** drop-down field.
 
 6.  Ensure that the Jane Doe contact is set for **Call From**.
 
@@ -134,7 +159,7 @@ In this exercise, you will create a Phone Call activity and then convert the act
 
 8.  In the Description field, enter **Annual service needs to be scheduled for Jane**
 
-9.  Click into the **Duration field** and type **10 minutes**.
+9.  Click into the **Duration** field and type **15 minutes**.
 
 10. Select today's date for **Due**.
 
@@ -148,9 +173,9 @@ In this exercise, you will create a Phone Call activity and then convert the act
 
 3.  Click on **Customer** field in the **Convert to Case** window.
 
-4.  Enter *your prefix ex. mollyc* and select the **Jane Doe** contact you created in Task 2.
+4.  Select the **Jane Doe** contact you created in Task 2.
 
-5.  Click on the **Subject** field and expand **Service** and select **Maintenance**.
+5.  Click on the **Subject** field and select **Maintenance**.
 
 6.  Click **Convert**.
 
