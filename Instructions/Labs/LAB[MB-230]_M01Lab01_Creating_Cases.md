@@ -56,7 +56,7 @@ In this exercise, you will create an Account, a Contact, a Subject, a Product, a
 
 ### Task 3 – Create Subject
 
-1. Open **Customer Service admin centre** app. If you are in a different app, click on the name of the app in the top left of the application next to Dynamics 365 and from the list of published apps, select the **Customer Service admin centre** app
+1. Open **Customer Service admin center** app. If you are in a different app, click on the name of the app in the top left of the application next to Dynamics 365 and from the list of published apps, select the **Customer Service admin center** app
 
 2. Click on **Case settings** in the **Customer support** section of the sitemap.
 
@@ -70,7 +70,7 @@ In this exercise, you will create an Account, a Contact, a Subject, a Product, a
 
 ### Task 4 – Create Product
 
-1. You should be in the **Power Platform Environment Settings** app. If you are in a different app, click on the name of the app in the top left of the application next to Dynamics 365 and from the list of published apps, select the **Power platform Environment Settings** app.
+1. You should be in the **Power Platform Environment Settings** app. If you are in a different app, click on the name of the app in the top left of the application next to Dynamics 365 and from the list of published apps, select the **Power Platform Environment Settings** app.
 
 2. Click on **Product Catalog** in the **Business** section of the sitemap.
 
