@@ -14,15 +14,15 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 ### Task 1 – Enable a case to be created from an email in a queue
 
-1.  Open the **Customer Service Hub** app.
+1.  Open the **Customer Service admin centre** app.
 
-2.  Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Service Management**.
+2.  Click on **Case settings** in the **Customer support** section of the sitemap.
 
-2.  Click on **Automatic record creation and update rules** in the **Case Settings** section.
+3.  Click on **Automatic record creation and update rules** in the **Case Settings** section.
 
 4.  Click **+ New** located on the command bar.
 
-5.  Enter **[your prefix ex. mollyc]** + **Create case for support email** for **Rule name**, select the **Support** queue you created for **Queue to monitor**, and select **Email** for **Activity type to monitor**.
+5.  Enter **Create case for support email** for **Rule name**, select the **Support** queue you created for **Queue to monitor**, and select **Email** for **Activity type to monitor**.
 
 6.  Click **Save**.
 
@@ -38,7 +38,7 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 12. In the right-hand side of the condition, select **High**.
 
-13. Click **Save and open Power Automate**.
+13. Click **Save and open Power Automate**.( If Required click on **Return to classic designer**)
 
 14. If prompted to connect to Dataverse, click **Continue**.
 
@@ -68,17 +68,15 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 ### Task 1 – Configure basic routing rule set
 
-1.  Open the **Customer Service Hub** app.
+1.  Open the **Customer Service admin centre** app.
 
-2.  Click on **Home** at the top of the left-hand side navigation.
+2.  Click on **Routing** in the **Customer support** section.
 
-3.  Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Service Management**.
-
-4.  Click on **Routing Rule Sets** in the **Case Settings** section.
+3.  Click on **Basic routing rule sets** in the **Record routing** section.
 
 5.  Click **+ New** located on the command bar.
 
-6.  Enter **[your prefix ex. mollyc]** + **basic case routing rules** for **Name**.
+6.  Enter **basic case routing rules** for **Name**.
 
 7.  Click **Save**.
 
@@ -150,7 +148,7 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 3.  Click on **Cases** in the **Service** section of the sitemap.
 
-4.  Enter *your prefix ex. mollyc* in the **Filter** field.
+4.  Enter *Defective Screen* in the **Filter** field.
 
 5.  Open the **Defective Screen Not Resolved** case you created.
 

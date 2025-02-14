@@ -32,13 +32,14 @@ In this task, you will define three organizational units to act as service locat
 
 7.  Click **+ New**.
 
-8. Enter **[your prefix ex. mollyc]** + **Main Ave Location** for **Name**. Click on the **Scheduling** tab and enter a valid number for both Latitude and Longitude. 
+8. Enter **Main Ave Location** for **Name**. Click on the **Scheduling** tab and enter a valid number for both Latitude and Longitude. 
 
 9. Click **Save and Close**.
 
 10. Create two more **Sites** with the values listed in the table below.
 
  -19th Ave Location 
+ 
  -35th St Location 
 
 11. You should now have three Sites.
@@ -53,7 +54,7 @@ In this task, you will define a new business closure.
 
 2.  Click **+ New**.
 
-3.  Enter **[your prefix ex. mollyc]** + **Worldwide Rest Day** for **Name**, select a date one week from now for **Start Date**, and click **OK**.
+3.  Enter **Worldwide Rest Day** for **Name**, select a date one week from now for **Start Date**, and click **OK**.
 
 4.  Do not navigate away from this application.
 
@@ -65,7 +66,7 @@ In this task, you will create facilities/equipment records for the organizationa
 
 2.  Click **+ New**.
 
-3.  Enter **[your prefix ex. mollyc]** + **Main Ave** - **Service Bay 1** for **Name**, select **Main Ave Location** for **Organizational Unit**, select a *Time Zone**, select the root **Business Unit**, and click **Save**.
+3.  Enter **Main Ave** - **Service Bay 1** for **Name**, select **Main Ave Location** for **Organizational Unit**, select a *Time Zone**, select the root **Business Unit**, and click **Save**.
 
 4.  Select the **Work Hours** tab, click on one of the events listed on the calendar, click **Edit**, and select **All events in the series**.
 
@@ -79,7 +80,7 @@ In this task, you will create facilities/equipment records for the organizationa
 
 9.  Click **+ New**.
 
-10. Enter **[your prefix ex. mollyc]** + **Main Ave - Service Bay 2** for **Name**, select **Main Ave Location** for **Organizational Unit**, select your **Time Zone**, select the root **Business Unit**, and click **Save**.
+10. Enter **Main Ave - Service Bay 2** for **Name**, select **Main Ave Location** for **Organizational Unit**, select your **Time Zone**, select the root **Business Unit**, and click **Save**.
 
 11. Select the **Work Hours** tab, click on one of the events listed on the calendar, click **Edit**, and select **All events in the series**.
 
@@ -119,7 +120,7 @@ In this task you will create new contact records.
 
 4.  Click **+ New**.
 
-5.  Enter **[your prefix ex. mollyc]** + **Mike** for **First Name**, **Smith** for **Last Name**, and click **Save and Close**.
+5.  Enter **Mike** for **First Name**, **Smith** for **Last Name**, and click **Save and Close**.
 
 6.  Repeat the previous two steps and create the **Contact** records listed in the table below.
 
@@ -145,13 +146,13 @@ In this task you will create new resource categories.
 
 3.  Click **+ New**.
 
-4.  Enter **[your prefix ex. mollyc]** + **Senior Technician** for **Name** and click **Save and Close**.
+4.  Enter **Senior Technician** for **Name** and click **Save and Close**.
 
 5.  Click **+ New**.
 
-6.  Enter **[your prefix ex. mollyc]** + **Technician** for **Name** and click **Save and Close**.
+6.  Enter **Technician** for **Name** and click **Save and Close**.
 
-7.  Create two more **Resource Categories** and name them **[your prefix ex. mollyc]** + **Service Bay Facility** and **[your prefix ex. mollyc]** + **Tire Jack Equipment**.
+7.  Create two more **Resource Categories** and name them **Service Bay Facility** and **Tire Jack Equipment**.
 
 8.  You should now have 4 **Resource Categories**.
 

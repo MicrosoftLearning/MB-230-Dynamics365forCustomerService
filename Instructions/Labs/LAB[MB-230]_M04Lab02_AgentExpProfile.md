@@ -26,13 +26,13 @@ In this exercise you will learn how to create an agent experience profile in the
 
 5.  Click on **+ New**
 
-6.  Enter **[your prefix ex. mollyc]** + **CS Temp** for **Name**, **[your prefix ex. mollyc]** + **_ CS** (without the space) for **Unique Name**. 
+6.  Enter **CS Temp** for **Name**, **[your prefix ex. mollyc]** + **_ CS** (without the space) for **Unique Name**. 
     - Please be aware that your unique name must follow the specificatons outlined under the text box. If your Unique Name is longer than 8 characters or contains anything other than alphanumeric characters, change it to comply with the requirements. Otherwise you will recieve an error. 
 
-7. Select **Save and close.**
+7. Select **Create.**
 
-8. Click **+Add an entity session template** and click **+Create entity session template.**
-    - For **Name**, enter **[your prefix ex. mollyc] Entity Temp**.
+8. Click **+Add entity session template** and click **+Create entity session template.**
+    - For **Name**, enter **Entity Temp**.
     - For **Unique Name**, enter **[your prefix ex. mollyc] _ ET** (without the space).
     - Select **Entity** for **Type**.
     - Select **Case** for **Entity**.
@@ -49,17 +49,17 @@ In this exercise you will learn how to create an agent experience profile in the
 
 11. Click **+ New Record**, select **Agent scripts** and click **OK**.
 
-12. Enter **[your prefix ex. mollyc] Script 1** for **Name** and **[your prefix ex. mollyc] _ script1** (without the spaces) for **Unique Name**.
+12. Enter **Script 1** for **Name** and **[your prefix ex. mollyc] _ script1** (without the spaces) for **Unique Name**.
 
 13. Click **Save**.
 
 14. In **Agent script steps**, click **+New Agent script step**.
 
-15. Enter **[your prefix ex. mollyc]** + **Step 1** for **Name**, **[your prefix ex. mollyc] _ step1** for **Unique Name** (without the spaces), enter **1** for **Order**, select **Text** for **Action Type**, and enter **Hi, how can I help you today?**
+15. Enter **Step 1** for **Name**, **[your prefix ex. mollyc] _ step1** for **Unique Name** (without the spaces), enter **1** for **Order**, select **Text** for **Action Type**, and enter **Hi, how can I help you today?**
 
 16. Click **Save & Close**.
 
-17. Click **Save & Close**. You should return to the session template titled **[my prefix] Entity Temp.**
+17. You should return to the session template titled **Entity Temp.**
 
 18. Select the **Agent scripts** tab (if it is not already open) and click **Add Existing Agent script**.
 
@@ -69,11 +69,11 @@ In this exercise you will learn how to create an agent experience profile in the
 
 21. You should return to the **Entity session templates** screen on your **Agent experience profile.** Select **+Add.**
 
-22. Select **Case** for Entity and select your **[my prefix] Entity Temp** template for Session template.
+22. Select **Case** for Entity and select your **Entity Temp** template for Session template.
 
 23. Select **Add**. Select **Save and close.**
 
-### Task 3 – Configure the productivity pane 
+### Task 2 – Configure the productivity pane 
 
 1. On your agent experience profile, select **Turn on** in the Productivity pane section.
 
@@ -87,7 +87,7 @@ In this exercise you will learn how to create an agent experience profile in the
 
 6. Select **Save and close.**
 
-### Task 4 – Assign users to the agent experience profile
+### Task 3 – Assign users to the agent experience profile
 
 1. On your agent experience profile, select **+Add user** in the Users section.
 
