@@ -16,7 +16,7 @@ In this exercise, you will create four queues.
 
 ### Task 1 – Create Queues
 
-1.  Open the **Customer Service admin centre** app.
+1.  Open the **Customer Service admin center** app.
 
 2.  Click on **Queues** in the **Customer support** section.
 
