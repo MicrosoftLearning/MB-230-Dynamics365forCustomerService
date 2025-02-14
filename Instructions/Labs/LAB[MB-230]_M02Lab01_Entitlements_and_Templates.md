@@ -18,7 +18,7 @@ In this exercise, you will create an entitlement for your user, this entitlement
 
 In this task, you will create an entitlement with 100 total terms for the Relecloud customer.
 
-1.  Open the **Customer Service admin centre** app.
+1.  Open the **Customer Service admin center** app.
 
 2.  Click on **Home** at the top of the left-hand side navigation.
 
@@ -112,7 +112,7 @@ In this exercise, you will create an entitlement template that will have 20 free
 
 In this task, you will create an entitlement template with 20 terms.
 
-1.  Open the **Customer Service admin centre** app.
+1.  Open the **Customer Service admin center** app.
 
 2.  Click on **Home** at the top of the left-hand side navigation.
 
@@ -204,7 +204,7 @@ In this task, you will test the entitlement you created from the entitlement tem
 
 15. Since you didn’t select the **Phone Call Only Terms** entitlement, the case will now be created.
 
-16. Open **Customer Service admin centre**.
+16. Open **Customer Service admin center**.
 
 17. Click on **Service terms** under **Operations** section.
 
@@ -222,7 +222,7 @@ In this exercise, you will create a Service Level Agreement and make it the defa
 
 In this task, you will create a holiday schedule to be used with Customer Service calendars.
 
-1.  Open the **Customer Service admin centre** app.
+1.  Open the **Customer Service admin center** app.
 
 2.  Click on **Home** at the top of the left-hand side navigation.
 
@@ -274,7 +274,7 @@ In this task, you will create a Customer Service Schedule to use with SLAs.
 
 In this task, you will create a SLA that sets a 1 hour response time on a problem case.
 
-1.  In the **Customer Service admin centre** app, click on **SLA KPIs** in the **Service Terms** section.
+1.  In the **Customer Service admin center** app, click on **SLA KPIs** in the **Service Terms** section.
 
 2.  Click **+ New**.
 
@@ -368,7 +368,7 @@ In this task, you will create a SLA that sets a 1 hour response time on a proble
 
 In this task, you will configure the settings for service level agreements.
 
-1.  In the **Customer Service admin centre** app, click on **Service Terms** in Operations section.
+1.  In the **Customer Service admin center** app, click on **Service Terms** in Operations section.
 
 2.  Click **Manage** on other settings area.
 
