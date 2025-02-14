@@ -14,7 +14,7 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 ### Task 1 – Enable a case to be created from an email in a queue
 
-1.  Open the **Customer Service admin centre** app.
+1.  Open the **Customer Service admin center** app.
 
 2.  Click on **Case settings** in the **Customer support** section of the sitemap.
 
@@ -68,7 +68,7 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 ### Task 1 – Configure basic routing rule set
 
-1.  Open the **Customer Service admin centre** app.
+1.  Open the **Customer Service admin center** app.
 
 2.  Click on **Routing** in the **Customer support** section.
 
