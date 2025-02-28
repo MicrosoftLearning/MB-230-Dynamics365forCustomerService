@@ -16,24 +16,36 @@ In this Module 0 lab, you will validate that your classroom tenant is working as
 
 ## Exercise 1 - Access the Dynamics 365 application
 
-### Task 1 – Log into the Power Platform admin center
+### Task 1 – Start the Dynamics 365 Customer Service free trial
 
-1. Access <https://admin.powerplatform.microsoft.com> and log in with your Dynamics 365 tenant credentials.
+1. In a browser, go to https://www.microsoft.com/en-us/dynamics-365/free-trial. 
 
-2. Record your user credential up to the **@** symbol on a scratch piece of paper or in Notepad. This will be your lab alias that you will use to differentiate the data you create within the shared Dynamics 365 organization.
+1. Scroll down and locate the **Dynamics 365 Customer Service** tile, then select the **Try for free** button.
 
-**Important:** Please be aware that this tenant and the Dynamics 365 organization will be shared with the other students in your classroom, like employees would share a tenant when using the Dynamics 365 instance belonging to their organization. Do not use any PII (personally identifiable information) when creating records. It is also good practice to use your user's prefix (ex., **mollyc**) in front of all records, data, apps, flows, etc. that you create.
+    ![Try for free](./media/start-free-trial.png)
 
-3. Feel free to explore the Power Platform admin center but **do not make any changes.**
+1. In the *Let's get started* screen, enter the credentials that were provided to you as part of your lab environment, select the checkbox for the agreement, then select **Start your free trial**.
 
-### Task 2 – Access the Dynamics 365 application
+1. If prompted to enter a phone number, enter **0123456789**, then select **Submit**.
 
-1. Access <https://admin.powerplatform.microsoft.com/environments>.
+    **Note:** Your trial will launch. It may take a few minutes for your environment to open.
 
-2. Select the **Contoso (default)** environment.
+1. In the top header, select **Customer Service workspace** to open your list of available apps. 
 
-3. Click **Open**.
+    ![Customer service workspace](./media/change-apps.png)
 
-4. From the list of available Dynamics 365 apps, select the **Customer Service Hub** app.
+1. Select **Customer Service Hub** to open the application.
 
-5. Spend a few minutes exploring the application.
+    ![Customer Service Hub](./media//customer-service-hub.png)
+
+1. Spend a few minutes exploring the application.
+
+### Task 2 – Sign in to the Power Platform admin center
+
+1. In a new tab, go to https://admin.powerplatform.microsoft.com.
+
+1. Record your user credential up to the **@** symbol on a scratch piece of paper or in Notepad. This will be your lab alias that you will use to differentiate the data you create within the shared Dynamics 365 organization.
+
+    **Important:** Please be aware that this tenant and the Dynamics 365 organization will be shared with the other students in your classroom, like employees would share a tenant when using the Dynamics 365 instance belonging to their organization. Do not use any PII (personally identifiable information) when creating records. It is also good practice to use your user's prefix (ex., **mollyc**) in front of all records, data, apps, flows, etc. that you create.
+
+1. Feel free to explore the Power Platform admin center but **do not make any changes**.
