@@ -63,7 +63,9 @@ In this task, you will create an internal Knowledge Article for missing parts.
 
 20. Go to the **Business Process Flow** and click on the **Author** stage.
 
-21. Select **Service** for **Article Subject**, check the **Mark for Review** checkbox, and click **Next Stage**.
+21. From the dropdown, select the appropriate value for **Article Subject**.
+
+22. Select **Completed** for **Mark for Review**, and click **Next Stage**.
 
 ### Task 2 – Approve and Publish Knowledge Article
 
@@ -81,11 +83,9 @@ In this task, you will assume the role of the Knowledge Article Approver and App
 
 6.  Click on the **Publish** stage.
 
-7.  Check the **Set Product Associations** checkbox and click **Finish**.
+7.  Select **Completed** for **Set Product Associations** and click **Finish**.
 
-8.  Go to the command bar and click **Publish**. You may need to click the ellipsis to see it.
-
-9.  Select **Now** for **Publish**, **Published** for **Published status**, and click **Publish**. Do NOT navigate away from this page.
+8.  Select **Now** for **Publish**, **Published** for **Published status**, and click **Publish**. Do NOT navigate away from this page.
 
 ### Task 3 – Revise Knowledge Article
 

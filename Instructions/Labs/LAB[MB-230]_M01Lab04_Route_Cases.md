@@ -158,19 +158,5 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 8.  Click **OK**.
 
-9.  Click **Save & Route** and click **Route**.
-
-10. Open the **Defective Screen** case again.
-
-11. Click **Queue Item Details** located on the command bar.
-
-12. The case will be have been routed to the *Gold* queue because its **Case Type** is set to Problem.
-
-13. In the case view, click to the left of the **Service Required** case to select it.
-
-14. Click **Apply Routing Rule** and click **Route**.
-
-15. Open the **Service Required** case.
-
-16. The case will be have been routed to the *Silver* queue because its **Case Subject** is set to Maintenance.
+>Note - As routing diagnostics feature is deprecated, cases can not be added to queues via **Save and Route** button on Case. Please continue to next lab.
 

@@ -91,11 +91,9 @@ In this exercise you will learn how to create an agent experience profile in the
 
 1. On your agent experience profile, select **+Add user** in the Users section.
 
-2.  Search for your user (by name, not prefix).
+2. Select One user from the list.
 
-3.  Select your user by clicking to the left of their name.
-
-4.  Select **Add.**
+3.  Select **Add.**
 
 ## Exercise 2 – Test the agent experience profile
 
