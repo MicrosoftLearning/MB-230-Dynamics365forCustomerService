@@ -27,3 +27,13 @@ In this Module 0 lab, you will validate that your classroom tenant is working as
 8. Your trial will launch. It may take a few minutes for your environment to open.
 9. In the header, select **Service trial.** This will open your list of available apps. In this course, we will be working mostly in the **Customer Service Hub.** Select **Customer Service Hub** to open the application.
 10. Feel free to take a few minutes to explore the application.
+
+### Task 2 - Install Customer Voice
+1. Navigate to [the Power Platform admin center](https://admin.powerplatform.microsoft.com).
+2. Expand **Resources**.
+4. Select **Dynamics 365 Apps**.
+5. Select **Dynamics 365 Customer Voice**.
+6. Select the ellipses (...) and select **Install**.
+7. Select the **CustomerService Trial** environment.
+8. Agree to the terms of service.
+9. Select **Install**.
