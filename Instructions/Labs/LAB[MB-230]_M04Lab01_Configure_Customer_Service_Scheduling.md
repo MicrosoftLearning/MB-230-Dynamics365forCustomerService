@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab: Configure Customer Service Scheduling'
-    module: 'Module 8: Service scheduling'
+    module: 'Module 4: Implement routing and scheduling'
 ---
 
 # Practice Lab - Configure Customer Service Scheduling

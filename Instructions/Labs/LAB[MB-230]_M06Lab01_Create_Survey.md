@@ -1,10 +1,10 @@
 ---
 lab:
     title: 'Lab: Create survey'
-    module: 'Module 7: Customer Voice'
+    module: 'Module 6: Customer Voice'
 ---
 
-# Practice Lab 7 – Customer Voice
+# Practice Lab 6 – Customer Voice
 
 ## Scenario
 

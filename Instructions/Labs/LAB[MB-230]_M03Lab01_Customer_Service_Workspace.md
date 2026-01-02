@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab: Customer Service workspace'
-    module: 'Module 4: Multi-session experiences'
+    module: 'Module 3: Customer Service workspaces'
 ---
 
 # Practice Lab – Customer Service workspace

@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab: Define Services'
-    module: 'Module 8: Service scheduling'
+    module: 'Module 4: Implement routing and scheduling'
 ---
 
 # Practice Lab - Define services
