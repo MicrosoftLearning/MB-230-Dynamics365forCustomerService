@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab: Create knowledge articles'
-    module: 'Module 3: Knowledge Management'
+    module: 'Module 2: Service Level Agreements and Knowledge Management'
 ---
 
 # Practice Lab – Knowledge management
