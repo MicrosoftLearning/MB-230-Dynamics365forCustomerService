@@ -4,7 +4,7 @@ lab:
     module: 'Module 2: Service Level Agreements and Knowledge Management'
 ---
 
-# Practice Lab – Entitlements and templates
+# Practice Lab – Service Level Agreements
 
 ## Scenario
 
