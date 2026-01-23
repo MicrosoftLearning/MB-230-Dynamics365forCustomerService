@@ -8,7 +8,7 @@ lab:
 
 ## Scenario
 
-You are the scheduling manager at City Power & Light who has been tasked with setting up the new Service Scheduling functionality to perform services for customers at three of your locations.
+You are the scheduling manager at City Power & Light who has been tasked with setting up the new Service Scheduling functionality to perform services for customers at three of your locations. This exercise should take approximately 20 minutes to complete. 
 
 ## Exercise 1: Configure Customer Service Scheduling
 
