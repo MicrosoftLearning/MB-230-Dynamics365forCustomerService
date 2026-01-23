@@ -8,7 +8,7 @@ lab:
 
 ## Scenario
 
-You are a customer service manager at City Power & Light who has been tasked with trying the new case routing functionality before rolling it out to your users. In this lab, you will create record creation rules, and case routing rules and test how they work.
+You are a customer service manager at City Power & Light who has been tasked with trying the new case routing functionality before rolling it out to your users. In this lab, you will create record creation rules, and case routing rules and test how they work. This exercise should take approximately 20 minutes to complete. 
 
 ## Exercise 1 – Configure record creation rules
 
