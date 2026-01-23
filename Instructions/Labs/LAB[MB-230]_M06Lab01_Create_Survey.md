@@ -8,7 +8,7 @@ lab:
 
 ## Scenario
 
-You are a customer service manager at City Power & Light who has been tasked with trying the new Customer Voice functionality to capture feedback on cases before rolling it out to your customers.
+You are a customer service manager at City Power & Light who has been tasked with trying the new Customer Voice functionality to capture feedback on cases before rolling it out to your customers. This exercise should take approximately 15 minutes to complete. 
 
 ## Exercise 1: Create survey
 
