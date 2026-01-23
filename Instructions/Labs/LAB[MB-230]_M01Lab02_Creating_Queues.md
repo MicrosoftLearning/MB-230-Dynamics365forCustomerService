@@ -8,7 +8,7 @@ lab:
 
 ## Scenario
 
-You are a customer service manager at City Power & Light. You need to create queues for the customer service representatives to use for processing cases. In this lab, you will create a create multiple queues and add cases to activities to queues.
+You are a customer service manager at City Power & Light. You need to create queues for the customer service representatives to use for processing cases. In this lab, you will create a create multiple queues and add cases to activities to queues. This exercise should take approximately 20 minutes to complete. 
 
 ## Exercise 1 – Create Queues
 
