@@ -8,7 +8,7 @@ lab:
 
 ## Scenario
 
-You are a customer service manager at City Power & Light who has been tasked with configuring the agent experience profiles for Customer Service workspace. In this lab, you will configure a new profile.
+You are a customer service manager at City Power & Light who has been tasked with configuring the agent experience profiles for Customer Service workspace. In this lab, you will configure a new profile. This exercise should take approximately 15 minutes to complete. 
 
 ## Exercise 1 – Create an agent experience profile
 
