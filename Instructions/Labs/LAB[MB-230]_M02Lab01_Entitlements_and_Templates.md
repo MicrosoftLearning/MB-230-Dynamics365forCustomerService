@@ -8,7 +8,7 @@ lab:
 
 ## Scenario
 
-As a customer service manager at City Power & Light, you need to create a Service Level Agreement and make it the default agreement. In this lab, you will create an SLA and test it. 
+As a customer service manager at City Power & Light, you need to create a Service Level Agreement and make it the default agreement. In this lab, you will create an SLA and test it. This exercise should take approximately 20 minutes to complete. 
 
 ## Exercise 1 – Service Level Agreements
 
