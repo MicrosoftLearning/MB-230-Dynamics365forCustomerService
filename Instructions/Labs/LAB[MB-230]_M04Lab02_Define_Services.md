@@ -8,7 +8,7 @@ lab:
 
 ## Scenario
 
-You are the scheduling manager at City Power & Light who has been tasked with testing the Service Scheduling functionality to perform services for customers at your locations.
+You are the scheduling manager at City Power & Light who has been tasked with testing the Service Scheduling functionality to perform services for customers at your locations. This exercise should take approximately 15 minutes to complete. 
 
 ## Exercise 1: Define Services
 
