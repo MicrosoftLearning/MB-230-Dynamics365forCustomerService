@@ -8,7 +8,7 @@ lab:
 
 ## Scenario
 
-You are a customer service manager at City Power & Light who has been tasked with configuring the Customer Service workspace before rolling it out to your users. In this lab, you will explore how the the Customer Service workspace works.
+You are a customer service manager at City Power & Light who has been tasked with configuring the Customer Service workspace before rolling it out to your users. In this lab, you will explore how the the Customer Service workspace works. This exercise should take approximately 10 minutes to complete. 
 
 ## Exercise 1 – Navigate Customer Service workspace
 
