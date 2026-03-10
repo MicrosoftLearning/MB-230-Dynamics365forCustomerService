@@ -1,7 +1,16 @@
 ---
 lab:
-    title: 'Lab: Validate lab environment'
-    module: 'Module 0: Configure Dynamics 365 Customer Service'
+  title: 'Lab: Validate lab environment'
+  module: 'Module 0: Configure Dynamics 365 Customer Service'
+  description: In this Module 0 lab, you will validate that your classroom tenant
+    is working as expected. You will access your individual credentials, record your
+    "alias", and open the Dynamics 365 model-driven application that we will be using
+    throughout the course. This exercise should take approximately 10 minutes to complete.
+  duration: 10 minutes
+  level: 100
+  islab: true
+  primarytopics:
+  - Dynamics 365
 ---
 
 # Practice Lab - Validate lab environment
