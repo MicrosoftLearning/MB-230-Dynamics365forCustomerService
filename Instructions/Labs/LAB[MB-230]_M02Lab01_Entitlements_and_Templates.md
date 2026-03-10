@@ -1,7 +1,14 @@
 ---
 lab:
-    title: 'Lab: Service Level Agreements'
-    module: 'Module 2: Service Level Agreements and Knowledge Management'
+  title: 'Lab: Service Level Agreements'
+  module: 'Module 2: Service Level Agreements and Knowledge Management'
+  description: As a customer service manager at City Power & Light, you need to create
+    a Service Level Agreement and make it the default agreement. In this lab, you
+    will create an SLA and test it. This exercise should take approximately 20 minutes
+    to complete.
+  duration: 20 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab – Service Level Agreements
