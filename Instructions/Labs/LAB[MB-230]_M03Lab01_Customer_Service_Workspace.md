@@ -1,7 +1,14 @@
 ---
 lab:
-    title: 'Lab: Customer Service workspace'
-    module: 'Module 3: Customer Service workspaces'
+  title: 'Lab: Customer Service workspace'
+  module: 'Module 3: Customer Service workspaces'
+  description: You are a customer service manager at City Power & Light who has been
+    tasked with configuring the Customer Service workspace before rolling it out to
+    your users. In this lab, you will explore how the the Customer Service workspace
+    works. This exercise should take approximately 10 minutes to complete.
+  duration: 10 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab – Customer Service workspace
