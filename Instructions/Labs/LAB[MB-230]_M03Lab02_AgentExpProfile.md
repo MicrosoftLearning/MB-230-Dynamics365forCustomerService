@@ -1,7 +1,14 @@
 ---
 lab:
-    title: 'Lab: Agent experience profiles'
-    module: 'Module 3: Customer Service workspaces'
+  title: 'Lab: Agent experience profiles'
+  module: 'Module 3: Customer Service workspaces'
+  description: You are a customer service manager at City Power & Light who has been
+    tasked with configuring the agent experience profiles for Customer Service workspace.
+    In this lab, you will configure a new profile. This exercise should take approximately
+    15 minutes to complete.
+  duration: 15 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab – Agent experience profiles
