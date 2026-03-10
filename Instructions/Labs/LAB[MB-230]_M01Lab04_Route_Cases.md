@@ -1,7 +1,15 @@
 ---
 lab:
-    title: 'Lab: Routing cases'
-    module: 'Module 1: Case Management'
+  title: 'Lab: Routing cases'
+  module: 'Module 1: Case Management'
+  description: You are a customer service manager at City Power & Light who has been
+    tasked with trying the new case routing functionality before rolling it out to
+    your users. In this lab, you will create record creation rules, and case routing
+    rules and test how they work. This exercise should take approximately 20 minutes
+    to complete.
+  duration: 20 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab – Routing cases
