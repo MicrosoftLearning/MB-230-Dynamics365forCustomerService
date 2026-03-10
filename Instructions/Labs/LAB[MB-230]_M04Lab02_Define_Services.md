@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Lab: Define Services'
-    module: 'Module 4: Implement routing and scheduling'
+  title: 'Lab: Define Services'
+  module: 'Module 4: Implement routing and scheduling'
+  description: You are the scheduling manager at City Power & Light who has been tasked
+    with testing the Service Scheduling functionality to perform services for customers
+    at your locations. This exercise should take approximately 15 minutes to complete.
+  duration: 15 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab - Define services
