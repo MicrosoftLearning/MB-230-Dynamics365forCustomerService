@@ -1,7 +1,18 @@
 ---
 lab:
-    title: 'Lab: Create knowledge articles'
-    module: 'Module 2: Service Level Agreements and Knowledge Management'
+  title: 'Lab: Create knowledge articles'
+  module: 'Module 2: Service Level Agreements and Knowledge Management'
+  description: As a customer care coordinator at City Power & Light, you are responsible
+    for instructing the customer service team and providing them with troubleshooting
+    articles to support case resolution. You need to create a knowledge article within
+    Dynamics 365 for Customer Service. In this lab, you will create a knowledge article,
+    walk through the publishing process and then revise that article. This exercise
+    should take approximately 15 minutes to complete.
+  duration: 15 minutes
+  level: 100
+  islab: true
+  primarytopics:
+  - Dynamics 365
 ---
 
 # Practice Lab – Knowledge management
