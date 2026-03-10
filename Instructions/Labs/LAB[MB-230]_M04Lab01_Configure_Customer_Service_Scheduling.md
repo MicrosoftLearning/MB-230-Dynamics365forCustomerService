@@ -1,7 +1,14 @@
 ---
 lab:
-    title: 'Lab: Configure Customer Service Scheduling'
-    module: 'Module 4: Implement routing and scheduling'
+  title: 'Lab: Configure Customer Service Scheduling'
+  module: 'Module 4: Implement routing and scheduling'
+  description: You are the scheduling manager at City Power & Light who has been tasked
+    with setting up the new Service Scheduling functionality to perform services for
+    customers at three of your locations. This exercise should take approximately
+    20 minutes to complete.
+  duration: 20 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab - Configure Customer Service Scheduling
