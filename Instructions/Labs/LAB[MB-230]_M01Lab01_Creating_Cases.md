@@ -1,7 +1,14 @@
 ---
 lab:
-    title: 'Lab: Creating cases'
-    module: 'Module 1: Case Management'
+  title: 'Lab: Creating cases'
+  module: 'Module 1: Case Management'
+  description: You are a customer service manager at City Power & Light who has been
+    tasked with trying the new case functionality before rolling it out to your users.
+    In this lab, you will create new customer cases and create a phone calls associated
+    with the cases. This exercise should take approximately 20 minutes to complete.
+  duration: 20 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab – Creating cases
