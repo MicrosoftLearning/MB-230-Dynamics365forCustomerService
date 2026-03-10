@@ -1,7 +1,14 @@
 ---
 lab:
-    title: 'Lab: Create survey'
-    module: 'Module 6: Customer Voice'
+  title: 'Lab: Create survey'
+  module: 'Module 6: Customer Voice'
+  description: You are a customer service manager at City Power & Light who has been
+    tasked with trying the new Customer Voice functionality to capture feedback on
+    cases before rolling it out to your customers. This exercise should take approximately
+    15 minutes to complete.
+  duration: 15 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab 6 – Customer Voice
