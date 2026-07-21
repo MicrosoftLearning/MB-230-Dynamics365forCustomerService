@@ -10,6 +10,9 @@ lab:
 
 # Practice Lab 6 – Customer Voice
 
+> [!IMPORTANT]
+> There is a known error accessing Dynamics 365 Customer Voice. If you receive an error when attempting this lab, you can safely skip it — there are no dependencies on this lab for subsequent exercises. We are working on a resolution.
+
 ## Scenario
 
 You are a customer service manager at City Power & Light who has been tasked with trying the new Customer Voice functionality to capture feedback on cases before rolling it out to your customers. This exercise should take approximately 15 minutes to complete. 
