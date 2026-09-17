@@ -1,176 +1,179 @@
 ---
 lab:
-  title: 'Lab: Create survey'
-  module: 'Module 6: Customer Voice'
-  description: In this exercise, you will create an email template and send the survey by email.
-  duration: 15 minutes
+  title: 'Lab: Capture feedback with Customer Voice'
+  module: 'Module 6: Extend and analyze Dynamics 365 Customer Service'
+  description: As a customer service manager at Contoso Coffee, you create and test a case feedback survey, configure satisfaction metrics, and review distribution and automation options.
+  duration: 30 minutes
   level: 100
   islab: true
 ---
 
-# Practice Lab 6 – Customer Voice
+# Practice Lab – Capture feedback with Customer Voice
 
 > [!IMPORTANT]
-> There is a known error accessing Dynamics 365 Customer Voice. If you receive an error when attempting this lab, you can safely skip it — there are no dependencies on this lab for subsequent exercises. We are working on a resolution.
+> Customer Voice is included with the Dynamics 365 Customer Service trial and doesn't require separate installation. Sign in with the same Microsoft Entra account that you use for the course environment. If Customer Voice or the course environment isn't available, notify your instructor. You can skip this final lab without affecting any other lab.
 
 ## Scenario
 
-You are a customer service manager at City Power & Light who has been tasked with trying the new Customer Voice functionality to capture feedback on cases before rolling it out to your customers. This exercise should take approximately 15 minutes to complete. 
+As a customer service manager at Contoso Coffee, you need to evaluate Customer Voice as a way to capture feedback after a case is resolved. In this lab, you create and preview a case feedback survey, review its satisfaction metrics, prepare an email template, and examine case-resolution automation. This exercise should take approximately 30 minutes to complete.
 
-## Exercise 1: Create survey
+## Exercise 1 – Create a survey project
 
-In this exercise, you will create a project and use a template to create a survey.
+### Task 1 – Access Customer Voice
 
-### Task 1: Create project
+1. In a browser, go to [Dynamics 365 Customer Voice](https://customervoice.microsoft.com).
 
-1.  Navigate to <https://customervoice.microsoft.com>
+2. Sign in with the same Microsoft Entra account that you use for the course environment.
 
-2.  Sign in with your Dynamics 365 tenant credentials if necessary.
+3. Confirm that the **All projects** page opens.
 
-3.  You should arrive at the **Create a project** page.
+4. If access is denied, confirm that you used the correct account, and then ask your instructor to verify that your user has access to the course environment.
 
-4.  Select the **Support** template.
+### Task 2 – Create a support project
 
-5.  Click **Next**.
+Before you begin, choose a unique prefix that contains three through eight alphanumeric characters. Use the same prefix wherever the lab asks for `<prefix>`.
 
-6.  Select **See all environments** and select the the **WWLnnn** Dynamics 365 environment (where **nnn** if your unique environment).
+1. On the **All projects** page, select **New project**.
 
-7.  Select **Select and close.** Select **Create.**
+2. Select the **Support** template.
 
-8.  Select **All Projects**.
+3. Select **Next**.
 
-9.  Click on the ellipsis next your **Support** project and select **Rename**.
+4. On the **Survey location** page, select **See all environments**.
 
-10.  Enter **[your prefix ex. mollyc]** + **Case Feedback** and click on **Rename**.
+5. Select the Dynamics 365 environment that you use for the course.
 
-### Task 2: Customize survey
+6. Select **Select and close**, and then select **Create**.
 
-1.  Select your project.
+7. On the **All projects** page, rename the project `<prefix> Case Feedback`.
 
-2.  Click in the **Header** and change **Customer Service feedback** to **How did we do?**. Select anywhere outside the header after you have edited the text.
+### Task 3 – Customize the survey
 
-3.  Hover the mouse over the header and click on the **Theme color** icon (looks like a painting pallette) and change from 2266e3 to **ffdd66**.
+1. Open the `<prefix> Case Feedback` project, and then open its survey.
 
-4.  Hover the mouse over the header and click on the **Image** icon and choose one of the images from the gallery.
+2. Change the survey title to **How did we do?**.
 
-5.  Select question 1 and set as **Required**.
+3. Set the first two survey questions to **Required**.
 
-6.  Select question 2 and set as **Required**.
+4. After the last question, select **Add new**, and then add a **Net Promoter Score** question.
 
-7.  Select the last question in the survey and click on **+ Add new**. Select the chevron (V) and select the **Net Promoter Score** question type. Set the question as **Required**.
+5. Enter **How likely are you to recommend Contoso Coffee?**, and then set the question to **Required**.
 
-8.  Click on **Post-survey message** and change the Heading from **Thanks!** to **Thank you for your feedback** and change the Message to **We look at all feedback to improve our service.**
+6. In **Post-survey message**, enter **Thank you for your feedback** for the heading and **We review all feedback to improve our service.** for the message.
 
-9.  Click in the Footer and enter **The feedback you submit will not be shared outside of the company.**
+7. In the footer, enter **Contoso Coffee uses your feedback to improve customer service.**
 
-10. Expand **Customization** and select **Personalization**.
+## Exercise 2 – Personalize and evaluate the survey
 
-11. Click + **Add variable** and enter **casereference** with default value **Your support case**.
+### Task 1 – Add a case reference variable
 
-12. Click **Save**.
+1. On the survey's **Design** tab, expand **Customization**, and then select **Personalization**.
 
-13. Click **Close**.
+2. Select **Add variable**.
 
-14. Select **Formatting**.
+3. Enter `casereference` for the variable name.
 
-15. Toggle **Progress bar** to **Off** and close the formatting pane.
+4. Enter `Your support case` for the default value.
 
-16. Select Section 1. Select the **Variables** drop down and select **casereference**.
+5. Select **Save**, and then close the **Personalization** pane.
 
-17. Add the text **has been resolved**.
+6. Add a section heading at the start of the survey.
 
-18. Click **Preview**.
+7. Insert the `casereference` variable followed by the text **has been resolved.**
 
-19. Click **Back**.
+### Task 2 – Review satisfaction metrics
 
-### Task 3: Satisfaction metrics
+1. Expand **Customization**, and then select **Satisfaction metrics**.
 
-1.  Select your survey.
+2. Review the customer satisfaction and sentiment metrics provided by the **Support** template.
 
-2.  Expand **Customization** and select **Satisfaction metrics**.
+3. Select **Add metrics**, and then select **Net Promoter Score**.
 
-3.  Click **+ Add metric**.
+4. Enter `Recommendation` for the metric name.
 
-4.  Select **CSAT**. Under the **Case resolution survey questions**, select the first question.
+5. Associate the metric with the **How likely are you to recommend Contoso Coffee?** question.
 
-5.  Click **Save**.
+6. Select **Save**, and then close the **Satisfaction metrics** pane.
 
-6.  Click **+ Add metric**
+### Task 3 – Preview and test the survey
 
-7.  Select **Net Promoter Score** and select the last question.
+1. Select **Preview** on the survey toolbar.
 
-8.  Click **Save**.
+2. Confirm that **Your support case has been resolved.** appears at the start of the survey.
 
-9.  Click **+ Add metric**.
+3. Enter test responses and verify that the required questions can't be skipped.
 
-10.  Select **Sentiment** and select the text question.
+4. Switch to the mobile preview and confirm that the survey remains readable.
 
-11.  Click **Save**.
+5. Submit the preview response.
 
-## Exercise 2: Send survey
+6. Select **Back** to return to the survey editor.
 
-In this exercise, you will create an email template and send the survey by email.
+## Exercise 3 – Prepare survey distribution
 
-### Task 1: Configure email template
+The survey preview is the required validation path for this lab. Complete the following tasks if email distribution is available in your course environment.
 
-1.  Navigate to <https://customervoice.microsoft.com>.
+### Task 1 – Create an email template
 
-2.  Select your project.
+1. On the survey, select the **Send** tab.
 
-3.  Click on the **Send** tab.
+2. Select **Email**.
 
-4.  Click on the **Email** tile.
+3. Open the **Template** list, and then select **Create new**.
 
-5.  Click on the **Template** drop-down and select **Create new**.
+4. Enter `<prefix> Case Resolution` for the template name, and then select **Add**.
 
-6.  Enter **[your prefix ex. mollyc]** + **Case Resolution** and click **Add**.
+5. Replace the subject with **Please provide feedback on**, insert the `casereference` personalized variable, and then add the survey link to the message if it isn't already present.
 
-7.  Click on the **Insert** drop-down and select **First question in survey**.
+6. Select **Save**.
 
-8.  Replace the subject line with **Please provide feedback on**, click on the **Insert** drop-down and select **Personalized variables** and then select **casereference**.
+7. Select **Cancel** to close the email composer without sending a message.
 
-9.  Click **Save**.
+### Task 2 – Send a test invitation (optional)
 
-10. Click **Cancel**.
+1. On the **Send** tab, select **Email**.
 
-### Task 2: Send the survey
+2. Select the `<prefix> Case Resolution` template.
 
-1.  Click on the **Send** tab.
+3. Enter your email address in **Recipients**.
 
-2.  Click on the **Email** tile.
+4. For `casereference`, enter `Coffee Brewer Still Not Heating After Reset`.
 
-3.  Click on the **Template** drop-down and select the **Case Resolution** template you created.
+5. Select **Send**.
 
-4.  Click in the Recipients field and enter your email address.
+6. If delivery is permitted, open the invitation and confirm that the case reference appears in the subject or survey.
 
-5.  Click **Send**.
+> [!NOTE]
+> Email delivery can be restricted in a course trial. The lab is complete even if you don't send or receive the optional test invitation.
 
-## Exercise 3: Send survey when a case is resolved
+## Exercise 4 – Review case-resolution automation (optional)
 
-In this exercise, you will use Power Automate to send a survey when a case is resolved.
+The **Support** project includes automation for sending a survey when a Dynamics 365 case is resolved. Connections and recipient data vary by environment, so you review or configure the flow without activating it.
 
-### Task 1: Configure automation
+### Task 1 – Configure the flow
 
-1.  Navigate to <https://customervoice.microsoft.com>.
+1. On the survey's **Send** tab, select **Automation**.
 
-2.  Select your project.
+2. Select **Send a survey when a case is resolved in Dynamics 365**. If the flow already exists, open it in Power Automate.
 
-3.  Click on the **Send** tab.
+3. If prompted, select **Fix connection**, sign in with your course account, and then select **Continue**.
 
-4.  Click on **Resend** and select **Automate**. 
+4. Select your course environment for the Dynamics 365 connection.
 
-5.  Select the **Send a survey when a case is resolved in Dynamics 365** template. You may need to click on **See more templates**.
+5. Select `<prefix> Case Feedback` for **Dynamics 365 Customer Voice Project**.
 
-6.  If the connections require action, click **Fix connection** and sign in when prompted.
+6. Select the survey and the `<prefix> Case Resolution` email template that you created.
 
-7.  Click **Continue**.
+7. Select **Create** or **Save**.
 
-12. Select the **WWLLABnnn** Dynamics 365 environment for your environments.
+### Task 2 – Review the inactive flow
 
-13. Select the survey project starting with your prefix for **Dynamics 365 Customer Voice Project.**
+1. In Power Automate, go to **My flows**, and then open the case-resolution survey flow.
 
-14. Select your survey for **Dynamics 365 Customer Voice Survey.**
+2. Confirm that the trigger monitors changes to Dynamics 365 cases.
 
-15. Select your email template for **Dynamics 365 Customer Voice Email template.**
+3. Confirm that the flow checks for a resolved case and uses the Customer Voice **Send a survey** action.
 
-17. Click **Create**.
+4. Review how the recipient, project, survey, email template, and case reference are mapped.
+
+5. Leave the flow turned off. Activating and testing it requires a case contact with a valid email address and is outside the required lab path.

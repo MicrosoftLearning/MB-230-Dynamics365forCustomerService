@@ -10,6 +10,9 @@ lab:
 
 # Practice Lab - Configure Customer Service Scheduling
 
+> [!NOTE]
+> This lab is archived because service scheduling isn't part of the current MB-230 course. Its procedures haven't been validated for the current product experience.
+
 ## Scenario
 
 You are the scheduling manager at City Power & Light who has been tasked with setting up the new Service Scheduling functionality to perform services for customers at three of your locations. This exercise should take approximately 20 minutes to complete. 

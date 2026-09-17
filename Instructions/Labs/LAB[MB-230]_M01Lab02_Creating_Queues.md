@@ -1,8 +1,8 @@
 ---
 lab:
   title: 'Lab: Creating queues'
-  module: 'Module 1: Case Management'
-  description: You are a customer service manager at City Power & Light. You need to create queues for the customer service representatives to use for processing cases. In this lab, you will create a create multiple queues and add cases to activities to queues. This exercise should take approximately 20 minutes to complete.
+  module: 'Module 1: Manage cases, workloads, and service commitments in Dynamics 365 Customer Service'
+  description: You are a customer service manager at Contoso Coffee. You need to create queues that service representatives can use to process cases. In this lab, you create public and private queues, add cases to queues, and work with queue items. This exercise should take approximately 20 minutes to complete.
   duration: 20 minutes
   level: 100
   islab: true
@@ -12,120 +12,117 @@ lab:
 
 ## Scenario
 
-You are a customer service manager at City Power & Light. You need to create queues for the customer service representatives to use for processing cases. In this lab, you will create a create multiple queues and add cases to activities to queues. This exercise should take approximately 20 minutes to complete. 
+You are a customer service manager at Contoso Coffee. You need to create queues that service representatives can use to process cases. In this lab, you create public and private queues, add cases to queues, and work with queue items. This exercise should take approximately 20 minutes to complete.
 
-## Exercise 1 – Create Queues
+## Exercise 1 – Create queues
 
-In this exercise, you will create four queues.
+In this exercise, you create four basic queues. Unified routing is configured in a later lab.
 
-### Task 1 – Create Queues
+### Task 1 – Create queues
 
-1.  Open the **Customer Service admin center** app.
+1. Use the app selector to open **Copilot Service admin center**.
 
-2.  Click on **Queues** in the **Customer support** section.
+1. Select **Queues** in **Customer support**.
 
-3.  Click **Manage** in Basic queues area.
+1. On the **Queues** page, select **Manage** for **Basic queues**.
 
-4.  Click **+ New** located on the command bar.
+1. On the command bar, select **+ New**.
 
-5.  Enter  **Support** for **Name** and select **Public** for **Type**, and enter **[your prefix ex. mollyc]** + **.support@test.invalid** for **Incoming Email**.
+1. Enter **Support** for **Name**, select **Public** for **Type**, and enter **support@crmdemo.dynamics.com** for **Incoming Email**.
 
-6.  Click **Save**.
+1. Select **Save & Close**.
 
-7.  Click **+ New**.
+> **Note:** A later lab reviews email record-creation configuration without requiring you to send an email to this address.
 
-8.  Enter **Bronze** for **Name** and select **Private** for **Type**.
+1. On the command bar, select **+ New**.
 
-9.  Click **Save**.
+1. Enter **Bronze** for **Name** and select **Private** for **Type**.
 
-10. Click **+ New**.
+1. Select **Save**.
 
-11. Enter **Silver** for **Name** and select **Private** for **Type**.
+1. In the **Members** section, select **Add Existing User**, and then add your user account. (Because you are the owner, your account may already be listed - you do not need to re-add it if it already appears in the list.)
 
-12. Click **Save**.
+1. Select **Save & Close**.
 
-13. Click **+ New**.
+1. Repeat steps 7-11 to create the following private queues and add your user account as a member of each queue:
 
-14. Enter **Gold** for **Name** and select **Private** for **Type**.
+  - **Silver**
+  - **Gold**
 
-15. Click **Save**.
+1. Return to the **Basic queues** list, and then select the **My Active Queues** view.
 
-16. Click **Queues** under the **Customer support** section.
-
-17. Select the **My Active Queues** view.
-
-18. You should now see a private queue that was created for your user automatically, the public queue, and three private queues that you created in this lab.
+1. Confirm that the list includes the **Support**, **Bronze**, **Silver**, and **Gold** queues.
 
 ### Task 2 – Add cases to queues
 
-1.  Open the **Customer Service Hub** app.
+1. Use the app selector to open **Copilot Service workspace**.
 
-2.  Click on **Cases** in the **Service** section of the sitemap.
+1. Select **Cases** in the site map.
 
-3.  Select the **Service Required** case you created in the earlier lab.
+1. Select the **Annual Maintenance Required** case that you created in Lab 1.
 
-4.  Click **Add to Queue** located on the command bar.
+1. On the command bar, select **Add to Queue**.
 
-5.  Enter *Bronze* in the **Queue** field, click on the lookup icon and select the **Bronze** queue you created.
+1. In the **Queue** field, search for and select the **Bronze** queue.
 
-6.  Click **Add**.
+1. Select **Add**.
 
-7.  Click on **Cases** in the **Service** section of the sitemap.
+1. Return to **Cases**.
 
-8.  Select the **Defective Screen** case you created in the earlier lab.
+1. Select the **Coffee Brewer Not Heating** case that you created in Lab 1.
 
-9.  Click **Add to Queue** located on the command bar.
+1. On the command bar, select **Add to Queue**.
 
-10. Enter *Support* in the **Queue** field, click on the lookup icon and select the **Support** queue you created.
+1. In the **Queue** field, search for and select the **Support** queue.
 
-11. Click **Add**.
+1. Select **Add**.
 
-12. Click **Queues** under the **Service** section.
+1. Select **Queues** in the site map.
 
-13. Change the view from **Items I am working on** to **All items**.
+1. Select the **All Items in Selected Queues** view, and then select **All Queues** in the queue list.
 
-14. You should see the Service Required case listed for the Bronze queue.
+1. Confirm that **Annual Maintenance Required** is listed for the **Bronze** queue.
 
-15. Change the queue selector from **Queues I'm a member of** to **All Public Queues**.
+1. Confirm that **Coffee Brewer Not Heating** is listed for the **Support** queue.
 
-16. You should see the Defective Screen case listed for the Support queue.
-
-17. Change the queue selector to **All Queues**.
+> **Note:** If either case is missing, return to Lab 1 and confirm that the case exists, and then repeat the applicable **Add to Queue** steps.
 
 ### Task 3 – Perform actions on queue items
 
-1.  Click **Queues** under the **Service** section.
+1. Select **Queues** in the site map.
 
-2.  Change the view from **Items I am working on** to **Items available to work on**.
+1. Select the **Items available to work on** view.
 
-3.  Change the queue selector to **Queues I'm a member of**.
+1. Select **Queues I'm a member of** in the queue list.
 
-4.  You should see the Service Required case listed for the Bronze queue.
+1. Confirm that **Annual Maintenance Required** is listed for the **Bronze** queue.
 
-5.  Click to the left of the case in the queue to select it.
+1. Select the checkbox next to the case.
 
-6.  Click **Queue Item Details** located on the command bar.
+1. On the command bar, select **Queue Item Details**.
 
-7.  Note that **Worked By** is blank.
+1. Confirm that **Worked By** is blank.
 
-8.  Click **Close**
+1. Select **Save & Close**.
 
-9.  Click to the left of the case in the queue to select it.
+1. Select the checkbox next to the case.
 
-10. Click **Pick** located on the command bar.
+1. On the command bar, select **Pick**.
 
-11. Leave the *Also remove the item(s) from the Queue* option set to **No**, and click **Pick**.
+1. Leave **Also remove the item(s) from the Queue** set to **No**, and then select **Pick**.
 
-12. Change the view from **Items available to work on** to **Items I am working on**.
+1. Select the **Items I am working on** view.
 
-13. Click to the left of the case in the queue to select it.
+1. Select the checkbox next to the case.
 
-14. Click **Queue Item Details** located on the command bar.
+1. On the command bar, select **Queue Item Details**.
 
-15. Note that **Worked By** is set to your user.
+1. Confirm that **Worked By** is set to your user.
 
-16. Click **Close**.
+1. Select **Save & Close**.
 
-17. Click to the left of the case in the queue to select it.
+1. Select the checkbox next to the case.
 
-18. Click **Release** located on the command bar and click **Release**.
+1. On the command bar, select **Release**, and then confirm by selecting **Release**.
+
+1. Confirm that the case no longer appears in **Items I am working on**.

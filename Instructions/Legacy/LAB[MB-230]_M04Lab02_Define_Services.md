@@ -10,6 +10,9 @@ lab:
 
 # Practice Lab - Define services
 
+> [!NOTE]
+> This lab is archived because service scheduling isn't part of the current MB-230 course. Its procedures haven't been validated for the current product experience.
+
 ## Scenario
 
 You are the scheduling manager at City Power & Light who has been tasked with testing the Service Scheduling functionality to perform services for customers at your locations. This exercise should take approximately 15 minutes to complete. 
