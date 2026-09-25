@@ -19,7 +19,28 @@ As a customer service manager at Contoso Coffee, you need a consistent workspace
 
 ## Exercise 1 – Create supporting workspace components
 
-### Task 1 – Create a representative guidance script
+### Task 1 – Assign productivity security roles
+
+The user who configures scripts needs the **Productivity tools administrator** security role. A representative who uses scripts in Copilot Service workspace needs the **Productivity tools user** security role. In this lab, assign both roles to your current user.
+
+1. Open a new browser tab and sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) as a system administrator.
+
+1. In the navigation pane, select **Manage**, and then select **Environments**.
+
+1. Select the environment that you use for this lab, and then select **Settings** on the command bar.
+
+1. Expand **Users + permissions**, and then select **Users**.
+
+1. Select your current user, and then select **Manage security roles**.
+
+1. Select the following roles:
+
+  - **Productivity tools administrator**
+  - **Productivity tools user**
+
+1. Select **Save**, and then close the Power Platform admin center browser tab.
+
+### Task 2 – Create a representative guidance script
 
 Before you begin, choose a unique prefix that contains three through eight alphanumeric characters. Use the same prefix wherever the lab asks for `<prefix>`. For example, if your name is Molly Clark, you might use `molclark`.
 
@@ -54,7 +75,7 @@ Before you begin, choose a unique prefix that contains three through eight alpha
 
 1. Select **Save** on the script record.
 
-### Task 2 – Create a case session template
+### Task 3 – Create a case session template
 
 1. In Copilot Service admin center, go to **Support experience** > **Workspaces**.
 
@@ -158,7 +179,11 @@ A user can be assigned to only one experience profile at a time. Trial environme
 
 ### Task 1 – Open a configured case session
 
-1. Use the app selector to open **Copilot Service workspace**. Refresh the browser if the profile changes aren't visible immediately.
+1. Allow several minutes for the security-role and experience-profile changes to propagate.
+
+1. Use the app selector to open **Copilot Service workspace**.
+
+1. Refresh the browser before you open a case so that the workspace loads the updated permissions and profile configuration.
 
 1. In the site map, select **Cases**.
 
@@ -175,3 +200,6 @@ A user can be assigned to only one experience profile at a time. Trial environme
 1. Select **Script 1** if it isn't already selected.
 
 1. Confirm that **Step 1** displays the instruction **Hi, how can I help you today?**
+
+> [!NOTE]
+> If the Agent Scripts pane reports that scripts haven't been created or couldn't load, close the case session, confirm that your user has both productivity security roles, confirm that **Script 1** is associated with **Entity Temp**, refresh the workspace, and then open the case again. Agent scripts load when a new session starts.

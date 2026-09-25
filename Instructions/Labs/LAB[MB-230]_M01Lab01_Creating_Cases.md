@@ -151,7 +151,7 @@ In this exercise, you will create a Phone Call activity and then convert the act
 
 ### Task 1 – Create Phone Call activity
 
-Due to the coffee maker issue, Avery requests that her company, Relecloud, be put on an ongoing maintenance plan to prevent further coffee maker issues in their office. Record the request as an incoming phone call.
+Due to the coffee brewer issue, Avery requests that her company, Relecloud, be put on an ongoing maintenance plan to prevent further coffee brewer issues in their office. Record the request as an incoming phone call.
 
 1. Select **Accounts** in the site map.
 
