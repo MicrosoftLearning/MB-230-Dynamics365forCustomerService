@@ -1,8 +1,8 @@
 ---
 lab:
   title: 'Lab: Resolving cases'
-  module: 'Module 1: Case Management'
-  description: You are a customer service manager at City Power & Light who has been tasked with trying the new case resolution and reactivation functionality before rolling it out to your users. In this lab, you will resolve a case and reactive that case. This exercise should take approximately 15 minutes to complete.
+  module: 'Module 1: Manage cases, workloads, and service commitments in Dynamics 365 Customer Service'
+  description: You are a customer service manager at Contoso Coffee who is validating the case resolution experience for service representatives. In this lab, you resolve a case, reactivate it, and prepare it for a later routing lab. This exercise should take approximately 15 minutes to complete.
   duration: 15 minutes
   level: 100
   islab: true
@@ -12,48 +12,52 @@ lab:
 
 ## Scenario
 
-You are a customer service manager at City Power & Light who has been tasked with trying the new case resolution and reactivation functionality before rolling it out to your users. In this lab, you will resolve a case and reactive that case. This exercise should take approximately 15 minutes to complete. 
+You are a customer service manager at Contoso Coffee who is validating the case resolution experience for service representatives. In this lab, you resolve a case, reactivate it, and prepare it for a later routing lab. This exercise should take approximately 15 minutes to complete.
 
-## Exercise 1 – Resolve Cases
+## Exercise 1 – Resolve and reactivate a case
 
-### Task 1 – Resolve Case
+### Task 1 – Resolve a case
 
-1.  Open the **Customer Service Hub** app.
+1. Use the app selector to open **Copilot Service workspace**.
 
-2.  Click on **Home** at the top of the left-hand side navigation.
+2. Select **Cases** in the site map.
 
-3.  Click on **Cases** in the **Service** section of the sitemap.
+3. Select the **My Active Cases** view if it isn't already selected.
 
-4.  Enter *Defective Screen* in the **Filter by keyword** field, click on the arrow icon.
+4. In the filtering box, enter **Coffee Brewer**.
 
-5.  Open the **Defective Screen** case you created.
+5. Open the **Coffee Brewer Not Heating** case that you created in Lab 1.
 
-6.  Click on the **Research** stage of the **Business Process Flow**.
+6. On the command bar, select **Resolve case**. You might need to select **More commands** (...) to find the action.
 
-7.  Click **Next Stage**.
+7. If a message indicates that the case has an open activity, select **Confirm**. The open activity is canceled when the case is resolved.
 
-8.  The **Business process Flow** will advance to the **Resolve** stage. Click on the **Resolve** stage and click **Finish**.
+8. In the **Resolve Case** dialog, select **Problem Solved** for **Resolution Type**.
 
-9.  Click on the **Resolve Case** button located in the command bar. Note: You may need to click the ellipsis (...) to see the button.
+9. Enter **Guided customer through a reset; brewer began heating** for **Resolution**.
 
-10. A dialog will alert you that there is an open activity associated with this case, and resolving the case will result in cancelling the activity.
+10. Select **Resolve**.
 
-11. Click **Confirm**.
+11. Confirm that the case status is **Resolved**.
 
-12. Select **Problem Solved** for **Resolution Type** and enter **Sent Replacement** for **Resolution**.
+### Task 2 – Reactivate the resolved case
 
-13. Click **Resolve**.
+Avery reports that the brewer stopped heating again after the reset. Reactivate the existing case to continue investigating the issue.
 
-### Task 2 – Reactivate Resolved Case
+1. Return to **Cases**.
 
-1.  Click **Cases** under the **Service** section.
+2. Change the view from **My Active Cases** to **Resolved Cases**.
 
-2.  Change the **View** from **My active Cases** to **Resolved Cases**.
+3. Open the case that you resolved in Task 1.
 
-3.  Open the case you resolved in task 1.
+4. On the command bar, select **Reactivate Case**. You might need to select **More commands** (...) to find the action.
 
-4.  Click on the **Reactivate Case** button located in the command bar. A dialog will be displayed with the message to confirm, Select **Reactivate**. 
+5. In the confirmation dialog, select **Reactivate**.
 
-5.  Change the **Case Title** to **Defective Screen Not Resolved** in the **Details** tab.
+6. Confirm that the case status is **Active**.
 
-6.  Click **Save & Close**.
+7. On the **Summary** tab, change **Case Title** to **Coffee Brewer Still Not Heating After Reset**.
+
+8. Select **Save & Close**.
+
+The active **Coffee Brewer Still Not Heating After Reset** case is used in the routing lab.

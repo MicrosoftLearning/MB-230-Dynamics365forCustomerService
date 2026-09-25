@@ -2,7 +2,7 @@
 lab:
   title: 'Lab: Validate lab environment'
   module: 'Module 0: Configure Dynamics 365 Customer Service'
-  description: In this Module 0 lab, you will validate that your classroom tenant is working as expected. You will access your individual credentials, record your "alias", and open the Dynamics 365 model-driven application that we will be using throughout the course. This exercise should take approximately 10 minutes to complete.
+  description: In this Module 0 lab, you validate that your classroom tenant is working as expected. You use your assigned credentials to access the Dynamics 365 Customer Service trial and verify the applications used throughout the course. This exercise should take approximately 10 minutes to complete.
   duration: 10 minutes
   level: 100
   islab: true
@@ -14,32 +14,30 @@ lab:
 
 ## Scenario
 
-In this Module 0 lab, you will validate that your classroom tenant is working as expected. You will access your individual credentials, record your "alias", and open the Dynamics 365 model-driven application that we will be using throughout the course. This exercise should take approximately 10 minutes to complete. 
+In this Module 0 lab, you validate that your classroom tenant is working as expected. You use your assigned credentials to access the Dynamics 365 Customer Service trial and verify the applications used throughout the course. This exercise should take approximately 10 minutes to complete.
 
-**Important notice for instructors:** Please do not make any changes, including adding licenses or changing tenant password. Tenants are fully provisioned with all necessary licenses, environments, and applications to complete the required tenants. Instructors and students should not add any additional functionality outside of the published lab steps. Adding additional functionality will cause the tenant to break and become inactive, and changing tenant password will inhibit the recycling of the tenant for the next class. Thank you for your cooperation.
+**Important notice for instructors:** Don't add licenses, install applications, or change tenant passwords unless a lab specifically instructs you to do so. The tenants are provisioned with the licenses, environments, and applications required for the course. Changes outside the published lab steps can prevent the tenant from being reused for the next class.
 
-**Important notice for instructors and students:** This lab will provide you with an actual Dynamics 365 tenant and licenses for the Power Platform applications you will be using in this course. Please be aware that the Power Platform is evolving all the time. The instructions in this document may be different from what you experience in your actual tenant. It is also possible to experience a delay of several minutes before the virtual machine has network connectivity to begin the labs.
+**Important notice for instructors and students:** The lab environment provides a Dynamics 365 tenant and licenses for the applications used in this course. Cloud services and newly provisioned applications can take several minutes to become available. If an expected application is missing, wait a few minutes and try again. If it remains unavailable, notify your instructor. Don't install applications or add licenses to correct the issue.
 
 ## Exercise 1 - Access a trial environment
 
-### Task 1 – Log into the Power Platform admin center
+### Task 1 - Access the Customer Service trial
 
-1. In a new browser tab, navigate to https://dynamics.microsoft.com/dynamics-365-free-trial. In the middle of the screen, you will see two buttons: one to see plans and pricing, the other to try for free. Select **Try for free.**
-3. Locate Dynamic 365 Customer Service.
-4. Select the **Try for free** button.
-5. In the *Let's get started* screen, enter the credentials that were provided to you as part of your lab environment. Accept the license agreement. (If you are prompted to enter a phone number, you can enter 0123456789.)
-6. Select **Start your free trial**.
-7. (If prompted, select **Launch Trial** in the pop-up.
-8. Your trial will launch. It may take a few minutes for your environment to open.
-9. In the header, select **Service trial.** This will open your list of available apps. In this course, we will be working mostly in the **Customer Service Hub.** Select **Customer Service Hub** to open the application.
-10. Feel free to take a few minutes to explore the application.
+1. Locate the credentials assigned to you for the lab environment. Record them where you can refer to them during the course.
+1. In a new browser tab, go to the [Dynamics 365 Customer Service product page](https://www.microsoft.com/dynamics-365/products/customer-service).
+1. Select **Try for free** for Dynamics 365 Customer Service.
+1. Sign in with the credentials supplied for your lab environment. Don't use a personal account or change the assigned password.
+1. Follow the onscreen guidance to start or open the trial. If prompted for a phone number, enter **123456789**. Accept the license agreement if prompted.
+1. Wait for the trial environment to open. Initial provisioning can take several minutes.
 
-### Task 2 - Install Customer Voice
-1. Navigate to [the Power Platform admin center](https://admin.powerplatform.microsoft.com).
-2. Expand **Resources**.
-4. Select **Dynamics 365 Apps**.
-5. Select **Dynamics 365 Customer Voice**.
-6. Select the ellipses (...) and select **Install**.
-7. Select the **CustomerService Trial** environment.
-8. Agree to the terms of service.
-9. Select **Install**.
+> **Note:** If the trial has already been started for your assigned account, sign-in might take you directly to the existing environment.
+
+### Task 2 - Validate the Customer Service applications
+
+1. Confirm that **Copilot Service workspace** opens without an error and that you can access its navigation. This application is the representative workspace used throughout the course.
+1. In the top menu bar, select **Copilot Service workspace**, and then select **Copilot Service admin center**.
+1. Confirm that the admin center opens and displays its home page and navigation. This application is used to configure cases, queues, knowledge, routing, service terms, and representative experiences.
+1. Return to **Copilot Service workspace**.
+
+You have validated the Dynamics 365 Customer Service lab environment. Don't install Customer Voice during this lab. Installation and access requirements are addressed before the Customer Voice lab.
