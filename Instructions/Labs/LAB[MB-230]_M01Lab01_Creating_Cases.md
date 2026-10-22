@@ -24,7 +24,7 @@ In this exercise, you open the representative application used to manage cases.
 
 1. If another Dynamics 365 application is open, use the app selector to open **Copilot Service workspace**.
 
-1. If the **Trial** dashboard is displayed by default, select the **Customer Service Rep Dashboard** tab.
+1. If the **Trial** dashboard is displayed by default, select the **Customer Service Representative Dashboard** tab.
 
 ## Exercise 2 – Create case
 
@@ -32,7 +32,7 @@ In this exercise, you will create an Account, a Contact, a Subject, a Product, a
 
 ### Task 1 – Create Account
 
-1. Select **Accounts** in the site map.
+1. Select the **Site map** icon if it isn't already expanded, and then select **Accounts**.
 
 1. Select **+ New** on the command bar.
 
@@ -52,9 +52,9 @@ In this exercise, you will create an Account, a Contact, a Subject, a Product, a
 
 1. Select **+ New** on the command bar.
 
-1.  Enter **Avery** for **First Name**.
+1. Enter **Avery** for **First Name**.
 
-1.  Enter **Howard** for **Last Name**.
+1. Enter **Howard** for **Last Name**.
 
 1. In the **Account Name** field, search for and select the **Relecloud** account that you created in Task 1.
 
@@ -64,11 +64,11 @@ In this exercise, you will create an Account, a Contact, a Subject, a Product, a
 
 1. Use the app selector to open **Copilot Service admin center**.
 
-1. Select **Case Settings** in **Customer Support**.
+1. Select **Case Settings** in **Customer Support** section.
 
 1. In the **Subjects** section, select **Manage**.
 
-1. On the **Subject tree** page, in **Subject tree management**, select the ellipses and then select **+Add**.
+1. On the **Subject tree** page, in **Subject tree management**, select **+ Add**.
 
 1. Enter **Maintenance** for **Title**.
 
@@ -96,7 +96,6 @@ In this exercise, you will create an Account, a Contact, a Subject, a Product, a
 
 1. On the command bar, select **Publish**, and then confirm the action.
 
-
 ### Task 5 – Create Case
 
 Avery is calling to report that the coffee brewer isn't heating. Create a case to track the issue.
@@ -107,7 +106,7 @@ Use the app selector to return to **Copilot Service workspace**.
 
 1. On the command bar, select **+ New Case**.
 
-1.  Enter **Coffee Brewer Not Heating** for **Case Title**.
+1. Enter **Coffee Brewer Not Heating** for **Case Title**.
 
 1. In the **Customer** field, search for and select the **Relecloud** account that you created in Task 1.
 
@@ -119,7 +118,7 @@ Use the app selector to return to **Copilot Service workspace**.
 
 1.  Enter **Coffee brewer does not heat water** in the **Description** field.
 
-1. If the enhanced quick case form is displayed, select **Save and close**, and then open the **Coffee Brewer Not Heating** case to continue on the full case form.
+1. Select **Save & close**, and then open the **Coffee Brewer Not Heating** case to continue on the full case form.
 
 1. Select the **Details** tab.
 
@@ -143,7 +142,7 @@ Use the app selector to return to **Copilot Service workspace**.
 
 1. Select **High** from the **Priority** drop-down field.
 
-1. Select **Save & Close**.
+1. Select **Save and Close**.
 
 ## Exercise 3 – Create case from an activity
 
@@ -161,11 +160,11 @@ Due to the coffee brewer issue, Avery requests that her company, Relecloud, be p
 
 1. Enter **Annual Maintenance Required** for **Subject**.
 
-1.  Select **Incoming** from the **Direction** drop-down field.
+1. Select **Incoming** from the **Direction** drop-down field.
 
-1. Ensure that the Relecloud account is set for **Call From**.
+1. Ensure that the **Relecloud** account is set for **Call From**.
 
-1.  Ensure that your user record is set for **Call To**.
+1. Ensure that your user record is set for **Call To**.
 
 1. In the **Description** field, enter **Relecloud requests an ongoing maintenance plan for its coffee brewers**.
 
@@ -177,9 +176,9 @@ Due to the coffee brewer issue, Avery requests that her company, Relecloud, be p
 
 ### Task 2 – Convert Phone Call activity
 
-1. In the timeline, select the **Open Record** icon for the phone call that you created.
+1. In the timeline, for the phone call that you created, select Main actions **(⋮)**, and then select **Open Record**.
 
-1. On the command bar, select **Convert To** > **To Case**. (You might need to select **More commands** (...) to find **Convert To**.)
+1. On the command bar, select **Convert To** > **To Case**. (You might need to select **More commands** **(⋮)** to find **Convert To**.)
 
 1. In the **Convert to Case** dialog, confirm **Relecloud** is selected as the **Customer.**
 
