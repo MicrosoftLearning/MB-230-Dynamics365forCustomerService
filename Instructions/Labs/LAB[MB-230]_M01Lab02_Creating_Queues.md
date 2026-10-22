@@ -72,7 +72,7 @@ In this exercise, you create four basic queues. Unified routing is configured in
 
 1. Select the **Coffee Brewer Not Heating** case that you created in Lab 1.
 
-1. On the command bar, select **Add to Queue**.
+1. On the command bar, select **Add to Queue**. (You might need to select More commands **(⋮)** to find **Add to Queue**.)
 
 1. In the **Queue** field, search for and select the **Support** queue.
 
@@ -101,7 +101,7 @@ In this exercise, you create four basic queues. Unified routing is configured in
 
 1. Select the checkbox next to the case.
 
-1. On the command bar, select **Queue Item Details**.
+1. On the command bar, select **Queue Item Details**. (You might need to select More commands **(⋮)** to find **Queue Item Details**.)
 
 1. Confirm that **Worked By** is blank.
 
