@@ -26,21 +26,21 @@ In this task, you configure the deterministic intake rule but don't send an emai
 
 1. In the **Automatic record creation and update rules** section, select **Manage**.
 
-1. Select **New**.
+1. Select **+ New**.
 
 1. Enter the following values:
 
   - **Rule name**: `Create case for support email`
-  - **Activity type to monitor**: `Email`
-  - **Queue to monitor**: `Support`
+  - **Activity type to monitor**: Email
+  - **Queue to monitor**: Support
 
 1. Select **Save**.
 
-1. In **Step two: conditions to evaluate and actions to take**, select **New**.
+1. In **Step two: conditions to evaluate and actions to take**, select **+ New**.
 
 1. Enter **High priority emails** for **Condition name**.
 
-1. Select **Add row** and add the following condition:
+1. Select **+ Add** > **Add row** and add the following condition:
 
   `Priority (Email)` **Equals** `High`
 
