@@ -150,7 +150,10 @@ In this task, you validate that a representative can find the published article 
 
     1. Return to **Copilot Service workspace**, refresh the browser, reopen **Knowledge search**, and then continue.
 
-1. Replace the default search term with **coffee brewer not heating**, and then run the search.
+    > [!NOTE] 
+    > If the **Knowledge search** pane still displays **Knowledge Article entity is not enabled for Knowledge management**, open the **Copilot Service admin center**, select **Support experience** > **Knowledge**, and then select **Manage** next to **Record types**. Remove **Case**, add it again with the default settings, and then select **Save and close**. Close the case tab in **Copilot Service workspace**, refresh the browser, and then reopen the case.
+
+1. In the **Knowledge search** pane, enter **coffee brewer not heating**, and then run the search.
 
 1. Open **Coffee Brewer Not Heating** and confirm that the published article is available from the case context.
 
