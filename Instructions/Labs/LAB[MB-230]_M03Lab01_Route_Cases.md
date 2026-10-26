@@ -276,13 +276,17 @@ In this task, you route problem cases to the advanced Gold queue. Queue assignme
 
 1. Wait for unified routing to process the case, and then refresh the page.
 
+1. In the left pane, under **My work items**, select the **Coffee Brewer Still Not Heating After Reset** case.
+
 1. Select **Queue Item Details**.
 
 1. Confirm that the case is in **Gold - Unified Routing** and is assigned to your user.
 
+1. Select **Save & Close**.
+
 1. In the site map, select **Queues**.
 
-1. Select the **Queues I'm a member of** view, and then select **Gold - Unified Routing**.
+1. Select the **Queues I'm a member of** in the queue dropdown, and then select **Gold - Unified Routing**.
 
 1. Confirm that **Coffee Brewer Still Not Heating After Reset** appears as a queue item and that **Worked By** shows your user.
 
