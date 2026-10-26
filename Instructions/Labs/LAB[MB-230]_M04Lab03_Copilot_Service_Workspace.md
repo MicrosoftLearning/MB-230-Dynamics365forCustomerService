@@ -88,12 +88,12 @@ As a service representative at Contoso Coffee, you use Copilot Service workspace
 
 1. Select the **Annual Maintenance Required** session.
 
-1. Select **Close the session**.
+1. Select **Close the session (X)** next to the **Annual Maintenance Required session**.
 
 1. Confirm the action if prompted.
 
 1. Select the **Coffee Brewer Still Not Heating After Reset** session.
 
-1. Select **Close the session**, and then confirm the action if prompted.
+1. Select **Close the session (X)**, and then confirm the action if prompted.
 
 1. Confirm that the **Home** session remains available.
