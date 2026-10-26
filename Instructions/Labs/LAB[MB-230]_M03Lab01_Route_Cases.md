@@ -30,9 +30,9 @@ In this task, you configure the deterministic intake rule but don't send an emai
 
 1. Enter the following values:
 
-  - **Rule name**: `Create case for support email`
-  - **Activity type to monitor**: Email
-  - **Queue to monitor**: Support
+   - **Rule name**: `Create case for support email`
+   - **Activity type to monitor**: Email
+   - **Queue to monitor**: Support
 
 1. Select **Save**.
 
@@ -123,10 +123,10 @@ In this task, you create a record queue for Gold-level cases and use capacity-aw
 
 1. Enter the following values:
 
-  - **Name**: `Gold - Unified Routing`
-  - **Type**: Record
-  - **Queue priority**: `1`
-  - **Description**: `Routes complex coffee brewer cases to representatives with troubleshooting expertise.`
+   - **Name**: `Gold - Unified Routing`
+   - **Type**: Record
+   - **Queue priority**: `1`
+   - **Description**: `Routes complex coffee brewer cases to representatives with troubleshooting expertise.`
 
 1. Select **Create**.
 
@@ -160,10 +160,10 @@ In this task, you create a case workstream in **Push** mode. After classificatio
 
 1. Enter the following values:
 
-  - **Name**: `Contoso Coffee cases`
-  - **Type**: Record
-  - **Record type**: `Case`
-  - **Work distribution mode**: `Push`
+   - **Name**: `Contoso Coffee cases`
+   - **Type**: Record
+   - **Record type**: `Case`
+   - **Work distribution mode**: `Push`
 
 1. For **Fallback queue**, select **Choose existing**, and then select **Default entity queue (All users)**.
 
@@ -213,16 +213,16 @@ In this task, you create a logical classification rule. When a problem case ente
 
 1. Add the following conditions below the existing condition by selecting **+Add** and **Add row**: 
 
-  `Case Type` **Equals** `Problem`
+   `Case Type` **Equals** `Problem`
 
-  `Product` **Equals** `Contoso Coffee Pro 100 Brewer`
+   `Product` **Equals** `Contoso Coffee Pro 100 Brewer`
 
 1. In **Output**, enter the following values:
 
-  - **Attribute**: Skills
-  - **Operator**: Set to
-  - **Value**: `Coffee brewer troubleshooting`
-  - **Proficiency**: `Excellent`
+   - **Attribute**: Skills
+   - **Operator**: Set to
+   - **Value**: `Coffee brewer troubleshooting`
+   - **Proficiency**: `Excellent`
 
 1. Select **Create**.
 
@@ -246,7 +246,7 @@ In this task, you route problem cases to the advanced Gold queue. Queue assignme
 
 1. Add the following condition:
 
-  `Case Type` **Equals** `Problem`
+   `Case Type` **Equals** `Problem`
 
 1. Under **Route to queues**, for **Queue**, select **Gold - Unified Routing (1 user)**.
 
