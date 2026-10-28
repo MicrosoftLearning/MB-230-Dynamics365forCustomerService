@@ -109,7 +109,7 @@ In this task, you will create facilities/equipment records for the organizationa
 | 35th St - Service Bay 2  | 35th St Location        | Your time zone | Root business unit | Mon-Fri 8:00AM to 8:00PM |
 | 35th St - Tire Jack      | 35th St Location        | Your time zone | Root business unit | Mon-Fri 8:00AM to 8:00PM |
 
-16. You should now have total of 9 Facilities/Equipment records.
+16. You should now have total of 8 Facilities/Equipment records.
 
 ## Exercise 2: Resource Configuration
 
