@@ -25,23 +25,23 @@ In this exercise, you will create organizational units, define a business closur
 
 In this task, you will define three organizational units to act as service locations for scheduling.
 
-1.  Open the **Customer Service Hub** app.
+1. Open the **Customer Service Hub** app.
 
-2.  Click **Settings** and select **Personalization Settings**.
+2. Click **Settings** and select **Personal Settings**.
 
-3.  Select your **Time Zone** and click **OK**.
+3. Select your **Time Zone** and click **Save**.
 
-4.  Click on **Home** at the top of the left-hand side navigation.
+4. Select **Home** at the top of the left-hand side navigation.
 
-5.  Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Scheduling**.
+5. Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Scheduling**.
 
-6. Click on (hierarchy icon) **Organization Units** in the **Settings** section.
+6. Click on (hierarchy icon) **Organizational Units** in the **Settings** section.
 
-7.  Click **+ New**.
+7. Select **+ New**.
 
-8. Enter **Main Ave Location** for **Name**. Click on the **Scheduling** tab and enter a valid number for both Latitude and Longitude. 
+8. Enter **Main Ave Location** for **Name**. Select the **Scheduling** tab and enter a valid number for both **Latitude** and **Longitude** (for example, 47.6062 for **Latitude** and -122.3321 for **Longitude**). 
 
-9. Click **Save and Close**.
+9. Select **Save & Close**.
 
 10. Create two more **Sites** with the values listed in the table below.
 
@@ -57,35 +57,35 @@ In this task, you will define three organizational units to act as service locat
 
 In this task, you will define a new business closure.
 
-1.  Click on **Business Closures** in the **Settings** section.
+1. Select **Business Closures** in the **Settings** section.
 
-2.  Click **+ New**.
+2. Select **+ New**.
 
-3.  Enter **Worldwide Rest Day** for **Name**, select a date one week from now for **Start Date**, and click **OK**.
+3. Enter **Worldwide Rest Day** for **Name**, select a date one week from now for **Start Date**, and click **OK**.
 
-4.  Do not navigate away from this application.
+4. Do not navigate away from this application.
 
 ## Task 3: Create Facilities/Equipment Records
 
 In this task, you will create facilities/equipment records for the organizational units you created and set their working hours.
 
-1.  Click on **Facilities/Equipment** in the **Scheduling** section.
+1. Select **Facilities/Equipment** in the **Scheduling** section.
 
-2.  Click **+ New**.
+2. Select **+ New**.
 
-3.  Enter **Main Ave** - **Service Bay 1** for **Name**, select **Main Ave Location** for **Organizational Unit**, select a *Time Zone**, select the root **Business Unit**, and click **Save**.
+3. Enter **Main Ave** - **Service Bay 1** for **Name**, select **Main Ave Location** for **Organizational Unit**, select a **Time Zone**, select the root **Business Unit**, and click **Save**.
 
-4.  Select the **Work Hours** tab, click on one of the events listed on the calendar, click **Edit**, and select **All events in the series**.
+4. Select the **Work Hours** tab, click on one of the events listed on the calendar, click **Edit**, and select **All events in the series**.
 
-5.  Select **08:00 AM to 08:00 PM**, remove **Saturday** and **Sunday**, and click **Remove end date**, if there is an end date selected.
+5. Select **08:00 AM to 08:00 PM**, remove **Saturday** and **Sunday**. If an end date is configured, select **Remove end date**.
 
-6.  Toggle **Observe Business Closure** to **On**
+6. Toggle **Observe Business Closure** to **On**
 
-7.  Click **Save** to save the working hours.
+7. Select **Save** to save the working hours.
 
-8.  Click **Save and Close**.
+8. Select **Save & Close**.
 
-9.  Click **+ New**.
+9. Select **+ New**.
 
 10. Enter **Main Ave - Service Bay 2** for **Name**, select **Main Ave Location** for **Organizational Unit**, select your **Time Zone**, select the root **Business Unit**, and click **Save**.
 
@@ -95,7 +95,7 @@ In this task, you will create facilities/equipment records for the organizationa
 
 13. Toggle **Observe Business Closure** to **On**
 
-14. Click **Save** to save the working hours, and then click **Save and Close**.
+14. Select **Save** to save the working hours, and then click **Save & Close**.
 
 15. Repeat the previous 5 steps and create the **Facilities/Equipment** listed in the table below.
 
