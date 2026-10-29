@@ -27,15 +27,15 @@ In this task, you will define three organizational units to act as service locat
 
 1. Open the **Customer Service Hub** app.
 
-2. Click **Settings** and select **Personal Settings**.
+2. Select **Settings** and select **Personal Settings**.
 
-3. Select your **Time Zone** and click **Save**.
+3. Select your **Time Zone** and select **Save**.
 
 4. Select **Home** at the top of the left-hand side navigation.
 
-5. Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Scheduling**.
+5. Select **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Scheduling**.
 
-6. Click on (hierarchy icon) **Organizational Units** in the **Settings** section.
+6. Select (hierarchy icon) **Organizational Units** in the **Settings** section.
 
 7. Select **+ New**.
 
@@ -61,7 +61,7 @@ In this task, you will define a new business closure.
 
 2. Select **+ New**.
 
-3. Enter **Worldwide Rest Day** for **Name**, select a date one week from now for **Start Date**, and click **OK**.
+3. Enter **Worldwide Rest Day** for **Name**, select a date one week from now for **Start Date**, and select **OK**.
 
 4. Do not navigate away from this application.
 
@@ -73,9 +73,9 @@ In this task, you will create facilities/equipment records for the organizationa
 
 2. Select **+ New**.
 
-3. Enter **Main Ave** - **Service Bay 1** for **Name**, select **Main Ave Location** for **Organizational Unit**, select a **Time Zone**, select the root **Business Unit**, and click **Save**.
+3. Enter **Main Ave** - **Service Bay 1** for **Name**, select **Main Ave Location** for **Organizational Unit**, select a **Time Zone**, select the root **Business Unit**, and select **Save**.
 
-4. Select the **Work Hours** tab, click on one of the events listed on the calendar, click **Edit**, and select **All events in the series**.
+4. Select the **Work Hours** tab, select one of the events listed on the calendar, select **Edit**, and select **All events in the series**.
 
 5. Select **08:00 AM to 08:00 PM**, remove **Saturday** and **Sunday**. If an end date is configured, select **Remove end date**.
 
@@ -87,15 +87,15 @@ In this task, you will create facilities/equipment records for the organizationa
 
 9. Select **+ New**.
 
-10. Enter **Main Ave - Service Bay 2** for **Name**, select **Main Ave Location** for **Organizational Unit**, select your **Time Zone**, select the root **Business Unit**, and click **Save**.
+10. Enter **Main Ave - Service Bay 2** for **Name**, select **Main Ave Location** for **Organizational Unit**, select your **Time Zone**, select the root **Business Unit**, and select **Save**.
 
-11. Select the **Work Hours** tab, click on one of the events listed on the calendar, click **Edit**, and select **All events in the series**.
+11. Select the **Work Hours** tab, select one of the events listed on the calendar, select **Edit**, and select **All events in the series**.
 
-12. Select **08:00 AM to 08:00 PM**, remove **Saturday** and **Sunday**, click **Remove end date** if one is selected, and click Save.
+12. Select **08:00 AM to 08:00 PM**, remove **Saturday** and **Sunday**, select **Remove end date** if one is selected, and select **Save**.
 
 13. Toggle **Observe Business Closure** to **On**
 
-14. Select **Save** to save the working hours, and then click **Save & Close**.
+14. Select **Save** to save the working hours, and then select **Save & Close**.
 
 15. Repeat the previous 5 steps and create the **Facilities/Equipment** listed in the table below.
 
@@ -150,7 +150,7 @@ In this task you will create new contact records.
 
 In this task you will create new resource categories.
 
-1. Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Scheduling**.
+1. Select **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Scheduling**.
 
 2. Select **Resource Categories** in the **Scheduling** section.
 
@@ -180,7 +180,7 @@ In this task you will create resources using the contacts you created.
 
 4. Select **Organizational Unit Address** for **Start Location** and **End Location**, select **Main Ave Location** for **Organizational Unit**, and select **Save**.
 
-5. Select the **Work Hours** tab, click on one of the events on the calendar, click **Edit**, and select **All events in the series**.
+5. Select the **Work Hours** tab, select one of the events on the calendar, select **Edit**, and select **All events in the series**.
 
 6. Set **Start time** to **8:00 AM** and **End time** to **4:30 PM**.
 
@@ -190,9 +190,9 @@ In this task you will create resources using the contacts you created.
 
 9. Select the **General** tab.
 
-10. Select the **Related** tab, select **Resource Category Associations**,  and click **+ New Bookable Resource Category Assn**.
+10. Select the **Related** tab, select **Resource Category Associations**,  and select **+ New Bookable Resource Category Assn**.
 
-11. Select **Senior Technician** for **Resource Category**, and click **Save and Close**.
+11. Select **Senior Technician** for **Resource Category**, and select **Save and Close**.
 
 12. Repeat the previous 10 steps and create the resources listed in the table below.
 
@@ -211,13 +211,13 @@ In this task you will create resources using the contacts you created.
 
 14. Select **Facility** for **Resource Type**, select **19th Ave – Service Bay 1** for **Facility Equipment**, and select the **Scheduling** tab.
 
-15. Select **Organizational Unit Address** for **Start Location** and **End Location**, and then click **Save**.
+15. Select **Organizational Unit Address** for **Start Location** and **End Location**, and then select **Save**.
 
 16. Select the **General** tab.
 
-17. Select the **Related** tab and select **Resource Category Associations**  and click **+ New Bookable Resource Category Assn**.
+17. Select the **Related** tab and select **Resource Category Associations**  and select **+ New Bookable Resource Category Assn**.
 
-18. Select **Service Bay Facility** for **Resource Category** and click **Save and Close**.
+18. Select **Service Bay Facility** for **Resource Category** and select **Save and Close**.
 
 19. Repeat the previous 6 steps and create the resources listed in the table below.
 
