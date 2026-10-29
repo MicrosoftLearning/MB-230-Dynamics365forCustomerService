@@ -119,17 +119,17 @@ In this exercise, you will create contact records, create resource categories, a
 
 In this task you will create new contact records.
 
-1.  Open the **Customer Service Hub** app.
+1. Open the **Customer Service Hub** app.
 
-2.  Click on **Home** at the top of the left-hand side navigation.
+2. Select **Home** at the top of the left-hand side navigation.
 
-3.  Click on **Contacts** in the **Customers** section.
+3. Select **Contacts** in the **Customers** section.
 
-4.  Click **+ New**.
+4. Select **+ New**.
 
-5.  Enter **Mike** for **First Name**, **Smith** for **Last Name**, and click **Save and Close**.
+5. Enter **Mike** for **First Name**, **Smith** for **Last Name**, and select **Save & Close**.
 
-6.  Repeat the previous two steps and create the **Contact** records listed in the table below.
+6. Repeat the previous two steps and create the **Contact** records listed in the table below.
 
 | **First Name** | **Last Name** |
 |----------------|---------------|
@@ -139,58 +139,62 @@ In this task you will create new contact records.
 | Sven           | Locarte       |
 | Alex           | Nelson        |
 
-7.  You should now have six contact records.
+7. You should now have six contact records.
 
-8.  Do NOT navigate away from this application.
+> [!NOTE] 
+> Your list might also include sample contacts that already exist in the environment, so the total number of records might be higher than six.
+
+8. Stay in the **Customer Service Hub** app. You'll continue working in it in the next tasks.
 
 ## Task 2: Create Resource Categories
 
 In this task you will create new resource categories.
 
-1.  Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Scheduling**.
+1. Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Scheduling**.
 
-2.  Click on **Resource Categories** in the **Scheduling** section.
+2. Select **Resource Categories** in the **Scheduling** section.
 
-3.  Click **+ New**.
+3. Select **+ New**.
 
-4.  Enter **Senior Technician** for **Name** and click **Save and Close**.
+4. Enter **Senior Technician** for **Name** and select **Save & Close**.
 
-5.  Click **+ New**.
+5. Select **+ New**.
 
-6.  Enter **Technician** for **Name** and click **Save and Close**.
+6. Enter **Technician** for **Name** and select **Save & Close**.
 
-7.  Create two more **Resource Categories** and name them **Service Bay Facility** and **Tire Jack Equipment**.
+7. Create two more **Resource Categories** and name them **Service Bay Facility** and **Tire Jack Equipment**.
 
-8.  You should now have 4 **Resource Categories**.
+8. You should now have 4 **Resource Categories**.
 
-9.  Do NOT navigate away from this application.
+9. Stay in the **Customer Service Hub** app.
 
 ## Task 3: Create Resources
 
 In this task you will create resources using the contacts you created.
 
-1.  Click on **Resources** in the **Scheduling** section.
+1. Select **Resources** in the **Scheduling** section.
 
-2.  Click **+ New**.
+2. Select **+ New**.
 
-3.  Select **Contact** for **Resource Type**, select **Mike Smith** for **Contact**, and select the **Scheduling** tab.
+3. Select **Contact** for **Resource Type**, select **Mike Smith** for **Contact**, and select the **Scheduling** tab.
 
-4.  Select **Organizational Unit Address** for **Start** and **End Locations**, select **Main Avenue Location** for **Organizational Unit**, and click
-    **Save**.
+4. Select **Organizational Unit Address** for **Start Location** and **End Location**, select **Main Ave Location** for **Organizational Unit**, and select **Save**.
 
-5.  Select the **Work Hours** tab, click on one of the events on the calendar, click **Edit**, and select **All events in the series**.
+5. Select the **Work Hours** tab, click on one of the events on the calendar, click **Edit**, and select **All events in the series**.
 
-6.  Select **08:00 AM** to **04:30 PM** and click **Add Break**.
+6. Set **Start time** to **8:00 AM** and **End time** to **4:30 PM**.
 
-7.  Remove **Saturday** and **Sunday**, select **Observe Business Closure**, then click **Save**.
+7. Select the ellipsis **(...)** next to **Capacity**, and then select **Add break**.
 
-8.  Select the **General** tab.
+8. Remove **Saturday** and **Sunday**, select **Observe Business Closure**, select **Save**, and then select **OK**.
 
-9.  Select the **Related** tab and select **Resource Category Assns**  and click **+ New Bookable Resource Category Assn**.
+9. Select the **General** tab.
 
-10. Select **Senior Technician** and click **Save and Close**.
+10. Select the **Related** tab, select **Resource Category Associations**,  and click **+ New Bookable Resource Category Assn**.
 
-11. Repeat the previous 9 steps and create the resources listed in the table below.
+11. Select **Senior Technician** for **Resource Category**, and click **Save and Close**.
+
+12. Repeat the previous 10 steps and create the resources listed in the table below.
 
 | **Resource Type** | **Contact**    | **Start and End Locations** | **Organizational unit** | **Work Hours**                                               | **Resource Category Assn** |
 |-------------------|----------------|-----------------------------|-------------------------|--------------------------------------------------------------|----------------------------|
@@ -200,19 +204,22 @@ In this task you will create resources using the contacts you created.
 | Contact           | Allan Jackson  | Organizational Unit Address | 19th Ave Location       | Mo – Fr 08:00AM to 04:30 PM + Break Observe Business Closure | Technician                 |
 | Contact           | Alex Nelson    | Organizational Unit Address | 35th St Location        | Mo – Fr 08:00AM to 04:30 PM + Break Observe Business Closure | Technician                 |
 
-12. You should now have 6 resources. Click **+ New**.
+13. You should now have 6 resources. Select **+ New**.
 
-13. Select **Facility** for **Resource Type**, select **19th Ave – Service Bay 1** for **Facility Equipment**, and select the **Scheduling** tab.
+> [!NOTE] 
+> Your list might also include other resources that already exist in the environment, such as **Trial User**.
 
-14. Select **Organizational Unit Address** for **Start** and **End Locations**, and then click **Save**.
+14. Select **Facility** for **Resource Type**, select **19th Ave – Service Bay 1** for **Facility Equipment**, and select the **Scheduling** tab.
 
-15. Select the **General** tab.
+15. Select **Organizational Unit Address** for **Start Location** and **End Location**, and then click **Save**.
 
-16. Select the **Related** tab and select **Resource Category Assns**  and click **+ New Bookable Resource Category Assn**.
+16. Select the **General** tab.
 
-17. Select **Service Bay Facility** and click **Save and Close**.
+17. Select the **Related** tab and select **Resource Category Associations**  and click **+ New Bookable Resource Category Assn**.
 
-18. Repeat the previous 3 steps and create the resources listed in the table below.
+18. Select **Service Bay Facility** for **Resource Category** and click **Save and Close**.
+
+19. Repeat the previous 6 steps and create the resources listed in the table below.
 
 | **Resource Type** | **Facility Equipment**   | **Start and End Locations** | **Resource Category Assn** |
 |-------------------|--------------------------|-----------------------------|----------------------------|
@@ -225,4 +232,4 @@ In this task you will create resources using the contacts you created.
 | Equipment         | 35th St – Tire Jack      | Organizational Unit Address | Tire Jack Equipment        |
 | Equipment         | Main Ave – Tire Jack     | Organizational Unit Address | Tire Jack Equipment        |
 
-19. You should now have 15 Resources.
+20. You should now have 15 Resources.
