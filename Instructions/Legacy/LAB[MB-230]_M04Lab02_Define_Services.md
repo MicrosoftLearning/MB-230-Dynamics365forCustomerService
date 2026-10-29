@@ -43,11 +43,11 @@ In this task you will create an oil change service.
 
 9. Enter **30 minutes** for **Duration**.
 
-10. Enter **Service Technician** for **Name** and select **Technician** for **Resource Category**.
+10. Enter **Service Technician** for **Name** and select **Technician** for **Resource Categories**.
 
 11. Select the **Oil Change** row and select **+ Requirement**.
 
-12. Enter **Service Bay** for **Name**, select **Service Bay Facility** for **Resource Category**
+12. Enter **Service Bay** for **Name**, select **Service Bay Facility** for **Resource Categories**
 
 13. Select **Save**
 
@@ -63,21 +63,23 @@ In this task you will create an oil change service.
 
 5. Enter **1 hour** for **Duration**.
 
-6. Enter **Senior Technician** for **Name** and select **Senior Technician** for **Resource Category**.
+6. Enter **Senior Technician** for **Name** and select **Senior Technician** for **Resource Categories**.
 
 7. Select the **Tire Rotation** row and select **+ Requirement**.
 
-8. Enter **Service Bay** for **Name** and select **Service Bay Facility** for **Resource Category**.
+8. Enter **Service Bay** for **Name** and select **Service Bay Facility** for **Resource Categories**.
 
 9. Select the **Tire Rotation** row and select **+ Requirement**.
 
-10. Enter **Service Technician** for **Name** and select **Technician** for **Resource Category**.
+10. Enter **Service Technician** for **Name** and select **Technician** for **Resource Categories**.
 
 11. Select the **Tire Rotation** row and select **+ Requirement**.
 
-12. Enter **Tire Jack** for **Name** and select **Tire Jack Equipment** for **Resource Category**.
+12. Enter **Tire Jack** for **Name** and select **Tire Jack Equipment** for **Resource Categories**.
 
 13. The **Tire Rotation** service should now have **4** requirements.
+
+14. Select **Save**.
 
 ## Exercise 2: Create and schedule Service activities 
 
@@ -102,11 +104,11 @@ In this task you will create and schedule an oil change service activity.
 
 7. Select **Book**.
 
-8. Go to the **Filter View**, select **Main Ave Location** for **Organizational Unit**, and select **Search**.
+8. Select **Filters**. Select **Main Ave Location** for **Organizational Unit**, and select **Search**.
 
-9. Expand one of the available slots and see what resources are included in it. In our case Service Bay 1 and Jennifer Leary will be included.
+9. Select the arrow next to one of the available slots to expand it and view the resources it includes. For example, **Service Bay 2** and **Jennifer Leary**.
 
-10. Go to the Resources pane and select the Start date picker.
+10. Select the first slot, and on the **Create Booking** pane, select the **calendar icon** next to **Estimated Arrival Date**.
 
 11. Select a data one week from today. The rest of the dates will change to reflect the change you made.
 
@@ -120,12 +122,12 @@ In this task you will create and schedule an oil change service activity.
 
 16. Select **Scheduling** in the **Tools** section.
 
-17. Select **Main Ave Location** for **Organizational Units** and select **Search**.
+17. Select **Main Ave Location** for **Organizational Units** and select **Apply**.
 
-18. Select **Horizontal View** and select the date picker.
+18. On the toolbar, make sure the view dropdown is set to **Gantt** (the horizontal timeline view). Then select the **date range** (calendar icon) next to today´s date to open the date picker.
 
 19. Select the date you booked the **Oil Change** service activity.
 
-20. **Jennifer Leary** and **Service Bay 1** should show as booked for **30** minutes. Select the **Jennifer Leary’s** booking.
+20. **Jennifer Leary** and **Service Bay 2** should show as booked for **30** minutes. Select the **Jennifer Leary’s** booking.
 
-21. Go to the Details pane. You should see more information about the booking.
+21. Go to the **Details panel** on the right. You should see more information about the booking.
