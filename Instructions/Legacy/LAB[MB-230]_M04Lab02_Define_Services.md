@@ -25,25 +25,25 @@ In this exercise, you will define oil change and tire rotation services.
 
 In this task you will create an oil change service.
 
-1.  Open the **Customer Service Hub** app.
+1. Open the **Customer Service Hub** app.
 
-2.  Select **Home** at the top of the left-hand side navigation.
+2. Select **Home** at the top of the left-hand side navigation.
 
-3.  Select **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Scheduling**.
+3. Select **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Scheduling**.
 
-4.  Select **Services** in the **Scheduling** section.
+4. Select **Services** in the **Scheduling** section.
 
-5.  Select **+ New**.
+5. Select **+ New**.
 
-6.  Enter **Oil Change** for **Name** and select **Save**.
+6. Enter **Oil Change** for **Name** and select **Save**.
 
-7.  Select the **Resource Requirements** tab, change the **Name** to **Oil Change**, select **All** for **Select**, and select **Organizational Unit** for **Part of Same**.
+7. Select the **Resource Requirements** tab, change the **Name** to **Oil Change**, select **All** for **Select**, and select **Organizational Unit** for **Part of Same**.
 
-8.  Select **+ Requirement**.
+8. Select **+ Requirement**.
 
 9. Enter **30 minutes** for **Duration**.
 
-10.  Enter **Service Technician** for **Name** and select **Technician** for **Resource Category**.
+10. Enter **Service Technician** for **Name** and select **Technician** for **Resource Category**.
 
 11. Select the **Oil Change** row and select **+ Requirement**.
 
@@ -53,23 +53,23 @@ In this task you will create an oil change service.
 
 ### Task 2: Create Tire Service
 
-1.  Select + **New** in the command bar.
+1. Select + **New** in the command bar.
 
-2.  Enter **Tire Rotation** for **Name** and select **Save**.
+2. Enter **Tire Rotation** for **Name** and select **Save**.
 
-3.  Select the **Resource Requirements** tab, change the **Name** to **Tire Rotation**, select **All** for **Select**, and select **Organizational Unit** for **Part of Same**.
+3. Select the **Resource Requirements** tab, change the **Name** to **Tire Rotation**, select **All** for **Select**, and select **Organizational Unit** for **Part of Same**.
 
-4.  Select **+ Requirement**.
+4. Select **+ Requirement**.
 
-5.  Enter **1 hour** for **Duration**.
+5. Enter **1 hour** for **Duration**.
 
-6.  Enter **Senior Technician** for **Name** and select **Senior Technician** for **Resource Category**.
+6. Enter **Senior Technician** for **Name** and select **Senior Technician** for **Resource Category**.
 
-7.  Select the **Tire Rotation** row and select **+ Requirement**.
+7. Select the **Tire Rotation** row and select **+ Requirement**.
 
 8. Enter **Service Bay** for **Name** and select **Service Bay Facility** for **Resource Category**.
 
-9.  Select the **Tire Rotation** row and select **+ Requirement**.
+9. Select the **Tire Rotation** row and select **+ Requirement**.
 
 10. Enter **Service Technician** for **Name** and select **Technician** for **Resource Category**.
 
@@ -87,24 +87,24 @@ In this exercise, you create and schedule service activities for an oil change a
 
 In this task you will create and schedule an oil change service activity.
 
-1.  Open the **Customer Service Hub** app.
+1. Open the **Customer Service Hub** app.
 
-2.  Select **Home** at the top of the left-hand side navigation.
+2. Select **Home** at the top of the left-hand side navigation.
 
-3.  Select **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Scheduling**.
+3. Select **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Scheduling**.
 
-4.  Select **Service Activities** in the **Scheduling** section.
+4. Select **Service Activities** in the **Scheduling** section.
 
-5.  Select **Service Activity**.
+5. Select **Service Activity**.
 
-6.  Enter **Oil Change Service** for **Subject**, select **Oil Change** for **Service**, select **Main Ave Location** for **Organizational Unit**, and
-    select **Save**.
+6. Enter **Oil Change Service** for **Subject**, select **Oil Change** for **Service**, select **Main Ave Location** for **Organizational Unit**, and
+   select **Save**.
 
-7.  Select **Book**.
+7. Select **Book**.
 
-8.  Go to the **Filter View**, select **Main Ave Location** for **Organizational Unit**, and select **Search**.
+8. Go to the **Filter View**, select **Main Ave Location** for **Organizational Unit**, and select **Search**.
 
-9.  Expand one of the available slots and see what resources are included in it. In our case Service Bay 1 and Jennifer Leary will be included.
+9. Expand one of the available slots and see what resources are included in it. In our case Service Bay 1 and Jennifer Leary will be included.
 
 10. Go to the Resources pane and select the Start date picker.
 
