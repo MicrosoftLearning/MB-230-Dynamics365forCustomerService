@@ -28,7 +28,7 @@ In this task, you create an internal knowledge article for troubleshooting a cof
 
 1. In the site map, go to **Service** > **Knowledge Articles**.
 
-1. Select **New**.
+1. Select **+ New**.
 
 1. Enter the following values:
 
@@ -52,7 +52,7 @@ In this task, you create an internal knowledge article for troubleshooting a cof
 
 1. Enter the following steps as the numbered procedure:
 
-    ```
+    ``` 
     1. Confirm that the coffee brewer is connected to a working power outlet.
     2. Confirm that the water reservoir is filled and seated correctly.
     3. Turn off the coffee brewer and unplug it from the power outlet.
@@ -60,6 +60,8 @@ In this task, you create an internal knowledge article for troubleshooting a cof
     5. Reconnect the coffee brewer, turn it on, and run a heating cycle.
     6. If the coffee brewer still doesn't heat, escalate the case.
     ```
+
+1. If the numbers appear twice, such as 2. 2., delete the typed numbers so that only the automatic numbering remains.
 
 1. Select **Save**.
 
@@ -75,7 +77,7 @@ In this task, you create an internal knowledge article for troubleshooting a cof
 
 In this task, you act as an authorized knowledge reviewer and publisher. Your trial user must have permission to approve and publish knowledge articles.
 
-1. On the command bar, select **Approve**. You might need to select **More commands** (...) to find the action.
+1. On the command bar, select **Approve**. You might need to select **More commands for Knowledge Article (⋮)** to find the action.
 
 1. In the confirmation dialog, select **OK**.
 
@@ -83,7 +85,7 @@ In this task, you act as an authorized knowledge reviewer and publisher. Your tr
 
 1. On the command bar, select **Publish**.
 
-1. In the publish dialog, select **Now** for **Publish** and **Published** for **Published status**.
+1. In the publish pane, select **Now** for **Publish** and **Published** for **Published status**.
 
 1. Select **Publish**, and then confirm that the article status is **Published**.
 
@@ -93,7 +95,7 @@ In this task, you correct the escalation step by creating and publishing a minor
 
 1. Keep the published **Coffee Brewer Not Heating** article open.
 
-1. On the command bar, select **Create Minor Version**. You might need to select **More commands** (...) to find the action.
+1. On the command bar, select **Create Minor Version**. You might need to select **More commands for Knowledge Article (⋮)** to find the action.
 
 1. In the confirmation dialog, select **OK**.
 
@@ -107,13 +109,13 @@ In this task, you correct the escalation step by creating and publishing a minor
 
 1. On the command bar, select **Publish**.
 
-1. Select **Now**, select **Published** for **Published status** if that field is displayed, and then select **Publish**.
+1. Select **Now** for **Publish**, select **Published** for **Published status** if that field is displayed, and then select **Publish**.
 
 1. Return to **Knowledge Articles** and select the **My Active Articles** view.
 
 1. Open **Coffee Brewer Not Heating** and confirm that the published article contains the revised step.
 
-1. On the **Summary** tab, under **Related Information**, select **Related Versions**.
+1. On the **Summary** tab, under **Related Information**, review **Related Versions**.
 
 1. Confirm that the current version is published and the earlier version is retained in the version history.
 
@@ -125,11 +127,11 @@ In this task, you validate that a representative can find the published article 
 
 1. Select the **My Active Cases** view, and then open **Coffee Brewer Still Not Heating After Reset**.
 
-1. In the app side pane, select the **Knowledge search** icon.
+1. In the app side pane on the right, select the **Knowledge search** icon.
 
 1. If Knowledge Search displays **Knowledge Article entity is not enabled for Knowledge management**, complete these steps:
 
-    1. Open a new browser tab and sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) as a system administrator.
+    1. Open a new browser tab and sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) at `https://admin.powerplatform.microsoft.com/` as a system administrator.
 
     1. In the navigation pane, select **Manage**, and then select **Environments**.
 
@@ -148,7 +150,10 @@ In this task, you validate that a representative can find the published article 
 
     1. Return to **Copilot Service workspace**, refresh the browser, reopen **Knowledge search**, and then continue.
 
-1. Replace the default search term with **coffee brewer not heating**, and then run the search.
+    > [!NOTE] 
+    > If the **Knowledge search** pane still displays **Knowledge Article entity is not enabled for Knowledge management**, open the **Copilot Service admin center**, select **Support experience** > **Knowledge**, and then select **Manage** next to **Record types**. Remove **Case**, add it again with the default settings, and then select **Save and close**. Close the case tab in **Copilot Service workspace**, refresh the browser, and then reopen the case.
+
+1. In the **Knowledge search** pane, enter **coffee brewer not heating**, and then run the search.
 
 1. Open **Coffee Brewer Not Heating** and confirm that the published article is available from the case context.
 

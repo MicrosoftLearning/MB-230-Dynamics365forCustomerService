@@ -28,7 +28,7 @@ You are a customer service manager at Contoso Coffee who is validating the case 
 
 1. Open the **Coffee Brewer Not Heating** case that you created in Lab 1.
 
-1. On the command bar, select **Resolve case**. You might need to select **More commands** (...) to find the action.
+1. On the command bar, select **Resolve case**. (You might need to select More commands **(⋮)** to find the action.)
 
 1. If a message indicates that the case has an open activity, select **Confirm**. The open activity is canceled when the case is resolved.
 
@@ -46,15 +46,15 @@ Avery reports that the brewer stopped heating again after the reset. Reactivate 
 
 1. Return to **Cases**.
 
-1. Change the view from **My Active Cases** to **Resolved Cases**.
+1. Change the view from **My Active Cases** to **My Resolved Cases**.
 
-1. Open the case that you resolved in Task 1.
+1. Open the **Coffee Brewer Not Heating** case that you resolved in Task 1.
 
-1. On the command bar, select **Reactivate Case**. You might need to select **More commands** (...) to find the action.
+1. On the command bar, select **Reactivate Case**. (You might need to select More commands **(⋮)** to find the action.)
 
 1. In the confirmation dialog, select **Reactivate**.
 
-1. Confirm that the case status is **Active**.
+1. Confirm that the case status is **In Progress**.
 
 1. On the **Summary** tab, change **Case Title** to **Coffee Brewer Still Not Heating After Reset**.
 

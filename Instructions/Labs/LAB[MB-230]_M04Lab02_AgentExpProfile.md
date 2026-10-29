@@ -23,7 +23,7 @@ As a customer service manager at Contoso Coffee, you need a consistent workspace
 
 The user who configures scripts needs the **Productivity tools administrator** security role. A representative who uses scripts in Copilot Service workspace needs the **Productivity tools user** security role. In this lab, assign both roles to your current user.
 
-1. Open a new browser tab and sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) as a system administrator.
+1. Open a new browser tab, go to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) at `https://admin.powerplatform.microsoft.com/` and sign in as a system administrator.
 
 1. In the navigation pane, select **Manage**, and then select **Environments**.
 
@@ -35,10 +35,10 @@ The user who configures scripts needs the **Productivity tools administrator** s
 
 1. Select the following roles:
 
-  - **Productivity tools administrator**
-  - **Productivity tools user**
+   - **Productivity tools administrator**
+   - **Productivity tools user**
 
-1. Select **Save**, and then close the Power Platform admin center browser tab.
+1. If you changed any role selections, select **Save**. Otherwise, select **Cancel** and close the Power Platform admin center browser tab.
 
 ### Task 2 – Create a representative guidance script
 
@@ -54,10 +54,10 @@ Before you begin, choose a unique prefix that contains three through eight alpha
 
 1. Enter the following values:
 
-  - **Name**: `Script 1`
-  - **Unique Name**: `<prefix>_script1`
-  - **Language**: `English`
-  - **Description**: `Guidance for representatives who open a case session.`
+   - **Name**: `Script 1`
+   - **Unique Name**: `<prefix>_script1`
+   - **Language**: English (United States)
+   - **Description**: `Guidance for representatives who open a case session.`
 
 1. Select **Save**.
 
@@ -65,13 +65,13 @@ Before you begin, choose a unique prefix that contains three through eight alpha
 
 1. Enter the following values:
 
-  - **Name**: `Step 1`
-  - **Unique Name**: `<prefix>_step1`
-  - **Order**: `1`
-  - **Action type**: `Text`
-  - **Text instructions**: `Hi, how can I help you today?`
+   - **Name**: `Step 1`
+   - **Unique Name**: `<prefix>_step1`
+   - **Order**: `1`
+   - **Action type**: Text
+   - **Text instructions**: `Hi, how can I help you today?`
 
-1. Select **Save and Close**.
+1. Select **Save & Close**.
 
 1. Select **Save** on the script record.
 
@@ -85,13 +85,13 @@ Before you begin, choose a unique prefix that contains three through eight alpha
 
 1. Enter the following values:
 
-  - **Name**: `Entity Temp`
-  - **Unique Name**: `<prefix>_et`
-  - **Type**: `Entity`
-  - **Entity**: `Case`
-  - **Title**: `{casetitle}`
-  - **Communication panel mode**: `Hidden`
-  - **Description**: `Session template for Contoso Coffee cases.`
+   - **Name**: `Entity Temp`
+   - **Unique Name**: `<prefix>_et`
+   - **Type**: Entity
+   - **Entity**: Case
+   - **Title**: `{casetitle}`
+   - **Communication panel mode**: Hidden
+   - **Description**: `Session template for Contoso Coffee cases.`
 
 1. Select **Save**.
 
@@ -101,7 +101,7 @@ Before you begin, choose a unique prefix that contains three through eight alpha
 
 1. Select the **Scripts** tab.
 
-1. In the **Scripts** section, select **Add Existing script**.
+1. In the **Scripts** section, select **Add Existing Script**.
 
 1. Search for and select **Script 1**, and then select **Add**.
 
@@ -139,17 +139,21 @@ A user can be assigned to only one experience profile at a time. Trial environme
 
 1. Enter the following values:
 
-  - **Name**: `CS Temp`
-  - **Unique name**: `<prefix>_CS`
-  - **Description**: `Case workspace experience for Contoso Coffee representatives.`
+   - **Name**: `CS Temp`
+   - **Unique name**: `<prefix>_CS`
+   - **Description**: `Case workspace experience for Contoso Coffee representatives.`
 
 1. Select **Create**.
 
-1. On the profile page, select **Add entity session template**.
+1. On the profile page, select **+ Add entity session template**.
 
-1. Select **Case** for the entity and **Entity Temp** for the session template.
+1. Select **+ Add**.
+
+1. Select **Case** for **Entity** and **Entity Temp** for the **Session template**.
 
 1. Select **Add**.
+
+1. Select **Save and close**.
 
 ### Task 3 – Configure the productivity pane
 

@@ -22,7 +22,7 @@ In this exercise, you create four basic queues. Unified routing is configured in
 
 1. Use the app selector to open **Copilot Service admin center**.
 
-1. Select **Queues** in **Customer support**.
+1. Select **Queues** in **Customer support** section.
 
 1. On the **Queues** page, select **Manage** for **Basic queues**.
 
@@ -32,7 +32,8 @@ In this exercise, you create four basic queues. Unified routing is configured in
 
 1. Select **Save & Close**.
 
-> **Note:** A later lab reviews email record-creation configuration without requiring you to send an email to this address.
+   > [!NOTE]
+   > A later lab reviews the email record-creation configuration without requiring you to send an email to this address.
 
 1. On the command bar, select **+ New**.
 
@@ -49,7 +50,7 @@ In this exercise, you create four basic queues. Unified routing is configured in
   - **Silver**
   - **Gold**
 
-1. Return to the **Basic queues** list, and then select the **My Active Queues** view.
+1. Return to the **Basic queues** list, and then select the **My Active Queues** view, if not already selected.
 
 1. Confirm that the list includes the **Support**, **Bronze**, **Silver**, and **Gold** queues.
 
@@ -61,7 +62,7 @@ In this exercise, you create four basic queues. Unified routing is configured in
 
 1. Select the **Annual Maintenance Required** case that you created in Lab 1.
 
-1. On the command bar, select **Add to Queue**.
+1. On the command bar, select **Add to Queue**. (You might need to select More commands **(⋮)** to find **Add to Queue**.)
 
 1. In the **Queue** field, search for and select the **Bronze** queue.
 
@@ -71,7 +72,7 @@ In this exercise, you create four basic queues. Unified routing is configured in
 
 1. Select the **Coffee Brewer Not Heating** case that you created in Lab 1.
 
-1. On the command bar, select **Add to Queue**.
+1. On the command bar, select **Add to Queue**. (You might need to select More commands **(⋮)** to find **Add to Queue**.)
 
 1. In the **Queue** field, search for and select the **Support** queue.
 
@@ -79,13 +80,14 @@ In this exercise, you create four basic queues. Unified routing is configured in
 
 1. Select **Queues** in the site map.
 
-1. Select the **All Items in Selected Queues** view, and then select **All Queues** in the queue list.
+1. Select the **All Cases in Selected Queues** view, and then select **All Queues** in the queue list.
 
 1. Confirm that **Annual Maintenance Required** is listed for the **Bronze** queue.
 
 1. Confirm that **Coffee Brewer Not Heating** is listed for the **Support** queue.
 
-> **Note:** If either case is missing, return to Lab 1 and confirm that the case exists, and then repeat the applicable **Add to Queue** steps.
+> [!NOTE]
+> If either case is missing, return to Lab 1 and confirm that the case exists, and then repeat the applicable **Add to Queue** steps.
 
 ### Task 3 – Perform actions on queue items
 
@@ -99,7 +101,7 @@ In this exercise, you create four basic queues. Unified routing is configured in
 
 1. Select the checkbox next to the case.
 
-1. On the command bar, select **Queue Item Details**.
+1. On the command bar, select **Queue Item Details**. (You might need to select More commands **(⋮)** to find **Queue Item Details**.)
 
 1. Confirm that **Worked By** is blank.
 
@@ -115,7 +117,7 @@ In this exercise, you create four basic queues. Unified routing is configured in
 
 1. Select the checkbox next to the case.
 
-1. On the command bar, select **Queue Item Details**.
+1. On the command bar, select **Queue Item Details**. 
 
 1. Confirm that **Worked By** is set to your user.
 

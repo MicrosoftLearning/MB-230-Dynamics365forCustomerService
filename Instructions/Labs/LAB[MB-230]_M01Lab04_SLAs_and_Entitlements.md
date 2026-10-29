@@ -28,11 +28,11 @@ In this task, you create a holiday schedule for use with a customer service sche
 
 1. In the **Holiday calendar** section, select **Manage**.
 
-1. Select **New**.
+1. Select **+ New**.
 
 1. Enter **Contoso Coffee Holidays** for **Name**, and then select **Create**.
 
-1. In the **Contoso Coffee Holidays** section, select **New**.
+1. In the **Holidays** section, select **+ New**.
 
 1. Enter **Local festival** for **Name**.
 
@@ -48,9 +48,9 @@ In this task, you define the business hours used to calculate SLA warning and fa
 
 1. Return to **Operations** > **Calendar** in Copilot Service admin center.
 
-1. In the **Customer service schedule** section, select **Manage**.
+1. In the **Customer Service calendar** section, select **Manage**.
 
-1. Select **New**.
+1. Select **+ New**.
 
 1. Enter **Contoso Coffee Support Hours** for **Name**, and then select **Create**.
 
@@ -66,7 +66,7 @@ In this task, you define the business hours used to calculate SLA warning and fa
 
 1. Select your local **Time Zone**.
 
-1. Select **Save & Close**.
+1. Select **Save and Close**.
 
 ### Task 3 – Create and activate an SLA
 
@@ -76,14 +76,14 @@ In this task, you create an SLA that allows one business hour for the first resp
 
 1. In the **SLA KPIs** section, select **Manage**.
 
-1. Select **New**.
+1. Select **+ New**.
 
-1. Enter the following values:
+1. Enter and select the following values:
 
   - **Name**: `Case Response By`
-  - **Entity Name**: `Case`
-  - **KPI Field**: `First Response By KPI`
-  - **Applicable From**: `Created On`
+  - **Entity Name**: Case
+  - **KPI Field**: First Response By KPI
+  - **Applicable From**: Created On
 
 1. Select **Save**, and then select **Activate**.
 
@@ -93,11 +93,11 @@ In this task, you create an SLA that allows one business hour for the first resp
 
 1. In the **Service-level agreements (SLAs)** section, select **Manage**.
 
-1. Select **New**.
+1. Select **+ New**.
 
 1. Enter **Contoso Coffee Case Response SLA** for **Name**, select **Case** for **Primary Entity**, and then select **Save**.
 
-1. In the **SLA Items** section, select **New SLA Item**.
+1. In the **SLA Items** section, select **+ New SLA Item**.
 
 1. Enter **Problem Case First Response** for **Name**.
 
@@ -105,11 +105,11 @@ In this task, you create an SLA that allows one business hour for the first resp
 
 1. Select **Contoso Coffee Support Hours** for **Business Hours**.
 
-1. Under **Applicable When**, select **Add row** and add the following condition:
+1. Under **Applicable When**, select **+ Add** > **Add row** and add the following condition:
 
   `Case Type (Case)` **Equals** `Problem`
 
-1. Under **Success Conditions**, select **Add row** and add the following condition:
+1. Under **Success Conditions**, select **+ Add** > select **Add row** and add the following condition:
 
   `First Response Sent (Case)` **Equals** `Yes`
 
@@ -119,10 +119,10 @@ In this task, you create an SLA that allows one business hour for the first resp
 
 1. Select **Configure Actions**. Power Automate opens in a new browser tab.
 
-> [!NOTE]
-> If the flow opens in the new designer, turn off the **New designer** toggle to use the classic designer. The classic designer surfaces Customer Service fields and choices by their labels. The new designer might require underlying values, which are outside the scope of this Customer Service lab.
+   > [!NOTE]
+   > If the flow opens in the new designer, turn off the **New designer** toggle to use the classic designer. The classic designer surfaces Customer Service fields and choices by their labels. The new designer might require underlying values, which are outside the scope of this Customer Service lab.
 
-1. If prompted to configure a Dataverse connection, use the current connection and select **Continue**.
+1. If prompted to configure a Dataverse connection, next to the **Microsoft Dataverse** action, select **Sign in** > **Sign in**, and then select your lab environment account. If the connection already shows a green check mark, use the current connection. Select **Continue**.
 
 1. Expand **Switch**, and then expand the **Is Non-compliant** path. Don't modify the predefined trigger or switch steps.
 
@@ -134,11 +134,11 @@ In this task, you create an SLA that allows one business hour for the first resp
 
 1. For **Row ID**, insert the **Regarding ID** dynamic value.
 
-1. In the advanced parameters, set **Is Escalated** to **Yes**.
+1. Select **Show advanced options**, and then in the advanced parameters, set **Is Escalated** to **Yes**.
 
 1. Select **Save**, and then close the Power Automate browser tab.
 
-1. Return to the SLA item dialog, and then select **Save and Close**.
+1. Return to the SLA item dialog, and then select **Save & Close**.
 
 1. On the **Contoso Coffee Case Response SLA** record, select **Activate**, and then confirm the activation.
 
@@ -162,7 +162,7 @@ In this task, you configure organization-level pause behavior and validate the S
 
 1. Use the app selector to open **Copilot Service workspace**.
 
-1. In the site map, select **Cases**, and then select **New Case**.
+1. In the site map, select **Cases**, and then select **+ New Case**.
 
 1. Enter the following values:
 
@@ -171,32 +171,34 @@ In this task, you configure organization-level pause behavior and validate the S
 
 1. At the top of the case form, expand the caret next to **Owner**, and then set **Origin** to **Web**.
 
-1. On the **Details** tab, set **Case Type** to **Problem**.
+1. On the **Details** tab, set **Type** to **Problem**.
 
 1. Select **Save**.
 
-1. Use the form selector to switch to the **Enhanced full case form**.
+1. Select the form selector (**Case for Multisession experience**) under the case title, and then select **Enhanced full case form**.
 
-1. Open the **SLA** tab or SLA details area. Confirm that **Case Response By** is **In Progress** and has warning and failure times.
+1. On the **Details** tab, in the **SLA Timers** section, confirm that the **Case Response By** timer is counting down.
 
-1. Return to the **Multi-session experience** form and navigate to the **Details** tab. Set **First Response Sent** to **Yes**, and then select **Save**.
+1. Return to the **Case for Multi-session experience** form and navigate to the **Details** tab. Set **First Response Sent** to **Yes**, and then select **Save**.
 
 1. Return to the **Enhanced full case form** to view the SLA details and confirm that **Case Response By** is **Succeeded**.
 
-1. Return to **Cases**, and then select **New Case**.
+1. Return to **Cases**, and then select **+ New Case**.
+
+1. Select the form selector (**Enhanced full case form**) under the case title, and then select **Case for Multisession experience**.
 
 1. Enter the following values:
 
-  - **Case Title**: `SLA Test #2`
-  - **Customer**: `Relecloud`
+  - **Title**: `SLA Test #2`
+  - **Customer**: Relecloud
 
 1. At the top of the case form, expand the caret next to **Owner**, and then set **Origin** to **Email**.
 
-1. On the **Details** tab, set **Case Type** to **Request**.
+1. On the **Details** tab, set **Type** to **Request**.
 
 1. Select **Save**.
 
-1. Open the SLA details by selecting the **Enhanced full case form** and confirm that no SLA KPI item was created because the case doesn't meet the **Case Type Equals Problem** condition.
+1. With the **Enhanced full case form** open, go to the **SLA Timers** section on the **Details** tab. Confirm that no SLA KPI item was created because the case doesn't meet the **Case Type Equals Problem** condition.
 
 ### Task 5 – Create and activate an entitlement
 
@@ -208,19 +210,19 @@ In this task, you create case-based support terms for Relecloud and associate th
 
 1. In the **Entitlements** section, select **Manage**.
 
-1. Select **New**.
+1. Select **+ New**.
 
 1. Enter the following values:
 
   - **Name**: `Relecloud Standard Support`
-  - **Primary Customer**: `Relecloud`
+  - **Primary Customer**: Relecloud
   - **Start Date**: Today's date
   - **End Date**: One year from today
-  - **Restrict based on entitlement terms**: `Yes`
-  - **SLA**: `Contoso Coffee Case Response SLA`
-  - **Allocation Type**: `Number of cases`
-  - **Decrease Remaining On**: `Case Resolution`
-  - **Total Term**: `10`
+  - **Restrict based on entitlement terms**: Yes
+  - **SLA**: Contoso Coffee Case Response SLA
+  - **Allocation Type**: Number of cases
+  - **Decrease Remaining On**: Case Resolution
+  - **Total Terms**: `10`
 
 1. Select **Save**.
 
@@ -242,15 +244,17 @@ In this task, you apply Relecloud's support terms to an SLA test case and resolv
 
 1. Select the **My Active Cases** view, and then open **SLA Test #1**.
 
+1. Select the form selector (**Enhanced full case form**) under the case title, and then select **Case for Multisession experience**. 
+
 1. On the **Details** tab, select **Relecloud Standard Support** in the **Entitlement** field.
 
 1. Select **Save**.
 
-1. In the **Copilot Service admin center** browser tab, return to the **Relecloud Standard Support** entitlement and confirm that **Remaining Term** is still **10**. The term decreases when the associated case is resolved.
+1. In the **Copilot Service admin center** browser tab, return to the **Relecloud Standard Support** entitlement and confirm that **Remaining Terms** is still **10**. The term decreases when the associated case is resolved.
 
 1. In the **Copilot Service workspace** browser tab, return to **SLA Test #1**.
 
-1. On the command bar, select **Resolve case**. You might need to select **More commands** (...) to find the action.
+1. On the command bar, select **Resolve case**. You might need to select More commands for case **(⋮)** to find the action.
 
 1. If a message indicates that the case has an open activity, select **Confirm**.
 
@@ -262,4 +266,4 @@ In this task, you apply Relecloud's support terms to an SLA test case and resolv
 
 1. Select **Refresh** in the command bar.
 
-1. Confirm that **Remaining Term** is now **9**.
+1. Confirm that **Remaining Terms** is now **9**.

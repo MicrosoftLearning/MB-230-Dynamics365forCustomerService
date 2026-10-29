@@ -21,11 +21,11 @@ As a customer service manager at Contoso Coffee, you need to evaluate Customer V
 
 ### Task 1 – Access Customer Voice
 
-1. In a browser, go to [Dynamics 365 Customer Voice](https://customervoice.microsoft.com).
+1. In a browser, go to [Dynamics 365 Customer Voice](https://customervoice.microsoft.com) at `https://customervoice.microsoft.com`.
 
-1. Sign in with the same Microsoft Entra account that you use for the course environment.
+1. If prompted to sign in, use the same Microsoft Entra account that you use for the course environment.
 
-1. Confirm that the **All projects** page opens.
+1. In the left navigation, select **All projects**.
 
 1. If access is denied, confirm that you used the correct account, and then ask your instructor to verify that your user has access to the course environment.
 

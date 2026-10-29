@@ -26,40 +26,38 @@ In this task, you configure the deterministic intake rule but don't send an emai
 
 1. In the **Automatic record creation and update rules** section, select **Manage**.
 
-1. Select **New**.
+1. Select **+ New**.
 
 1. Enter the following values:
 
-  - **Rule name**: `Create case for support email`
-  - **Activity type to monitor**: `Email`
-  - **Queue to monitor**: `Support`
+   - **Rule name**: `Create case for support email`
+   - **Activity type to monitor**: Email
+   - **Queue to monitor**: Support
 
 1. Select **Save**.
 
-1. In **Step two: conditions to evaluate and actions to take**, select **New**.
+1. In **Step two: conditions to evaluate and actions to take**, select **+ New**.
 
 1. Enter **High priority emails** for **Condition name**.
 
-1. Select **Add row** and add the following condition:
+1. Select **+ Add** > **Add row** and add the following condition:
 
-  `Priority (Email)` **Equals** `High`
+   `Priority (Email)` **Equals** `High`
 
 1. Select **Save and open Power Automate**.
 
-> [!NOTE]
-> If the flow opens in the new designer, turn off the **New designer** toggle to use the classic designer. The classic designer surfaces Customer Service fields and choices by their labels. The new designer might require underlying values, which are outside the scope of this Customer Service lab.
+   > [!NOTE]
+   > If the flow opens in the new designer, select **Return to classic designer** to use the classic designer. The classic designer surfaces Customer Service fields and choices by their labels. The new designer might require underlying values, which are outside the scope of this Customer Service lab.
 
 1. If prompted to configure a Dataverse connection, use the current connection and select **Continue**.
 
-1. Expand the predefined **Create a record** step. Don't rename or delete the predefined trigger or **Create a record** step.
+1. Expand the predefined **Create a record (don't rename this step)** step. Don't rename or delete the predefined trigger.
 
 1. Set **Case Type** to **Request** and **Priority** to **High**.
 
 1. Select **Save**, and then close the Power Automate browser tab.
 
-1. Return to the rule item dialog, and then select **Save and Close**.
-
-1. On the automatic record creation rule, select **Save**.
+1. On the automatic record creation rule, select **Save**, and then select **Close**.
 
 1. Select **Activate**, and then confirm the activation.
 
@@ -80,8 +78,8 @@ Basic queues such as **Bronze**, **Silver**, and **Gold** support manual queue w
 
 1. If unified routing is off, set it to **Yes**, select **Save**, and wait for enablement to finish before continuing.
 
-  > [!IMPORTANT]
-  > If the setting reports that required services aren't installed, stop this exercise and notify your instructor. Don't provision Contact Center or other channels to complete this lab.
+> [!IMPORTANT]
+> If the setting reports that required services aren't installed, stop this exercise and notify your instructor. Don't provision Contact Center or other channels to complete this lab.
 
 ### Task 2 – Create and assign a skill
 
@@ -93,21 +91,25 @@ In this task, you create a skill for complex product issues and assign it to you
 
 1. In the **Skills** section, select **Manage**. The **Active Characteristics** page opens.
 
-1. Select **New**.
+1. Select **Create**.
 
 1. Enter **Coffee brewer troubleshooting** for **Skill name**.
 
-1. Select **Skill** for **Type**.
+1. Select **Skill** for **Skill Type**.
 
-1. Select **Save**.
+1. Select **Create** or **Save**.
 
-1. In the **Users (Agents)** section, select **New Bookable Resource Characteristic**.
+1. Select the **Coffee brewer troubleshooting** skill.
 
-1. In the **Quick Create: Bookable Resource Characteristic** pane, select **5 (Excellent)** for **Rating Value**.
+1. In the **Users** section, select **+ Add**.
 
-1. Select your user for **User (Agent)**. (Your user will probably be named **Trial User.**)
+1. Select your user for **User**. (Your user will probably be named **Trial User** or **MOD Administrator**).
 
-1. Select **Save and Close**, and then confirm that your user appears in the **Users (Agents)** section.
+1. Select **Add selected users**
+
+1. In the **Edit Skill** pane, select **Update proficiency**, and then select **Excellent** for **Proficiency**.
+
+1. Select **Save** and then select **Close**. Confirm that the **User Count** for **Coffee brewer troubleshooting** is **1**.
 
 ### Task 3 – Create an advanced queue
 
@@ -117,18 +119,18 @@ In this task, you create a record queue for Gold-level cases and use capacity-aw
 
 1. In the **Advanced queues** section, select **Manage**.
 
-1. Select **New queue**.
+1. Select **+ New queue**.
 
 1. Enter the following values:
 
-  - **Name**: `Gold - Unified Routing`
-  - **Type**: `Record`
-  - **Queue priority**: `1`
-  - **Description**: `Routes complex coffee brewer cases to representatives with troubleshooting expertise.`
+   - **Name**: `Gold - Unified Routing`
+   - **Type**: Record
+   - **Queue priority**: `1`
+   - **Description**: `Routes complex coffee brewer cases to representatives with troubleshooting expertise.`
 
 1. Select **Create**.
 
-1. Select **Add users**.
+1. Select **+ Add users**.
 
 1. Select your current user (it may be called **MOD Administrator** here), and then select **Add**.
 
@@ -144,7 +146,7 @@ In this task, you create a case workstream in **Push** mode. After classificatio
 
 1. In Copilot Service admin center, go to **Customer support** > **Routing**.
 
-1. In the **Set up record routing** section, select **Manage**.
+1. In the **Setup record routing** section, select **Manage**.
 
 1. Confirm that **Case** is listed as a record type.
 
@@ -152,24 +154,24 @@ In this task, you create a case workstream in **Push** mode. After classificatio
 
 1. Go to **Customer support** > **Workstreams**.
 
-1. Select **New workstream**.
+1. Select **+ New workstream**.
 
 1. Select **Inbound** and select **Next.**
 
 1. Enter the following values:
 
-  - **Name**: `Contoso Coffee cases`
-  - **Type**: `Record`
-  - **Record type**: `Case`
-  - **Work distribution mode**: `Push`
+   - **Name**: `Contoso Coffee cases`
+   - **Type**: Record
+   - **Record type**: `Case`
+   - **Work distribution mode**: `Push`
 
-1. For **Fallback queue**, select **Choose existing**, and then select **Default entity queue**.
+1. For **Fallback queue**, select **Choose existing**, and then select **Default entity queue (All users)**.
 
 1. Select **Create**. (It may take a minute or so for the workstream to be created.)
 
 1. In the **Work distribution** section, select **See more**.
 
-1. Enter `1` for **Unit-based capacity**.
+1. Enter `1` for **Unit-based**.
 
 1. For **Allowed presences**, select **Available** only.
 
@@ -177,13 +179,13 @@ In this task, you create a case workstream in **Push** mode. After classificatio
 
 1. Select **Save and close**.
 
-1. In the **Intake rules** section of the workstream, select **Create rule**.
+1. In the **Intake rules** section of the workstream, select **+ Create rule**.
 
-1. Enter **Active cases** for **Rule name**.
+1. Enter **Active cases** for **Rule Name**.
 
-1. Add the following condition by selecting **Add row**:
+1. Add the following condition by selecting **+ Add** > **Add row**:
 
-  `Status` **Equals** `Active`
+   `Status` **Equals** `Active`
 
 1. Under **Map to**, select **Workstream**, and then select **Contoso Coffee cases** for **Workstream**.
 
@@ -195,32 +197,32 @@ In this task, you create a logical classification rule. When a problem case ente
 
 1. In **Contoso Coffee cases**, locate the **Routing rules** section.
 
-1. Next to **Work classification**, select **Create ruleset**.
+1. Next to **Work classification**, select **+ Create ruleset**.
 
 1. Select **Create new**.
 
 1. Select **Logical rules** for **Rule type**.
 
-1. Enter **Case skill classification** for the name and **Assigns coffee brewer troubleshooting expertise to problem cases.** for the description.
+1. Enter **Case skill classification** for **Name** and **Assigns coffee brewer troubleshooting expertise to problem cases.** for **Description**.
 
 1. Select **Create**.
 
-1. In the **Decision list**, select **Create Rule**.
+1. In the **Decision list**, select **+ Create Rule**.
 
 1. Enter **Coffee brewer troubleshooting for problem cases** for **Rule Name**.
 
 1. Add the following conditions below the existing condition by selecting **+Add** and **Add row**: 
 
-  `Case Type` **Equals** `Problem`
+   `Case Type` **Equals** `Problem`
 
-  `Product` **Equals** `Contoso Coffee Pro 100 Brewer`
+   `Product` **Equals** `Contoso Coffee Pro 100 Brewer`
 
 1. In **Output**, enter the following values:
 
-  - **Attribute**: `Skills`
-  - **Operator**: `Set to`
-  - **Value**: `Coffee brewer troubleshooting`
-  - **Proficiency**: `Excellent`
+   - **Attribute**: Skills
+   - **Operator**: Set to
+   - **Value**: `Coffee brewer troubleshooting`
+   - **Proficiency**: `Excellent`
 
 1. Select **Create**.
 
@@ -232,11 +234,11 @@ In this task, you route problem cases to the advanced Gold queue. Queue assignme
 
 1. In **Contoso Coffee cases**, locate the **Routing rules** section.
 
-1. Next to **Route to queues**, select **Create ruleset**.
+1. Next to **Route to queues**, select **+ Create ruleset**.
 
 1. Enter **Case queue routing** for the ruleset name, and then select **Create**.
 
-1. In the **Decision list**, select **Create Rule**.
+1. In the **Decision list**, select **+ Create Rule**.
 
 1. Enter **Problem cases to Gold** for **Rule Name**.
 
@@ -244,9 +246,9 @@ In this task, you route problem cases to the advanced Gold queue. Queue assignme
 
 1. Add the following condition:
 
-  `Case Type` **Equals** `Problem`
+   `Case Type` **Equals** `Problem`
 
-1. Under **Route to queues**, select **Gold - Unified Routing**.
+1. Under **Route to queues**, for **Queue**, select **Gold - Unified Routing (1 user)**.
 
 1. Select **Create**.
 
@@ -260,13 +262,13 @@ In this task, you route problem cases to the advanced Gold queue. Queue assignme
 
 1. Use the app selector to open **Copilot Service workspace**.
 
-1. Set your presence to **Available**.
+1. Set your presence to **Available** using the presence icon in the upper-right corner..
 
 1. In the site map, select **Cases**.
 
 1. Select the **My Active Cases** view, and then open **Coffee Brewer Still Not Heating After Reset**.
 
-1. On the **Details** tab, confirm that **Type** is **Problem** and **Status** is **Active**.
+1. On the **Details** tab, confirm that **Type** is **Problem**.
 
 1. On the command bar, select **Save and route**. You might need to select **More commands** (...) to find the action.
 
@@ -274,13 +276,17 @@ In this task, you route problem cases to the advanced Gold queue. Queue assignme
 
 1. Wait for unified routing to process the case, and then refresh the page.
 
+1. In the left pane, under **My work items**, select the **Coffee Brewer Still Not Heating After Reset** case.
+
 1. Select **Queue Item Details**.
 
 1. Confirm that the case is in **Gold - Unified Routing** and is assigned to your user.
 
+1. Select **Save & Close**.
+
 1. In the site map, select **Queues**.
 
-1. Select the **Queues I'm a member of** view, and then select **Gold - Unified Routing**.
+1. Select the **Queues I'm a member of** in the queue dropdown, and then select **Gold - Unified Routing**.
 
 1. Confirm that **Coffee Brewer Still Not Heating After Reset** appears as a queue item and that **Worked By** shows your user.
 
